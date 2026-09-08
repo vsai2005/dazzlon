@@ -3617,131 +3617,8 @@ const DATA = {
   "careers": {
     "title": "Build What's Next with Dazzlon",
     "eyebrow": "CAREERS AT DAZZLON",
-    "intro": "Join our Center of Excellence in McKinney, Texas, and work alongside senior technologists solving high-stakes enterprise engineering challenges.",
-    "stats": [
-      "Established 2004",
-      "100% Engineering Focused",
-      "McKinney, TX Center of Excellence"
-    ],
-    "jobs": [
-      {
-        "id": "eng-01",
-        "title": "Senior Software Engineer (Java / J2EE)",
-        "location": "McKinney, TX (Center of Excellence)",
-        "type": "Full-Time | Contract Programming",
-        "desc": "Design and engineer scalable backend services, custom enterprise applications, and mission-critical integration APIs. Work directly with client architectures under Dazzlon's pure Work for Hire delivery model.",
-        "qualifications": "Bachelor's or Master's in CS or Software Engineering; 5+ years hands-on experience in Java/J2EE, Spring Boot, Hibernate, and relational databases (Oracle, SQL Server); proficiency with CI/CD pipelines (Maven, Docker, Linux/Unix).",
-        "responsibilities": [
-          "Architect and build high-throughput microservices using Java, Spring Boot, and Hibernate ORM",
-          "Design and optimize relational database schemas, complex stored procedures, and indices on Oracle and SQL Server",
-          "Develop and document robust RESTful and SOAP integration endpoints bridging legacy and modern applications",
-          "Participate in McKinney COE peer code reviews, CI/CD pipeline automation, and unit/integration testing"
-        ],
-        "requirements": [
-          "Bachelor's or Master's degree in Computer Science, Software Engineering, or related discipline",
-          "5+ years of hands-on experience in Java/J2EE enterprise backend application development",
-          "Deep proficiency with Spring Framework, Spring Boot, Hibernate, REST/SOAP, and relational databases",
-          "Experience with CI/CD build tools including Maven, Git, Docker, and Linux/Unix environments"
-        ],
-        "tools": [
-          "Java 17+",
-          "Spring Boot",
-          "Hibernate",
-          "Oracle Database",
-          "REST / SOAP",
-          "Maven",
-          "Git",
-          "Docker"
-        ]
-      },
-      {
-        "id": "qa-01",
-        "title": "Senior QA Test Automation Engineer",
-        "location": "McKinney, TX (Center of Excellence)",
-        "type": "Full-Time | QA Engineering",
-        "desc": "Lead automated regression testing, functional test case development, and performance profiling across dedicated test labs. Ensure mission-critical enterprise releases achieve flawless reliability.",
-        "qualifications": "Bachelor's in CS/IT; 4+ years dedicated software QA and automated test script development; demonstrated expertise with Selenium WebDriver, HP QTP/UFT, HP LoadRunner, JIRA, and Quality Center; strong SQL and API testing skills.",
-        "responsibilities": [
-          "Design and maintain scalable automated test frameworks using Selenium WebDriver and HP QTP/UFT",
-          "Construct and execute comprehensive functional, performance, and regression test suites",
-          "Validate enterprise application workflows across complex ERP systems including SAP and PeopleSoft",
-          "Manage defect lifecycle tracking, root-cause triage, and requirements traceability matrices"
-        ],
-        "requirements": [
-          "Bachelor's degree in Computer Science, Information Technology, or equivalent technical experience",
-          "4+ years of dedicated software quality assurance and automated test script development",
-          "Demonstrated expertise with Selenium, HP QTP/UFT, HP LoadRunner, and defect tracking systems (JIRA, Quality Center)",
-          "Solid understanding of relational database querying (SQL) and web service API testing"
-        ],
-        "tools": [
-          "Selenium WebDriver",
-          "HP QTP / UFT",
-          "HP LoadRunner",
-          "JIRA",
-          "Quality Center",
-          "SQL",
-          "Jenkins"
-        ]
-      },
-      {
-        "id": "data-01",
-        "title": "Data Warehouse & ETL Architect",
-        "location": "McKinney, TX (Center of Excellence)",
-        "type": "Full-Time | Data Architecture",
-        "desc": "Lead the design of dimensional star schemas, active enterprise intelligence architectures, and high-speed ETL/ELT pipelines for Fortune 500 clients.",
-        "qualifications": "Bachelor's or Master's in CS or Data Engineering; 6+ years in enterprise data warehouse design and dimensional modeling; extensive proficiency with Teradata, Oracle, Erwin Data Modeler, and Informatica PowerCenter; deep active intelligence and BI expertise.",
-        "responsibilities": [
-          "Design dimensional models, snowflake schemas, and normalized 3NF enterprise data architectures",
-          "Build scalable ETL/ELT data pipelines integrating multi-source heterogeneous transactional systems",
-          "Optimize complex SQL query performance, table partitioning, and indexing on Teradata, Oracle, and Snowflake",
-          "Collaborate with client leadership on data maturity assessments and business value consulting"
-        ],
-        "requirements": [
-          "Bachelor's or Master's degree in Computer Science, Data Engineering, or related technical field",
-          "6+ years of experience in enterprise data warehouse design and dimensional data modeling",
-          "Extensive proficiency with Teradata, Oracle, Erwin Data Modeler, Informatica PowerCenter, or Talend",
-          "Deep experience with active enterprise intelligence, batch scheduling, and BI integration"
-        ],
-        "tools": [
-          "Teradata",
-          "Oracle Database",
-          "Snowflake",
-          "Erwin",
-          "Informatica PowerCenter",
-          "SQL",
-          "Tableau"
-        ]
-      },
-      {
-        "id": "sap-01",
-        "title": "SAP Solutions Consultant (S/4HANA & BTP)",
-        "location": "McKinney, TX (Center of Excellence)",
-        "type": "Full-Time | SAP Advisory",
-        "desc": "Guide enterprise clients through S/4HANA migrations, Business Technology Platform integration, and Tier-2/3 ITIL operational support.",
-        "qualifications": "Bachelor's in Engineering, CS, or Information Systems; 5+ years hands-on SAP consulting experience with S/4HANA and ECC; proficiency in ABAP, CDS views, Fiori, and Solution Manager; proven ITIL incident and change governance background.",
-        "responsibilities": [
-          "Assess legacy SAP ECC configurations and execute structured migration plans to SAP S/4HANA",
-          "Develop custom side-by-side extensions and integrations on SAP Business Technology Platform (BTP)",
-          "Provide dedicated 2nd and 3rd level technical support, ABAP debugging, and incident remediation",
-          "Enforce ITIL change governance and transport management across production SAP landscapes"
-        ],
-        "requirements": [
-          "Bachelor's degree in Engineering, Computer Science, or Business Information Systems",
-          "5+ years of hands-on SAP functional/technical consulting experience with S/4HANA and ECC",
-          "Proficiency in ABAP, Core Data Services (CDS), Fiori, and SAP Solution Manager",
-          "Strong background in ITIL service desk processes and client SLA management"
-        ],
-        "tools": [
-          "SAP S/4HANA",
-          "SAP HANA",
-          "SAP BTP",
-          "ABAP",
-          "SAP Fiori",
-          "Solution Manager",
-          "ServiceNow"
-        ]
-      }
-    ]
+    "intro": "Join our Center of Excellence in McKinney, Texas. While there are currently no active job openings (0 open roles right now), we continuously welcome proactive applications from exceptional enterprise technologists.",
+    "jobs": []
   },
   "contact": {
     "title": "Let's Build What's Next.",
@@ -3807,12 +3684,6 @@ function serviceDetailPage(s, pageType = 'service') {
       <span>${s.shortTitle || s.title}</span>
     </nav>`;
 
-  const heroStats = (s.metrics || []).map(m => `
-    <div class="service-stat-pill">
-      <span class="dot"></span>
-      <span>${m}</span>
-    </div>
-  `).join('');
 
   const capabilitiesCards = (s.capabilities || []).map((c, i) => `
     <div class="cap-card">
@@ -3868,7 +3739,6 @@ function serviceDetailPage(s, pageType = 'service') {
           <a class="btn light" href="contact.html">Schedule Technical Consultation <span>→</span></a>
           <a class="btn" href="#capabilities" style="background:rgba(255,255,255,0.12);border-color:rgba(255,255,255,0.25);">Explore Solutions ↓</a>
         </div>
-        ${heroStats ? `<div class="service-hero-stats">${heroStats}</div>` : ''}
       </div>
     </section>
 
@@ -3990,12 +3860,6 @@ function aboutPage(d) {
       <span>About</span>
     </nav>`;
 
-  const heroStats = (d.stats || []).map(m => `
-    <div class="service-stat-pill">
-      <span class="dot"></span>
-      <span>${m}</span>
-    </div>
-  `).join('');
 
   const sectionsHtml = (d.sections || []).map(s => `
     <div style="margin-bottom:32px;">
@@ -4019,7 +3883,6 @@ function aboutPage(d) {
         <div class="eyebrow tech-kicker">${d.eyebrow}</div>
         <h1>${d.title}</h1>
         <p class="service-hero-intro">${d.intro}</p>
-        ${heroStats ? `<div class="service-hero-stats">${heroStats}</div>` : ''}
       </div>
     </section>
 
@@ -4073,14 +3936,8 @@ function careersPage(d) {
       <span>Careers</span>
     </nav>`;
 
-  const heroStats = (d.stats || []).map(m => `
-    <div class="service-stat-pill">
-      <span class="dot"></span>
-      <span>${m}</span>
-    </div>
-  `).join('');
 
-  const jobCards = (d.jobs || []).map(j => `
+  const jobCards = (d.jobs && d.jobs.length > 0) ? d.jobs.map(j => `
     <div class="job-listing-card">
       <div class="job-header">
         <div>
@@ -4105,7 +3962,16 @@ function careersPage(d) {
         <a class="btn" href="mailto:jobs@dazzlon.com?subject=Application for ${encodeURIComponent(j.title)}">Apply for Position <span>→</span></a>
       </div>
     </div>
-  `).join('');
+  `).join('') : `
+    <div style="padding:56px 32px;text-align:center;background:#f8fafc;border:1px dashed var(--line);border-radius:12px;margin-bottom:32px;">
+      <div style="font-size:36px;margin-bottom:14px;">💼</div>
+      <h3 class="serif" style="font-size:24px;color:var(--navy);margin:0 0 10px;">No Open Positions Right Now (0 Active Openings)</h3>
+      <p style="font-size:15px;color:#5a6b77;max-width:540px;margin:0 auto 24px;line-height:1.65;">
+        There are currently no active job openings at Dazzlon. We are always interested in connecting with exceptional engineering talent for future contract programming, SAP consulting, and cloud architecture opportunities.
+      </p>
+      <a class="btn" href="mailto:jobs@dazzlon.com?subject=Proactive%20Resume%20-%20Future%20Engineering%20Opportunities">Submit Proactive Resume (jobs@dazzlon.com) <span>→</span></a>
+    </div>
+  `;
 
   return `
     <section class="service-hero">
@@ -4114,7 +3980,6 @@ function careersPage(d) {
         <div class="eyebrow tech-kicker">${d.eyebrow}</div>
         <h1>${d.title}</h1>
         <p class="service-hero-intro">${d.intro}</p>
-        ${heroStats ? `<div class="service-hero-stats">${heroStats}</div>` : ''}
       </div>
     </section>
 
@@ -4122,7 +3987,7 @@ function careersPage(d) {
       <div class="container">
         <div class="section-head">
           <div>
-            <div class="eyebrow">Open Positions</div>
+            <div class="eyebrow">Open Positions (0)</div>
             <h2>Current Career Opportunities</h2>
           </div>
           <p>Join a culture of engineering excellence, intellectual property innovation, and long-term career growth.</p>
