@@ -3587,33 +3587,6 @@ const DATA = {
       ]
     ]
   },
-  "insights": {
-    "title": "Ideas for a Smarter Tomorrow",
-    "eyebrow": "THOUGHT LEADERSHIP",
-    "intro": "Explore our perspectives on emerging technologies, enterprise architecture, software engineering, and strategic IT modernization.",
-    "cards": [
-      [
-        "The Future of AI in Enterprise Transformation",
-        "Moving beyond experimentation to integrate practical machine learning models directly into core operational workflows.",
-        "insights.html"
-      ],
-      [
-        "Building a More Sustainable Digital Future",
-        "How cloud modernization and efficient database architectures reduce computing energy footprint and operating costs.",
-        "insights.html"
-      ],
-      [
-        "Human-Centric Technology for Greater Impact",
-        "Designing enterprise applications that augment human decision-making and simplify complex business procedures.",
-        "insights.html"
-      ],
-      [
-        "The Next Era of Intelligent Industries",
-        "Leveraging IoT telemetry, predictive analytics, and edge compute to drive industrial automation and resilience.",
-        "insights.html"
-      ]
-    ]
-  },
   "careers": {
     "title": "Build What's Next with Dazzlon",
     "eyebrow": "CAREERS AT DAZZLON",
@@ -4129,9 +4102,6 @@ function load() {
   } else if (kind === 'industries') {
     pageShell(cardsPage(DATA.industries));
     document.title = "Industries Served — Dazzlon";
-  } else if (kind === 'insights') {
-    pageShell(cardsPage(DATA.insights));
-    document.title = "Insights & Thought Leadership — Dazzlon";
   } else if (kind.startsWith('service-')) {
     const k = kind.replace('service-', '');
     const serviceData = SERVICES[k] || SERVICES.qa;

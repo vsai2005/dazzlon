@@ -1,13 +1,13 @@
 const nav = `
 <header><div class="container nav">
 <a href="index.html" class="brand">DAZZLON<span class="tagline">COMPLEXITY. ENGINEERED.</span></a>
-<nav class="navlinks"><a href="about.html">About</a><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="insights.html">Insights</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></nav>
+<nav class="navlinks"><a href="about.html">About</a><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></nav>
 <div class="nav-actions"><span class="search"></span><a class="btn" href="contact.html">Let's Talk <span>→</span></a><button class="menu" aria-label="Menu">☰</button></div>
 </div></header>`;
 const footer = `
 <footer><div class="container"><div class="footer-grid">
 <div><div class="footer-brand">DAZZLON</div><span class="tagline">COMPLEXITY. ENGINEERED.</span><p>A global technology consulting and engineering company helping organizations build a smarter, more connected tomorrow.</p><div class="social"><a href="#">in</a><a href="#">X</a><a href="#">▶</a><a href="#">◎</a></div></div>
-<div><h4>Quick Links</h4><div class="footer-links"><a href="about.html">About</a><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="insights.html">Insights</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></div></div>
+<div><h4>Quick Links</h4><div class="footer-links"><a href="about.html">About</a><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></div></div>
 <div><h4>Our Services</h4><div class="footer-links"><a href="service-data.html">Data & Analytics</a><a href="service-cloud.html">Cloud</a><a href="service-sap.html">SAP</a><a href="service-software.html">Software Engineering</a><a href="service-cybersecurity.html">Cybersecurity</a><a href="service-qa.html">Quality & Automation</a></div></div>
 <div><h4>Contact</h4><div class="footer-links"><span>Global Headquarters<br>Dazzlon Technologies<br>McKinney, TX, USA</span><a href="mailto:contact@dazzlon.com">contact@dazzlon.com</a><a href="tel:+14693337066">+1 (469) 333-7066</a></div></div>
 </div><div class="footer-bottom"><span>© 2026 Dazzlon. All rights reserved.</span><span>Privacy Policy &nbsp; | &nbsp; Terms of Service &nbsp; | &nbsp; Cookie Settings</span></div></div></footer>`;
@@ -32,10 +32,6 @@ const floatingOptionsHtml = `
     <span class="float-icon">🏢</span>
     <span class="float-tooltip">Industries</span>
   </a>
-  <a href="insights.html" class="float-btn" aria-label="Insights">
-    <span class="float-icon">💡</span>
-    <span class="float-tooltip">Insights</span>
-  </a>
   <button class="float-btn to-top" id="scrollTopBtn" aria-label="Back to Top">
     <span class="float-icon">↑</span>
     <span class="float-tooltip">Back to Top</span>
@@ -54,7 +50,7 @@ function techSlides(){return tech.map((t,i)=>`<article class="tech-slide ${i===0
 function initTech(){const root=document.querySelector('.tech');if(!root)return;root.querySelector('.slides').innerHTML=techSlides();root.querySelector('.tech-tabs').innerHTML=tech.map((t,i)=>`<button class="tech-tab ${i===0?'active':''}" data-to="${i}">${String(i+1).padStart(2,'0')} &nbsp; ${t.name}</button>`).join('');let idx=0,timer;const slides=[...root.querySelectorAll('.tech-slide')],tabs=[...root.querySelectorAll('.tech-tab')],counter=root.querySelector('.tech-index');function show(n){idx=(n+slides.length)%slides.length;slides.forEach((s,i)=>s.classList.toggle('active',i===idx));tabs.forEach((b,i)=>b.classList.toggle('active',i===idx));counter.textContent=`${String(idx+1).padStart(2,'0')} / 04`}function reset(){clearInterval(timer);timer=setInterval(()=>show(idx+1),5000)}root.querySelector('.arrow.left').onclick=()=>{show(idx-1);reset()};root.querySelector('.arrow.right').onclick=()=>{show(idx+1);reset()};tabs.forEach(b=>b.onclick=()=>{show(Number(b.dataset.to));reset()});root.addEventListener('mouseenter',()=>clearInterval(timer));root.addEventListener('mouseleave',reset);show(0);reset()}
 function initMobileMenu(){const b=document.querySelector('.menu');if(!b)return;b.addEventListener('click',()=>{const n=document.querySelector('.navlinks');if(n) n.classList.toggle('open')})}
 function initMotionScroll(){
-  const targets = document.querySelectorAll('.section, .cards, .industry-grid, .insights-grid, .about, .impact, .cta, .page-hero, .detail-grid, .page-cards, .contact-grid');
+  const targets = document.querySelectorAll('.section, .cards, .industry-grid, .about, .impact, .cta, .page-hero, .detail-grid, .page-cards, .contact-grid');
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
