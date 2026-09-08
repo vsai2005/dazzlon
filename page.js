@@ -242,8 +242,8 @@ const SERVICES = {
         "desc": "Designing robust dimensional star and snowflake schemas, normalized 3NF enterprise models, and conceptual-to-physical database mappings that align with strategic business requirements.",
         "items": [
           "Dimensional star and snowflake schema modeling for business intelligence",
+          "Entity Relationship (ER) modeling, logical, conceptual, and physical schema design",
           "Third Normal Form (3NF) relational enterprise data architecture",
-          "Logical, conceptual, and physical schema design and optimization",
           "Standardized metadata definitions, data dictionaries, and business glossaries"
         ]
       },
@@ -271,10 +271,10 @@ const SERVICES = {
       },
       {
         "num": "04",
-        "title": "Maturity Consulting & Roadmapping",
+        "title": "Data Warehouse Maturity Consulting",
         "desc": "Assessing current data infrastructure against industry maturity benchmarks and defining a practical, risk-mitigated progression path toward advanced enterprise analytics.",
         "items": [
-          "Enterprise analytical maturity gap analysis across systems and teams",
+          "Current-state assessment, analytical maturity gap analysis, and future-state roadmap planning",
           "Phased data warehouse implementation roadmaps minimizing operational disruption",
           "Technology platform evaluation, database benchmarking, and vendor selection",
           "Data operating model design, stewardship roles, and architectural governance"
@@ -459,8 +459,8 @@ const SERVICES = {
         "desc": "Delivering contractual, SLA-backed technical assistance, complex bug remediation, and user service request management across production landscapes.",
         "items": [
           "Dedicated Service Desk with contractual response times for production tickets",
-          "2nd level functional support for workflow configuration, user errors, and authorizations",
-          "3rd level technical support for deep ABAP debugging, dumps, and database remediation",
+          "Second-level support (2nd level) for workflow configuration, user errors, and authorizations",
+          "Third-level support (3rd level) for deep ABAP debugging, dumps, and database remediation",
           "Comprehensive user service request processing and access governance"
         ]
       },
@@ -762,8 +762,8 @@ const SERVICES = {
   "managed": {
     "shortTitle": "Managed IT",
     "title": "Managed IT Services, Infrastructure Administration & SLA Support",
-    "kicker": "24/7 OPERATIONAL EXCELLENCE",
-    "intro": "Dazzlon provides contracted, SLA-backed operational management, proactive 24/7 monitoring, and IT team supplementation to lighten internal workload, prevent downtime, and scale enterprise technology operations.",
+    "kicker": "OPERATIONAL EXCELLENCE & DOWNTIME PREVENTION",
+    "intro": "Dazzlon provides contracted, SLA-based services, proactive monitoring, scheduled maintenance, and IT team supplementation to achieve operational scaling, streamline managed IT operations, and deliver dependable IT outsourcing that prevents downtime.",
     "metrics": [
       {
         "val": "99.99%",
@@ -774,8 +774,8 @@ const SERVICES = {
         "label": "Critical Incident Response"
       },
       {
-        "val": "24/7/365",
-        "label": "Proactive Health Monitoring"
+        "val": "Proactive",
+        "label": "Health Telemetry Monitoring"
       }
     ],
     "strategicIntro": {
@@ -783,12 +783,12 @@ const SERVICES = {
       "heading": "Seamless Operational Support That Functions as an Extension of Your IT Team",
       "text": [
         "Internal IT departments face increasing pressure to balance daily routine administration with strategic digital initiatives. Hardware failures, unpatched vulnerabilities, and sudden outages can derail entire organizations.",
-        "Dazzlon functions as a true contracted extension of your internal technology organization. Backed by strict SLAs, our managed services cover infrastructure administration, proactive 24/7 telemetry monitoring, scheduled maintenance, and on-demand team supplementation that prevents downtime and allows your staff to focus on strategic goals."
+        "Dazzlon functions as a true contracted extension of your internal technology organization. Backed by strict SLAs, our managed services cover infrastructure administration, proactive telemetry monitoring, scheduled maintenance, and on-demand team supplementation that prevents downtime and allows your staff to focus on strategic goals."
       ],
       "highlightsTitle": "Managed IT Pillars",
       "highlights": [
         "SLA-backed infrastructure administration and preventative patch management",
-        "24/7/365 real-time telemetry, threshold alerts, and anomaly detection",
+        "Proactive real-time telemetry, threshold alerts, and anomaly detection",
         "Flexible IT team supplementation to handle operational spikes and projects",
         "Rigorous disaster recovery runbooks and verified data backup routines"
       ]
@@ -808,9 +808,9 @@ const SERVICES = {
       {
         "num": "02",
         "title": "Proactive Monitoring, Alerting & Telemetry",
-        "desc": "Deploying continuous 24/7 telemetry and synthetic transaction monitoring to identify and remediate hardware, network, and service anomalies before they impact end users.",
+        "desc": "Deploying continuous telemetry and synthetic transaction monitoring to identify and remediate hardware, network, and service anomalies before they impact end users.",
         "items": [
-          "Round-the-clock infrastructure, server, and network health monitoring",
+          "Continuous infrastructure, server, and network health monitoring",
           "Automated threshold alert escalation and incident ticket generation",
           "Latency, bandwidth, and synthetic transaction performance tracking",
           "Executive operational uptime and availability SLA dashboards"
@@ -829,8 +829,8 @@ const SERVICES = {
       },
       {
         "num": "04",
-        "title": "IT Team Supplementation & Operational Support",
-        "desc": "Augmenting your internal technology organization with experienced Tier-1 through Tier-3 system administrators and network engineers to absorb operational workload.",
+        "title": "IT Team Supplementation & Operational Scaling",
+        "desc": "Augmenting your internal technology organization with experienced Tier-1 through Tier-3 system administrators and network engineers for operational scaling, managed IT operations, and end-to-end IT outsourcing.",
         "items": [
           "Contracted Tier-1 to Tier-3 support desk and technical user assistance",
           "Escalation management for complex operating system and application faults",
@@ -980,12 +980,12 @@ const SERVICES = {
     "capabilities": [
       {
         "num": "01",
-        "title": "Data Governance & Policy Design",
-        "desc": "Formulating formal governance policies, data stewardship responsibilities, compliance controls, and data ownership metrics that ensure institutional accountability.",
+        "title": "Data Governance & Metadata Management",
+        "desc": "Formulating formal governance policies, metadata management, data stewardship responsibilities, compliance controls, and data ownership metrics that ensure institutional accountability.",
         "items": [
           "Policy definition covering data lifecycle, security, and classification",
+          "Enterprise metadata management, data cataloging, and lineage tracking",
           "Data stewardship frameworks and cross-departmental governance councils",
-          "Data cataloging, lineage tracking, and business glossary development",
           "Regulatory compliance tracking across industry standards"
         ]
       },
@@ -1098,10 +1098,13 @@ const SERVICES = {
         ]
       },
       {
-        "category": "Digital & Business Intelligence",
+        "category": "Digital Analytics & Tag Management",
         "tools": [
-          "Google Analytics 4",
           "Adobe Analytics",
+          "Google Analytics 4",
+          "Tealium",
+          "Google Tag Manager",
+          "Dynamic Tag Management (DTM)",
           "Tableau",
           "Microsoft PowerBI"
         ]
@@ -1231,7 +1234,7 @@ const SERVICES = {
       },
       {
         "num": "04",
-        "title": "Identity & Access Management (IAM)",
+        "title": "Identity Management & Access Control (IAM)",
         "desc": "Enforcing zero-trust authentication, multi-factor verification, and least-privilege role-based access across all enterprise users and systems.",
         "items": [
           "Enterprise Single Sign-On (SSO) and Multi-Factor Authentication (MFA)",
@@ -1278,10 +1281,10 @@ const SERVICES = {
         "title": "Endpoint Security & Threat Countermeasures",
         "desc": "Deploying advanced Endpoint Detection and Response (EDR) to neutralize ransomware, trojans, spyware, adware, and botnet infections in real time.",
         "items": [
-          "Next-generation endpoint protection and behavioral heuristics",
-          "Real-time anti-malware, anti-spyware, and anti-adware scanning",
-          "Automated isolation and remediation of compromised endpoints",
-          "Threat hunting and centralized security telemetry integration"
+          "Active threat mitigation against phishing, ransomware, viruses, Trojans, spyware, adware, botnets, malware, and social engineering",
+          "Next-generation endpoint protection (EDR/XDR) and behavioral heuristics",
+          "Automated isolation and remediation of compromised enterprise endpoints",
+          "Threat hunting and centralized SIEM/SOC telemetry integration"
         ]
       }
     ],
@@ -2121,7 +2124,7 @@ const TECH = {
       },
       {
         "num": "04",
-        "title": "Identity & Access Management (IAM)",
+        "title": "Identity Management & Access Control (IAM)",
         "desc": "Enforcing zero-trust authentication, multi-factor verification, and least-privilege role-based access across all enterprise users and systems.",
         "items": [
           "Enterprise Single Sign-On (SSO) and Multi-Factor Authentication (MFA)",
@@ -2168,10 +2171,10 @@ const TECH = {
         "title": "Endpoint Security & Threat Countermeasures",
         "desc": "Deploying advanced Endpoint Detection and Response (EDR) to neutralize ransomware, trojans, spyware, adware, and botnet infections in real time.",
         "items": [
-          "Next-generation endpoint protection and behavioral heuristics",
-          "Real-time anti-malware, anti-spyware, and anti-adware scanning",
-          "Automated isolation and remediation of compromised endpoints",
-          "Threat hunting and centralized security telemetry integration"
+          "Active threat mitigation against phishing, ransomware, viruses, Trojans, spyware, adware, botnets, malware, and social engineering",
+          "Next-generation endpoint protection (EDR/XDR) and behavioral heuristics",
+          "Automated isolation and remediation of compromised enterprise endpoints",
+          "Threat hunting and centralized SIEM/SOC telemetry integration"
         ]
       }
     ],
@@ -2305,12 +2308,12 @@ const TECH = {
     "capabilities": [
       {
         "num": "01",
-        "title": "Data Governance & Policy Design",
-        "desc": "Formulating formal governance policies, data stewardship responsibilities, compliance controls, and data ownership metrics that ensure institutional accountability.",
+        "title": "Data Governance & Metadata Management",
+        "desc": "Formulating formal governance policies, metadata management, data stewardship responsibilities, compliance controls, and data ownership metrics that ensure institutional accountability.",
         "items": [
           "Policy definition covering data lifecycle, security, and classification",
+          "Enterprise metadata management, data cataloging, and lineage tracking",
           "Data stewardship frameworks and cross-departmental governance councils",
-          "Data cataloging, lineage tracking, and business glossary development",
           "Regulatory compliance tracking across industry standards"
         ]
       },
@@ -2423,10 +2426,13 @@ const TECH = {
         ]
       },
       {
-        "category": "Digital & Business Intelligence",
+        "category": "Digital Analytics & Tag Management",
         "tools": [
-          "Google Analytics 4",
           "Adobe Analytics",
+          "Google Analytics 4",
+          "Tealium",
+          "Google Tag Manager",
+          "Dynamic Tag Management (DTM)",
           "Tableau",
           "Microsoft PowerBI"
         ]
@@ -3456,7 +3462,7 @@ const DATA = {
   "about": {
     "title": "Proprietary Engineering. Strategic Advisory.",
     "eyebrow": "ABOUT DAZZLON",
-    "intro": "Established in 2004 in McKinney, Texas, Dazzlon has emerged as a premier leader in Contract Programming and Strategic IT Advisory. We empower enterprises to build, own, and master their digital future through proprietary, custom-engineered solutions.",
+    "intro": "Established in 2004 in McKinney, Texas, Dazzlon has emerged as a premier leader in Contract Programming and Strategic IT Advisory. We empower enterprises to build, own, and master their digital future through proprietary custom engineering and strategic technology solutions.",
     "stats": [
       "Established 2004",
       "100% Client IP Ownership",
@@ -3465,7 +3471,7 @@ const DATA = {
     "sections": [
       {
         "title": "Engineering with Purpose",
-        "text": "Founded on the belief that mission-critical technology must be engineered around an organization's exact business processes, Dazzlon provides end-to-end technology consulting and custom software development. We bridge the gap between high-level IT strategy and deep technical execution, helping organizations transform complexity into lasting business value."
+        "text": "Founded on the belief that mission-critical technology must be engineered around an organization's exact business processes, Dazzlon provides end-to-end technology consulting, custom engineering, and software development. We bridge the gap between high-level IT strategy and deep technical execution, helping organizations transform complexity into lasting business value."
       },
       {
         "title": "The Work for Hire Advantage",
@@ -4288,5 +4294,7 @@ function load() {
 }
 
 document.addEventListener('DOMContentLoaded', load);
+
+
 
 
