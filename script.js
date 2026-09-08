@@ -45,6 +45,17 @@ function renderNavFooter(){
   if(!document.querySelector('#floatingOptions')){
     document.body.insertAdjacentHTML('beforeend', floatingOptionsHtml);
   }
+  highlightActiveNav();
+}
+function highlightActiveNav(){
+  if(typeof window === 'undefined' || !window.location) return;
+  const current = (window.location.pathname || '').split('/').pop() || 'index.html';
+  document.querySelectorAll('.navlinks a').forEach(a => {
+    const href = a.getAttribute('href');
+    if(href === current || (current.startsWith('service-') && href === 'services.html') || (current.startsWith('industry-') && href === 'industries.html') || (current.startsWith('technology-') && href === 'services.html')){
+      a.classList.add('active');
+    }
+  });
 }
 function techSlides(){return tech.map((t,i)=>`<article class="tech-slide ${i===0?'active':''}" data-index="${i}"><div class="tech-media" style="background-image:url('${t.img}')"></div><div class="tech-overlay"></div><div class="container tech-content"><div class="tech-copy"><div class="eyebrow tech-kicker">${t.kicker}</div><h2>${t.name}</h2><p>${t.desc}</p><a class="btn light" href="${t.url}">Read More <span>→</span></a></div></div></article>`).join('')}
 function initTech(){const root=document.querySelector('.tech');if(!root)return;root.querySelector('.slides').innerHTML=techSlides();root.querySelector('.tech-tabs').innerHTML=tech.map((t,i)=>`<button class="tech-tab ${i===0?'active':''}" data-to="${i}">${String(i+1).padStart(2,'0')} &nbsp; ${t.name}</button>`).join('');let idx=0,timer;const slides=[...root.querySelectorAll('.tech-slide')],tabs=[...root.querySelectorAll('.tech-tab')],counter=root.querySelector('.tech-index');function show(n){idx=(n+slides.length)%slides.length;slides.forEach((s,i)=>s.classList.toggle('active',i===idx));tabs.forEach((b,i)=>b.classList.toggle('active',i===idx));counter.textContent=`${String(idx+1).padStart(2,'0')} / 04`}function reset(){clearInterval(timer);timer=setInterval(()=>show(idx+1),5000)}root.querySelector('.arrow.left').onclick=()=>{show(idx-1);reset()};root.querySelector('.arrow.right').onclick=()=>{show(idx+1);reset()};tabs.forEach(b=>b.onclick=()=>{show(Number(b.dataset.to));reset()});root.addEventListener('mouseenter',()=>clearInterval(timer));root.addEventListener('mouseleave',reset);show(0);reset()}
@@ -70,12 +81,13 @@ function initMotionScroll(){
 
   function onScroll(){
     const y = window.scrollY || (document.documentElement ? document.documentElement.scrollTop : 0);
-    if (y > 220) {
-      if (floatOptions) floatOptions.classList.add('visible');
-      if (header) header.classList.add('scrolled');
-    } else {
-      if (floatOptions) floatOptions.classList.remove('visible');
-      if (header) header.classList.remove('scrolled');
+    if (header) {
+      if (y > 15) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    }
+    if (floatOptions) {
+      if (y > 280) floatOptions.classList.add('visible');
+      else floatOptions.classList.remove('visible');
     }
   }
 
