@@ -8,7 +8,8 @@ Built as a responsive static web experience featuring multi-section service page
 
 ## Key Highlights
 
-- **Enterprise Service Pages**: Dedicated, multi-section pages for all 8 practice areas:
+- **Enterprise Service Pages**: Dedicated, multi-section pages for all 9 practice areas:
+  - AI, Machine Learning & Enterprise Intelligence (`service-ai.html` / `technology-ai.html`)
   - Quality Assurance & Enterprise Software Testing (`service-qa.html`)
   - Data Warehouse Design & Data Modeling (`service-datawarehouse.html`)
   - SAP Services & Consulting (`service-sap.html`)
@@ -17,6 +18,13 @@ Built as a responsive static web experience featuring multi-section service page
   - Data Management, Governance & Advanced Analytics (`service-data.html`)
   - Cybersecurity Consulting & 8-Layer Threat Defense (`service-cybersecurity.html`)
   - Software Engineering & "Work for Hire" Contract Programming (`service-software.html`)
+- **Dedicated Industry Solutions**: Comprehensive multi-section pages across regulated sectors:
+  - Manufacturing & Industrial Engineering (`industry-manufacturing.html`)
+  - Healthcare & Life Sciences Technology (`industry-healthcare.html`)
+  - Public Sector & Government Modernization (`industry-public-sector.html`)
+  - Energy & Utilities Engineering (`industry-energy.html`)
+  - Retail, Omnichannel & Consumer Commerce (`industry-retail.html`)
+  - Technology & Semiconductor Engineering (`industry-technology.html`)
 - **Technology Focus Showcase**: Interactive carousel and detail pages for AI/ML, Cloud, Data & Analytics, and Cybersecurity.
 - **Motion & Interactions**:
   - Smooth SVG line-drawing service icon animations.

@@ -1398,13 +1398,153 @@ const SERVICES = {
         "url": "service-data.html"
       }
     ]
+  },
+  "ai": {
+    "shortTitle": "AI & Machine Learning",
+    "title": "AI, Machine Learning & Enterprise Intelligence",
+    "kicker": "OUR TECHNOLOGY & ENTERPRISE FOCUS",
+    "intro": "Turn complex enterprise data into predictive intelligence through practical AI and machine learning capabilities that help organizations automate workflows, forecast outcomes, and innovate with precision.",
+    "metrics": [
+      "Predictive Analytics",
+      "Workflow Automation",
+      "Model Governance"
+    ],
+    "strategicIntro": {
+      "heading": "From Raw Enterprise Data to Operational Intelligence",
+      "text": [
+        "Artificial Intelligence and Machine Learning represent transformative opportunities when grounded in robust data architecture and practical business context. Rather than deploying experimental novelties, Dazzlon integrates intelligent algorithms directly into operational workflows.",
+        "From predictive maintenance on the manufacturing floor to intelligent customer analytics and automated fraud detection, we design and deploy machine learning models with rigorous validation, explainability, and full data governance."
+      ],
+      "highlightsTitle": "AI Focus Areas",
+      "highlights": [
+        "Practical machine learning models tailored to high-value enterprise use cases",
+        "Seamless integration with enterprise data warehouses and streaming pipelines",
+        "Explainable AI architectures and continuous model accuracy monitoring",
+        "Automated document processing, entity extraction, and NLP pipelines",
+        "Adherence to enterprise security, privacy, and regulatory standards"
+      ]
+    },
+    "capabilities": [
+      {
+        "title": "Predictive Modeling & Forecasting",
+        "desc": "Developing supervised and unsupervised machine learning models to forecast demand, predict equipment maintenance, and optimize resource allocation.",
+        "items": [
+          "Time-series forecasting and regression modeling",
+          "Anomaly and outlier detection in operational telemetry",
+          "Customer churn and lifetime value prediction",
+          "Continuous model retraining and drift monitoring"
+        ]
+      },
+      {
+        "title": "Natural Language Processing (NLP)",
+        "desc": "Extracting structured intelligence from unstructured enterprise text, emails, contracts, and customer support tickets.",
+        "items": [
+          "Entity recognition, categorization, and metadata extraction",
+          "Sentiment analysis and customer feedback parsing",
+          "Automated document processing and indexing",
+          "Custom semantic search and knowledge retrieval"
+        ]
+      },
+      {
+        "title": "Intelligent Process Automation (IPA)",
+        "desc": "Combining business rules, machine learning algorithms, and automated workflows to eliminate repetitive operational bottlenecks.",
+        "items": [
+          "Automated document routing and classification",
+          "Algorithmic decision support for approval workflows",
+          "Exception detection and automated escalation triggers",
+          "Integration with enterprise ERP and CRM platforms"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "category": "Machine Learning Frameworks",
+        "tools": [
+          "Python",
+          "TensorFlow",
+          "Scikit-Learn",
+          "Pandas",
+          "NumPy",
+          "Apache Spark MLlib"
+        ]
+      },
+      {
+        "category": "Cloud AI & Data Platforms",
+        "tools": [
+          "AWS SageMaker",
+          "Azure Machine Learning",
+          "Databricks",
+          "Hadoop",
+          "BigData"
+        ]
+      },
+      {
+        "category": "Data & Feature Engineering",
+        "tools": [
+          "Informatica",
+          "Ab Initio",
+          "SQL / PL/SQL",
+          "Teradata",
+          "Snowflake"
+        ]
+      }
+    ],
+    "methodology": [
+      {
+        "title": "Use-Case Evaluation & Feasibility",
+        "desc": "Identify high-value business challenges, assess available training datasets, and establish measurable accuracy benchmarks."
+      },
+      {
+        "title": "Data Preparation & Feature Engineering",
+        "desc": "Cleanse historical data, engineer predictive features, and construct auditable training, validation, and testing partitions."
+      },
+      {
+        "title": "Model Training & Validation",
+        "desc": "Train candidate algorithms, optimize hyperparameters, and evaluate performance against business thresholds."
+      },
+      {
+        "title": "Production Deployment & Monitoring",
+        "desc": "Deploy low-latency inference APIs, integrate with enterprise workflows, and establish continuous telemetry for model drift."
+      }
+    ],
+    "businessValue": [
+      {
+        "title": "Data-Driven Decision Speed",
+        "desc": "Automate complex analytical evaluations to empower decision-makers with instantaneous, evidence-backed insights."
+      },
+      {
+        "title": "Drastic Operational Efficiency",
+        "desc": "Eliminate manual data classification and repetitive triage tasks, enabling teams to concentrate on strategic execution."
+      },
+      {
+        "title": "Proactive Risk Prevention",
+        "desc": "Detect operational anomalies and emerging equipment failures before they cause costly unplanned disruptions."
+      }
+    ],
+    "related": [
+      {
+        "title": "Data Management & Analytics",
+        "desc": "Enterprise data governance, master data management, and end-to-end digital analytics.",
+        "url": "service-data.html"
+      },
+      {
+        "title": "Cloud Services",
+        "desc": "Modern cloud infrastructure, scalable storage, and high-performance computing.",
+        "url": "service-cloud.html"
+      },
+      {
+        "title": "Software Engineering",
+        "desc": "Bespoke custom application engineering and systems integration under contract programming.",
+        "url": "service-software.html"
+      }
+    ]
   }
 };
 const TECH = {
   "ai": {
     "shortTitle": "AI & Machine Learning",
     "title": "AI, Machine Learning & Enterprise Intelligence",
-    "kicker": "OUR TECHNOLOGY FOCUS",
+    "kicker": "OUR TECHNOLOGY & ENTERPRISE FOCUS",
     "intro": "Turn complex enterprise data into predictive intelligence through practical AI and machine learning capabilities that help organizations automate workflows, forecast outcomes, and innovate with precision.",
     "metrics": [
       "Predictive Analytics",
@@ -2092,6 +2232,969 @@ const TECH = {
     ]
   }
 };
+const INDUSTRIES = {
+  "manufacturing": {
+    "shortTitle": "Manufacturing",
+    "title": "Manufacturing & Industrial Engineering Solutions",
+    "kicker": "INDUSTRY SOLUTIONS \u2022 MANUFACTURING",
+    "intro": "Dazzlon empowers modern industrial enterprises to bridge physical factory floors with digital enterprise systems. From SAP S/4HANA supply chain integration and shop-floor automation to predictive maintenance pipelines, we engineer resilient solutions that maximize throughput, reduce downtime, and drive operational agility.",
+    "metrics": [
+      "Smart Factory & IoT Integration",
+      "SAP ERP Supply Chain Mastery",
+      "Zero-Downtime Architecture"
+    ],
+    "strategicIntro": {
+      "heading": "Connecting Shop Floor Operations with Enterprise Intelligence",
+      "text": [
+        "Global manufacturing environments are characterized by complex assembly operations, global supply networks, and razor-thin margins. To stay competitive, industrial leaders must eliminate information silos between physical machinery, warehouse operations, and executive planning systems.",
+        "Dazzlon's manufacturing practice combines decades of enterprise integration expertise with specialized industrial engineering acumen. We help manufacturers modernize legacy shop-floor architectures, integrate real-time SCADA and telemetry data with enterprise ERP systems, and deploy predictive analytics that prevent equipment failure."
+      ],
+      "highlightsTitle": "Industrial Capabilities",
+      "highlights": [
+        "End-to-end integration between shop-floor automation and core SAP ERP systems",
+        "Real-time supply chain transparency, inventory tracking, and warehouse synchronization",
+        "Automated quality assurance testing across plant execution systems",
+        "Predictive equipment health monitoring reducing unplanned production downtime",
+        "Adherence to industrial compliance standards, ISO certifications, and secure OT/IT bridging"
+      ]
+    },
+    "capabilities": [
+      {
+        "title": "Plant Floor & Enterprise ERP Integration",
+        "desc": "Synchronizing Manufacturing Execution Systems (MES) and SCADA networks directly with SAP S/4HANA and Oracle backends for real-time inventory and production tracking.",
+        "items": [
+          "Bi-directional MES and SAP S/4HANA connectivity",
+          "Automated production order dispatch and bill of materials (BOM) syncing",
+          "Real-time shop-floor operational status dashboards",
+          "SCADA telemetry normalization and database persistence"
+        ]
+      },
+      {
+        "title": "Predictive Asset Maintenance & Telemetry",
+        "desc": "Capturing high-frequency sensor telemetry to predict component fatigue and schedule preventative maintenance before breakdowns occur.",
+        "items": [
+          "Vibration, thermal, and acoustic sensor telemetry ingestion",
+          "Machine learning models identifying early equipment failure indicators",
+          "Automated maintenance ticket generation in SAP Plant Maintenance (PM)",
+          "Overall Equipment Effectiveness (OEE) tracking and benchmarking"
+        ]
+      },
+      {
+        "title": "Global Supply Chain & Logistics Transparency",
+        "desc": "Building resilient digital supplier networks, multi-warehouse tracking, and automated procurement workflows to mitigate disruptions.",
+        "items": [
+          "Multi-facility inventory synchronization and stock transfer tracking",
+          "Automated supplier purchase order confirmation and EDI interfaces",
+          "Logistics and shipping milestone tracking with automated alerting",
+          "Demand forecasting models reducing excess buffer inventory"
+        ]
+      },
+      {
+        "title": "Industrial Quality & Compliance Automation",
+        "desc": "Automating testing routines, defect tracking, and regulatory compliance logging for mission-critical manufacturing standards.",
+        "items": [
+          "Automated QA validation for embedded firmware and plant software",
+          "Traceability logging matching strict ISO and industry regulatory standards",
+          "Defect logging, root cause classification, and corrective action workflows",
+          "Auditable inspection records across batch and continuous processes"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "category": "Enterprise ERP & Supply Chain",
+        "tools": [
+          "SAP S/4HANA",
+          "SAP ECC (PP/MM/PM)",
+          "Oracle SCM",
+          "Peoplesoft"
+        ]
+      },
+      {
+        "category": "Data Pipelines & Telemetry",
+        "tools": [
+          "Apache Spark",
+          "Apache Kafka",
+          "AWS IoT Core",
+          "Azure IoT Hub",
+          "Python"
+        ]
+      },
+      {
+        "category": "Testing & Validation Tools",
+        "tools": [
+          "HP ALM",
+          "Selenium",
+          "Apache JMeter",
+          "HP LoadRunner",
+          "Bugzilla"
+        ]
+      },
+      {
+        "category": "Databases & Infrastructure",
+        "tools": [
+          "SQL Server",
+          "Oracle Database",
+          "Linux / Unix",
+          "Hybrid Cloud",
+          "Active Directory"
+        ]
+      }
+    ],
+    "methodology": [
+      {
+        "title": "Plant Floor & Systems Audit",
+        "desc": "Document physical machinery, communication protocols, existing MES/SCADA software, and ERP integration bottlenecks."
+      },
+      {
+        "title": "Integrated Architecture Blueprint",
+        "desc": "Design hardened OT/IT network bridges, secure data ingestion pipelines, and bi-directional ERP interface mappings."
+      },
+      {
+        "title": "Engineering & Phased Deployment",
+        "desc": "Deploy custom integration middleware, configure telemetry collectors, and execute non-disruptive cutovers during planned downtime windows."
+      },
+      {
+        "title": "Continuous Telemetry & SLA Support",
+        "desc": "Provide 24/7 monitoring, preventative maintenance, and continuous optimization under contracted SLAs."
+      }
+    ],
+    "businessValue": [
+      {
+        "title": "Minimized Production Downtime",
+        "desc": "Proactive monitoring and predictive asset maintenance prevent costly unplanned manufacturing stoppages."
+      },
+      {
+        "title": "Streamlined Supply Chain Agility",
+        "desc": "Real-time inventory visibility and supplier integration accelerate order fulfillment and reduce carrying costs."
+      },
+      {
+        "title": "100% Proprietary IP Ownership",
+        "desc": "Custom integration code and software bridges remain your company's exclusive capital assets under our 'Work for Hire' model."
+      }
+    ],
+    "related": [
+      {
+        "title": "SAP Services",
+        "desc": "Certified SAP consultants delivering S/4HANA transformations and 2nd/3rd level support.",
+        "url": "service-sap.html"
+      },
+      {
+        "title": "Quality Assurance",
+        "desc": "Comprehensive functional, regression, and load testing in dedicated QA labs.",
+        "url": "service-qa.html"
+      },
+      {
+        "title": "Cloud Services",
+        "desc": "Modern cloud infrastructure, scalable storage, and hybrid cloud solutions.",
+        "url": "service-cloud.html"
+      }
+    ]
+  },
+  "healthcare": {
+    "shortTitle": "Healthcare & Life Sciences",
+    "title": "Healthcare & Life Sciences Technology Solutions",
+    "kicker": "INDUSTRY SOLUTIONS \u2022 HEALTHCARE & LIFE SCIENCES",
+    "intro": "Dazzlon delivers secure, HIPAA-compliant, insight-driven engineering for healthcare providers, medical device manufacturers, and life sciences organizations. We engineer clinical data pipelines, modernize EHR/EMR integrations, and enforce rigorous data governance where patient privacy and diagnostic precision are paramount.",
+    "metrics": [
+      "HIPAA & HITECH Compliance Rigor",
+      "EHR/EMR Interoperability",
+      "Secure Clinical Data Pipelines"
+    ],
+    "strategicIntro": {
+      "heading": "Precision Engineering for Mission-Critical Clinical Care",
+      "text": [
+        "Healthcare and life sciences organizations operate under intense regulatory scrutiny, stringent data privacy laws, and non-negotiable availability mandates. Integrating disparate electronic health records (EHR), clinical diagnostic tools, and administrative billing systems requires specialized technical rigor.",
+        "Dazzlon partners with healthcare leaders to build secure, interoperable technology ecosystems. We design compliant clinical data warehouses, implement FHIR/HL7 data exchange interfaces, and deploy multi-layered cybersecurity architectures that protect sensitive Protected Health Information (PHI) while enabling clinicians with real-time diagnostic insights."
+      ],
+      "highlightsTitle": "Healthcare Focus",
+      "highlights": [
+        "Strict compliance with HIPAA, HITECH, FDA 21 CFR Part 11, and GDPR privacy mandates",
+        "Seamless interoperability across HL7, FHIR, and proprietary electronic health record (EHR) systems",
+        "Comprehensive data encryption at rest and in transit across all clinical touchpoints",
+        "High-performance analytical data modeling for clinical research and patient outcomes",
+        "Rigorous automated testing validating system reliability before clinical go-live"
+      ]
+    },
+    "capabilities": [
+      {
+        "title": "Clinical Data Interoperability & EHR Integration",
+        "desc": "Bridging disparate electronic health records (Epic, Cerner, legacy systems) using HL7 and FHIR standards to enable unified patient histories.",
+        "items": [
+          "HL7 v2/v3 and FHIR API adapter engineering",
+          "Bidirectional clinical record synchronization across provider networks",
+          "Diagnostic laboratory and imaging system (DICOM) interfacing",
+          "Master Patient Index (MPI) deduplication and reconciliation"
+        ]
+      },
+      {
+        "title": "HIPAA-Compliant Data Architecture & Analytics",
+        "desc": "Architecting secure clinical data warehouses and data lakes that support medical research while strictly anonymizing patient identifiers.",
+        "items": [
+          "Protected Health Information (PHI) de-identification and tokenization",
+          "Clinical research dimensional modeling and cohort analytics",
+          "Automated regulatory reporting dashboards for healthcare quality metrics",
+          "High-speed analytical querying across historical patient datasets"
+        ]
+      },
+      {
+        "title": "Life Sciences Software & Regulatory Validation",
+        "desc": "Engineering compliant software for pharmaceutical and medical device workflows adhering to FDA 21 CFR Part 11 and GxP standards.",
+        "items": [
+          "Audit trail and electronic signature implementation compliant with Part 11",
+          "Clinical trial data capture and management software bridges",
+          "Comprehensive validation documentation and traceability matrices",
+          "Source code security audits and static vulnerability scanning"
+        ]
+      },
+      {
+        "title": "Multi-Layered Healthcare Cybersecurity",
+        "desc": "Enforcing Zero-Trust access, multi-factor authentication, and continuous vulnerability scanning to defend hospital networks from ransomware.",
+        "items": [
+          "Zero-Trust network segmentation isolating critical medical equipment",
+          "Multi-Factor Authentication (MFA) across all clinician workstations",
+          "24/7 endpoint threat detection and automated isolation routines",
+          "Comprehensive HIPAA security risk assessments and disaster recovery drills"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "category": "Healthcare Protocols & Formats",
+        "tools": [
+          "HL7",
+          "FHIR",
+          "DICOM",
+          "EDI 837/835",
+          "XML",
+          "JSON"
+        ]
+      },
+      {
+        "category": "Data Management & Analytics",
+        "tools": [
+          "Oracle Database",
+          "Teradata",
+          "Tableau",
+          "Python",
+          "Informatica",
+          "SQL Server"
+        ]
+      },
+      {
+        "category": "Security & Compliance",
+        "tools": [
+          "Entra ID",
+          "Multi-Factor Authentication",
+          "RBAC",
+          "Encrypted TLS",
+          "BitLocker"
+        ]
+      },
+      {
+        "category": "Testing & Quality Verification",
+        "tools": [
+          "QuickTestPro (QTP)",
+          "Selenium",
+          "SoapUI",
+          "HP ALM",
+          "Bugzilla"
+        ]
+      }
+    ],
+    "methodology": [
+      {
+        "title": "Regulatory & Interoperability Audit",
+        "desc": "Assess existing clinical workflows, EHR data structures, interface specifications, and HIPAA security compliance baselines."
+      },
+      {
+        "title": "Compliant Architectural Blueprint",
+        "desc": "Design hardened data pipelines, FHIR-compliant API gateways, and strict least-privilege role boundaries."
+      },
+      {
+        "title": "Secure Implementation & Testing",
+        "desc": "Build integration adapters, execute rigorous functional and penetration testing, and document validation traceability."
+      },
+      {
+        "title": "Auditable Deployment & Support",
+        "desc": "Deploy with comprehensive audit logs, provide staff training, and maintain 24/7 SLA-backed operational continuity."
+      }
+    ],
+    "businessValue": [
+      {
+        "title": "Safeguarded Patient Trust & Compliance",
+        "desc": "Prevent multi-million dollar regulatory penalties through audited compliance with HIPAA, HITECH, and FDA mandates."
+      },
+      {
+        "title": "Accelerated Clinical Decision Support",
+        "desc": "Unified, real-time patient data enables healthcare professionals to make faster, better-informed diagnostic decisions."
+      },
+      {
+        "title": "Protection Against Healthcare Ransomware",
+        "desc": "8-layer cybersecurity defenses insulate hospitals and labs against disruptive malware and unauthorized data breaches."
+      }
+    ],
+    "related": [
+      {
+        "title": "Cybersecurity",
+        "desc": "8-layer defense model protecting enterprise networks, systems, applications, and endpoints.",
+        "url": "service-cybersecurity.html"
+      },
+      {
+        "title": "Data Management & Analytics",
+        "desc": "Enterprise data governance, master data management, and end-to-end digital analytics.",
+        "url": "service-data.html"
+      },
+      {
+        "title": "Quality Assurance",
+        "desc": "Comprehensive functional, regression, and load testing in dedicated QA labs.",
+        "url": "service-qa.html"
+      }
+    ]
+  },
+  "public-sector": {
+    "shortTitle": "Public Sector & Government",
+    "title": "Public Sector & Government Technology Modernization",
+    "kicker": "INDUSTRY SOLUTIONS \u2022 PUBLIC SECTOR",
+    "intro": "Dazzlon helps federal, state, and local public agencies build resilient, secure, and transparent digital foundations. From modernizing legacy government mainframes to deploying compliant cloud architectures and automated citizen service portals, we engineer mission-critical systems that serve the public interest.",
+    "metrics": [
+      "NIST & FedRAMP Alignment",
+      "Legacy Mainframe Modernization",
+      "Auditable Data Governance"
+    ],
+    "strategicIntro": {
+      "heading": "Modernizing Public Infrastructure with Security, Reliability, and Accountability",
+      "text": [
+        "Public sector agencies face the dual imperative of modernizing decades-old legacy computer systems while meeting the highest standards of fiscal stewardship, public transparency, and cybersecurity. Citizens expect responsive, modern digital services, yet public infrastructure must never fail.",
+        "Dazzlon works alongside public sector leaders to re-platform legacy applications, design secure hybrid cloud infrastructures, and establish auditable data governance frameworks. Our Center of Excellence (COE) approach ensures disciplined milestones, complete knowledge transfer, and full ownership of all custom-developed software capital assets."
+      ],
+      "highlightsTitle": "Public Sector Capabilities",
+      "highlights": [
+        "Deep adherence to NIST SP 800-53, FISMA, and FedRAMP security frameworks",
+        "Proven methodologies for modernizing complex legacy applications without service interruption",
+        "Transparent public data portals and automated citizen service workflows",
+        "Full transfer of source code and intellectual property under our 'Work for Hire' model",
+        "24/7 contracted SLA support and proactive infrastructure health monitoring"
+      ]
+    },
+    "capabilities": [
+      {
+        "title": "Legacy Application Modernization & Re-Platforming",
+        "desc": "Transitioning mission-critical governmental databases and legacy applications to modern, scalable Java, Linux, and cloud architectures.",
+        "items": [
+          "Code conversion from legacy languages (COBOL, C) to modern enterprise Java",
+          "Database migration from legacy mainframes to relational and cloud databases",
+          "Automated regression suites ensuring identical business logic execution",
+          "Stepwise migration avoiding disruptive big-bang system cutovers"
+        ]
+      },
+      {
+        "title": "Secure Government Cloud & Infrastructure",
+        "desc": "Architecting compliant public sector cloud environments on AWS GovCloud and Microsoft Azure Government with strict access isolation.",
+        "items": [
+          "FedRAMP-compliant virtual network design and security boundaries",
+          "Geo-redundant disaster recovery for emergency and public safety services",
+          "Automated infrastructure provisioning using Terraform and CloudFormation",
+          "Strict audit logging and continuous compliance telemetry"
+        ]
+      },
+      {
+        "title": "Public Data Governance & Transparency Portals",
+        "desc": "Designing auditable data lakes, master data repositories, and public-facing reporting portals that promote civic transparency.",
+        "items": [
+          "Inter-agency data exchange pipelines and secure API gateways",
+          "Public open-data reporting portals with automated redaction",
+          "Audit trail logging verifying data provenance and access history",
+          "Master data management resolving constituent identity records"
+        ]
+      },
+      {
+        "title": "Government Cybersecurity & Zero-Trust Defense",
+        "desc": "Hardening public networks against nation-state threat actors, ransomware, and social engineering through our 8-layer defense model.",
+        "items": [
+          "Zero-Trust network architecture and micro-segmentation",
+          "PIV/CAC smart card and Multi-Factor Authentication enforcement",
+          "Continuous vulnerability scanning across public-facing web portals",
+          "Incident response playbooks and automated threat containment"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "category": "Government Cloud Environments",
+        "tools": [
+          "AWS GovCloud",
+          "Microsoft Azure Government",
+          "Hybrid Cloud",
+          "VPC Architecture"
+        ]
+      },
+      {
+        "category": "Enterprise Platforms",
+        "tools": [
+          "Java/J2EE",
+          "Spring Boot",
+          "Oracle Database",
+          "Microsoft SQL Server",
+          "Linux / Unix"
+        ]
+      },
+      {
+        "category": "Security & Access Control",
+        "tools": [
+          "Entra ID",
+          "Active Directory",
+          "PIV/CAC Authentication",
+          "RBAC",
+          "NIST Framework"
+        ]
+      },
+      {
+        "category": "Integration & Testing",
+        "tools": [
+          "RESTful APIs",
+          "SOAP",
+          "XML",
+          "Apache JMeter",
+          "Selenium",
+          "HP ALM"
+        ]
+      }
+    ],
+    "methodology": [
+      {
+        "title": "Mission Readiness & Security Assessment",
+        "desc": "Evaluate legacy software architecture, data dependencies, security controls, and FISMA compliance standards."
+      },
+      {
+        "title": "Modernization & Migration Blueprint",
+        "desc": "Design modular service architectures, target government cloud environments, and phased cutover plans."
+      },
+      {
+        "title": "Disciplined Engineering & Verification",
+        "desc": "Implement custom software modules with continuous integration, unit testing, and third-party security verification."
+      },
+      {
+        "title": "Auditable Cutover & Agency Handover",
+        "desc": "Execute seamless production cutover, deliver complete source code and technical manuals, and train agency personnel."
+      }
+    ],
+    "businessValue": [
+      {
+        "title": "Fiscal Responsibility & TCO Reduction",
+        "desc": "Eradicate exorbitant legacy mainframe maintenance fees by modernizing to open, scalable enterprise architectures."
+      },
+      {
+        "title": "Uncompromised Sovereign Security",
+        "desc": "Protect sensitive constituent records and critical infrastructure from cyber threats using auditable, multi-layer defenses."
+      },
+      {
+        "title": "Enhanced Public Service Delivery",
+        "desc": "Empower citizens with dependable, high-availability digital portals that accelerate service delivery and permit processing."
+      }
+    ],
+    "related": [
+      {
+        "title": "Cloud Services",
+        "desc": "Modern cloud infrastructure, scalable storage, and hybrid cloud solutions.",
+        "url": "service-cloud.html"
+      },
+      {
+        "title": "Cybersecurity",
+        "desc": "8-layer defense model protecting enterprise networks, systems, applications, and endpoints.",
+        "url": "service-cybersecurity.html"
+      },
+      {
+        "title": "Software Engineering",
+        "desc": "Bespoke custom application engineering and systems integration under contract programming.",
+        "url": "service-software.html"
+      }
+    ]
+  },
+  "energy": {
+    "shortTitle": "Energy & Utilities",
+    "title": "Energy & Utilities Technology Engineering Solutions",
+    "kicker": "INDUSTRY SOLUTIONS \u2022 ENERGY & UTILITIES",
+    "intro": "Dazzlon delivers high-availability, scalable, and secure engineering solutions for the energy, oil & gas, and utility sectors. From supervisory SCADA telemetry integration and smart grid analytics to asset management modernization, we engineer the digital backbone that keeps critical utilities running reliably.",
+    "metrics": [
+      "Critical Infrastructure Resiliency",
+      "Real-Time SCADA Telemetry",
+      "NERC CIP Compliance Alignment"
+    ],
+    "strategicIntro": {
+      "heading": "Engineering Resilient Foundations for Critical Energy Infrastructure",
+      "text": [
+        "Energy and utility providers operate under zero-tolerance conditions for downtime. Managing distributed power generation, pipeline distribution networks, smart meter fleets, and renewable integration requires real-time telemetry processing and rock-solid systems reliability.",
+        "Dazzlon combines deep software engineering expertise with data architecture mastery to support energy organizations. We design resilient integration layers between field SCADA networks and enterprise ERP systems, build high-throughput data lakes for smart meter analytics, and enforce stringent NERC CIP cybersecurity protections across hybrid environments."
+      ],
+      "highlightsTitle": "Energy Capabilities",
+      "highlights": [
+        "High-throughput telemetry pipelines processing millions of smart meter events per hour",
+        "Resilient integration linking supervisory control (SCADA) systems with SAP ERP asset management",
+        "Alignment with NERC CIP, ISO 27001, and critical infrastructure cybersecurity standards",
+        "Predictive asset health analytics minimizing outage durations and equipment replacements",
+        "Cloud migration frameworks designed for high-availability utility operations"
+      ]
+    },
+    "capabilities": [
+      {
+        "title": "SCADA & Enterprise Asset Management Integration",
+        "desc": "Bridging supervisory control systems with SAP Plant Maintenance (PM) and Oracle ERP for automated work order generation.",
+        "items": [
+          "Real-time SCADA telemetry ingestion and condition monitoring",
+          "Automated generation of preventive maintenance orders in SAP PM",
+          "Substation and pipeline equipment lifecycle management",
+          "Out-of-band communication monitoring and network isolation"
+        ]
+      },
+      {
+        "title": "Smart Grid & Advanced Metering (AMI) Analytics",
+        "desc": "Architecting high-throughput data pipelines capable of ingesting, validating, and analyzing millions of smart meter data points.",
+        "items": [
+          "Meter data management (MDM) integration with billing and ERP",
+          "Real-time grid load balancing and peak consumption analytics",
+          "Automated power outage detection and geographic boundary mapping",
+          "Distributed energy resource (DER) and renewable feed-in monitoring"
+        ]
+      },
+      {
+        "title": "Critical Infrastructure Cybersecurity",
+        "desc": "Hardening energy control centers, substations, and corporate networks against cyberattacks, ransomware, and physical-digital bridge incursions.",
+        "items": [
+          "NERC CIP compliance auditing and network security architecture",
+          "Micro-segmentation between operational technology (OT) and enterprise IT",
+          "Intrusion detection and automated protocol anomaly defense",
+          "Hardened access gateways and multi-factor authentication for operators"
+        ]
+      },
+      {
+        "title": "Predictive Grid Health & Outage Management",
+        "desc": "Developing analytical forecasting models that anticipate grid stress, evaluate weather impact, and accelerate outage restoration.",
+        "items": [
+          "Machine learning models predicting transformer and line failure risks",
+          "Weather telemetry integration for proactive crew pre-positioning",
+          "Historical outage pattern analysis and reliability index reporting (SAIDI/SAIFI)",
+          "Executive emergency operations center dashboards"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "category": "Data Ingestion & Big Data",
+        "tools": [
+          "Apache Kafka",
+          "Apache Spark",
+          "AWS IoT",
+          "Hadoop",
+          "Python",
+          "Snowflake"
+        ]
+      },
+      {
+        "category": "Enterprise Systems",
+        "tools": [
+          "SAP S/4HANA (IS-U, PM)",
+          "Oracle Database",
+          "Teradata",
+          "SQL Server"
+        ]
+      },
+      {
+        "category": "Security & Compliance",
+        "tools": [
+          "NERC CIP Standards",
+          "Next-Gen Firewalls",
+          "EDR",
+          "Encrypted VPN",
+          "PAM"
+        ]
+      },
+      {
+        "category": "Testing & Monitoring",
+        "tools": [
+          "Apache JMeter",
+          "HP LoadRunner",
+          "Nagios",
+          "SolarWinds",
+          "CloudWatch"
+        ]
+      }
+    ],
+    "methodology": [
+      {
+        "title": "Operational Baseline & Telemetry Audit",
+        "desc": "Map SCADA interfaces, field communication protocols, data latency requirements, and NERC CIP compliance postures."
+      },
+      {
+        "title": "Resilient Architecture Engineering",
+        "desc": "Design fault-tolerant messaging pipelines, redundant database clusters, and secure perimeter firewalls."
+      },
+      {
+        "title": "Staged Implementation & Testing",
+        "desc": "Build integration adapters, execute high-volume load simulations, and conduct failover testing in staging labs."
+      },
+      {
+        "title": "Production Cutover & 24/7 Monitoring",
+        "desc": "Deploy with zero interruption to active grid management, backed by continuous 24/7 SLA operational monitoring."
+      }
+    ],
+    "businessValue": [
+      {
+        "title": "Maximized Grid Reliability & Uptime",
+        "desc": "Real-time telemetry monitoring and automated dispatch reduce outage frequency and shorten Mean Time to Recovery (MTTR)."
+      },
+      {
+        "title": "Optimized Capital Asset Lifespan",
+        "desc": "Predictive maintenance schedules work orders based on actual equipment wear rather than arbitrary calendar dates."
+      },
+      {
+        "title": "NERC CIP Audit Assurance",
+        "desc": "Documented access controls, encrypted transmissions, and auditable network segmentation ensure full regulatory compliance."
+      }
+    ],
+    "related": [
+      {
+        "title": "SAP Services",
+        "desc": "Certified SAP consultants delivering S/4HANA transformations and 2nd/3rd level support.",
+        "url": "service-sap.html"
+      },
+      {
+        "title": "Managed IT Services",
+        "desc": "Proactive SLA-backed operational management, infrastructure maintenance, and 24/7 monitoring.",
+        "url": "service-managed.html"
+      },
+      {
+        "title": "Cybersecurity",
+        "desc": "8-layer defense model protecting enterprise networks, systems, applications, and endpoints.",
+        "url": "service-cybersecurity.html"
+      }
+    ]
+  },
+  "retail": {
+    "shortTitle": "Retail & Consumer Commerce",
+    "title": "Retail, Omnichannel & Consumer Commerce Technology",
+    "kicker": "INDUSTRY SOLUTIONS \u2022 RETAIL & COMMERCE",
+    "intro": "Dazzlon engineers connected omnichannel customer experiences, real-time inventory synchronization, and digital analytics platforms for modern retail enterprises. We unify in-store point-of-sale systems, e-commerce storefronts, and backend ERP supply chains into an integrated digital ecosystem.",
+    "metrics": [
+      "Real-Time Omnichannel Synchronization",
+      "End-to-End Customer Analytics",
+      "High-Concurrency Peak Commerce"
+    ],
+    "strategicIntro": {
+      "heading": "Unifying Omnichannel Touchpoints into Seamless Customer Journeys",
+      "text": [
+        "Today's consumers expect seamless shopping experiences across mobile apps, online webstores, and physical retail locations. Disconnected customer databases, delayed inventory updates, and checkout friction lead directly to abandoned carts and lost customer loyalty.",
+        "Dazzlon partners with leading retail and consumer brands to architect unified commerce ecosystems. We eliminate data silos by synchronizing point-of-sale (POS) systems with cloud e-commerce platforms and core SAP ERP inventories, deploy comprehensive web analytics (Adobe, Google, Tealium), and ensure payment processing is secure, PCI-DSS compliant, and fault-tolerant during peak holiday shopping surges."
+      ],
+      "highlightsTitle": "Retail Capabilities",
+      "highlights": [
+        "Real-time inventory synchronization preventing overselling across online and in-store channels",
+        "End-to-end digital analytics tracking customer journeys from initial click to in-store purchase",
+        "High-throughput payment gateway integrations adhering to strict PCI-DSS standards",
+        "High-concurrency performance engineering ensuring stability during Black Friday / peak traffic events",
+        "Custom loyalty, promotion, and CRM data pipeline engineering"
+      ]
+    },
+    "capabilities": [
+      {
+        "title": "Real-Time Omnichannel Inventory Synchronization",
+        "desc": "Integrating in-store POS, regional fulfillment centers, and online storefronts with SAP/Oracle ERP for instant inventory visibility.",
+        "items": [
+          "Real-time inventory decrementing across physical and digital stores",
+          "Buy Online, Pick Up In Store (BOPIS) workflow orchestration",
+          "Automated stock replenishment alerts to regional distribution centers",
+          "Warehouse management system (WMS) bi-directional integration"
+        ]
+      },
+      {
+        "title": "Digital Analytics & Customer Journey Mapping",
+        "desc": "Implementing tag architectures (Tealium, Google Analytics, Adobe Analytics) to analyze user conversion funnels and drop-off points.",
+        "items": [
+          "Tag management architecture and measurement strategy design",
+          "Cross-channel user attribution and marketing campaign ROI tracking",
+          "Funnel drop-off analysis and checkout optimization dashboards",
+          "Customer lifetime value (CLV) and retention predictive modeling"
+        ]
+      },
+      {
+        "title": "High-Concurrency Commerce Architecture",
+        "desc": "Engineering resilient, auto-scaling cloud microservices on AWS and Azure capable of handling massive seasonal traffic spikes.",
+        "items": [
+          "Auto-scaling container clusters handling flash-sale spikes",
+          "Distributed caching (Redis) for rapid product catalog rendering",
+          "Asynchronous order queuing preventing checkout bottlenecks",
+          "High-availability database clustering and read-replica routing"
+        ]
+      },
+      {
+        "title": "PCI-DSS Compliant Payment & Security Logic",
+        "desc": "Programming secure payment bridges, tokenization routines, and fraud mitigation logic that protect consumer financial data.",
+        "items": [
+          "End-to-end payment gateway tokenization adhering to PCI-DSS",
+          "Real-time algorithmic fraud detection and suspicious activity scoring",
+          "Encrypted customer credential storage and session governance",
+          "Regular penetration testing and security vulnerability remediation"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "category": "Analytics & Tag Management",
+        "tools": [
+          "Adobe Analytics",
+          "Google Analytics",
+          "Tealium iQ",
+          "Google Tag Manager (GTM)",
+          "Adobe DTM",
+          "Tableau"
+        ]
+      },
+      {
+        "category": "E-Commerce & ERP Integration",
+        "tools": [
+          "SAP S/4HANA",
+          "NetSuite",
+          "RESTful APIs",
+          "SOAP",
+          "XML",
+          "Microservices"
+        ]
+      },
+      {
+        "category": "Databases & Ingestion",
+        "tools": [
+          "MySQL",
+          "Oracle Database",
+          "Microsoft SQL Server",
+          "Redis",
+          "Apache Kafka"
+        ]
+      },
+      {
+        "category": "Performance & Stress Testing",
+        "tools": [
+          "Apache JMeter",
+          "HP LoadRunner",
+          "Selenium",
+          "Katalon Studio",
+          "Compuware"
+        ]
+      }
+    ],
+    "methodology": [
+      {
+        "title": "Commerce Ecosystem Audit",
+        "desc": "Analyze current POS systems, e-commerce platforms, ERP inventory feeds, and user analytics tracking gaps."
+      },
+      {
+        "title": "Omnichannel Architecture Design",
+        "desc": "Formulate real-time messaging pipelines, inventory caching strategies, and PCI-compliant data flows."
+      },
+      {
+        "title": "Engineering & Stress Simulation",
+        "desc": "Build custom API bridges, configure tag architectures, and execute extreme load tests simulating holiday shopping peaks."
+      },
+      {
+        "title": "Seamless Deployment & Optimization",
+        "desc": "Roll out with zero catalog downtime, monitor conversion telemetry, and fine-tune checkout response times."
+      }
+    ],
+    "businessValue": [
+      {
+        "title": "Increased Conversion & Average Order Value",
+        "desc": "Smooth checkout experiences and real-time product availability drive higher cart completion rates."
+      },
+      {
+        "title": "Zero Stockouts & Inventory Clarity",
+        "desc": "Real-time synchronization across stores and warehouses eliminates lost sales and prevents costly over-stocking."
+      },
+      {
+        "title": "Peak-Traffic Resilience",
+        "desc": "Elastic cloud architectures and validated load thresholds ensure zero crashes during Black Friday and flash sales."
+      }
+    ],
+    "related": [
+      {
+        "title": "Data Management & Analytics",
+        "desc": "Enterprise data governance, master data management, and end-to-end digital analytics.",
+        "url": "service-data.html"
+      },
+      {
+        "title": "Quality Assurance",
+        "desc": "Comprehensive functional, regression, and load testing in dedicated QA labs.",
+        "url": "service-qa.html"
+      },
+      {
+        "title": "Cloud Services",
+        "desc": "Modern cloud infrastructure, scalable storage, and hybrid cloud solutions.",
+        "url": "service-cloud.html"
+      }
+    ]
+  },
+  "technology": {
+    "shortTitle": "Technology & Semiconductors",
+    "title": "Technology & Semiconductor Engineering Solutions",
+    "kicker": "INDUSTRY SOLUTIONS \u2022 TECHNOLOGY & SEMICONDUCTORS",
+    "intro": "Dazzlon provides advanced contract programming, systems integration, and engineering advisory for high-tech software organizations and semiconductor manufacturers. Operating under our Center of Excellence (COE) model, we build custom platforms, automate verification pipelines, and manage complex enterprise architectures.",
+    "metrics": [
+      "Bespoke Contract Programming",
+      "100% Client IP Ownership",
+      "Semiconductor Manufacturing Rigor"
+    ],
+    "strategicIntro": {
+      "heading": "High-Performance Engineering for Tech Innovators and Semiconductor Leaders",
+      "text": [
+        "High-technology software companies and semiconductor manufacturers operate at the bleeding edge of engineering complexity. Developing proprietary fabrication automation software, managing high-volume testing pipelines, and scaling globally distributed engineering teams demands deep technical mastery.",
+        "Dazzlon's heritage since 2004 is anchored in custom Contract Programming. Under our 'Work for Hire' philosophy, all software, integration logic, and automation frameworks we develop become the sole, nontaxable capital assets of our clients. Whether engineering yield analysis pipelines for semiconductor cleanrooms or architecting enterprise microservices for software leaders, we deliver world-class programming rigor."
+      ],
+      "highlightsTitle": "Technology & Semiconductor Focus",
+      "highlights": [
+        "100% intellectual property transfer ensuring tech leaders own, rather than rent, their technology",
+        "Center of Excellence (COE) delivery model enforcing strict architectural and coding standards",
+        "High-performance data pipelines processing massive semiconductor wafer and test telemetry",
+        "Automated regression, functional, and performance testing across complex product suites",
+        "Deep engineering bench in Java/J2EE, C/C++, Angular, Spring, Python, and Oracle/SQL"
+      ]
+    },
+    "capabilities": [
+      {
+        "title": "Custom Enterprise Platform Engineering",
+        "desc": "Developing full-stack, bespoke software ecosystems built to handle complex computational algorithms and high transaction loads.",
+        "items": [
+          "High-performance Java/J2EE, Spring, and C/C++ computational engines",
+          "Modular microservices with containerized deployment",
+          "Interactive data visualization dashboards built in Angular",
+          "Distributed database architectures supporting high-concurrency read/write"
+        ]
+      },
+      {
+        "title": "Semiconductor Fab Data & Yield Analytics",
+        "desc": "Architecting real-time telemetry pipelines that capture fabrication data, identify defect patterns, and optimize semiconductor wafer yield.",
+        "items": [
+          "High-volume wafer test telemetry ingestion and analysis",
+          "Defect density and statistical process control (SPC) charting",
+          "Integration with cleanroom Equipment Automation and MES software",
+          "Machine learning classification of semiconductor wafer defect maps"
+        ]
+      },
+      {
+        "title": "Automated Software Verification & QA Labs",
+        "desc": "Establishing scalable automated testing frameworks (Selenium, QTP, JMeter) that certify release builds across diverse environments.",
+        "items": [
+          "Automated regression test suites integrated into CI/CD pipelines",
+          "Performance, load, and memory leak benchmarking in our QA lab",
+          "Cross-platform compatibility testing across operating systems",
+          "Defect lifecycle tracking and test management governance"
+        ]
+      },
+      {
+        "title": "Proprietary Systems Integration & Middleware",
+        "desc": "Engineering resilient, low-latency bridges connecting disparate CAD, ERP, PLM, and test automation systems.",
+        "items": [
+          "High-throughput REST and SOAP web services integration",
+          "Complex payload transformation across XML, JSON, and proprietary binaries",
+          "Secure API gateway management and endpoint rate limiting",
+          "Enterprise messaging buses supporting asynchronous data flows"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "category": "Programming & Backend",
+        "tools": [
+          "C",
+          "C++",
+          "Java/J2EE",
+          "Python",
+          "Spring Boot",
+          "Hibernate"
+        ]
+      },
+      {
+        "category": "Frontend & Visualization",
+        "tools": [
+          "JavaScript",
+          "Angular",
+          "HTML5",
+          "CSS3",
+          "D3.js",
+          "Tableau"
+        ]
+      },
+      {
+        "category": "Databases & Storage",
+        "tools": [
+          "Oracle 11g/10g/9i",
+          "Microsoft SQL Server",
+          "MySQL",
+          "Teradata",
+          "Snowflake"
+        ]
+      },
+      {
+        "category": "Build & CI/CD Tooling",
+        "tools": [
+          "Git",
+          "Subversion",
+          "Maven",
+          "Jenkins",
+          "Jira",
+          "Eclipse",
+          "Linux / Unix"
+        ]
+      }
+    ],
+    "methodology": [
+      {
+        "title": "Architectural Requirements Discovery",
+        "desc": "Align on algorithmic specifications, performance benchmarks, and COE software standards with engineering leadership."
+      },
+      {
+        "title": "Agile Development Sprints",
+        "desc": "Develop modular, cleanly documented code with rigorous peer review and automated unit tests in bi-weekly sprints."
+      },
+      {
+        "title": "Lab Verification & Load Stress Testing",
+        "desc": "Validate high-throughput data processing, memory safety, and concurrency in dedicated testing lab environments."
+      },
+      {
+        "title": "Full IP Transfer & Release Handover",
+        "desc": "Deploy to production, deliver exhaustive technical documentation, and transfer 100% source code ownership."
+      }
+    ],
+    "businessValue": [
+      {
+        "title": "Proprietary Intellectual Property Asset",
+        "desc": "Build proprietary software that directly enhances enterprise valuation without third-party licensing baggage."
+      },
+      {
+        "title": "Accelerated Product Engineering Velocity",
+        "desc": "Expand engineering bandwidth with seasoned full-stack developers who ramp up instantly on complex codebases."
+      },
+      {
+        "title": "High-Yield Manufacturing Precision",
+        "desc": "Real-time wafer testing and analytics identify defect trends early, saving millions in manufacturing scrap."
+      }
+    ],
+    "related": [
+      {
+        "title": "Software Engineering",
+        "desc": "Bespoke custom application engineering and systems integration under contract programming.",
+        "url": "service-software.html"
+      },
+      {
+        "title": "Quality Assurance",
+        "desc": "Comprehensive functional, regression, and load testing in dedicated QA labs.",
+        "url": "service-qa.html"
+      },
+      {
+        "title": "Data Warehouse Design",
+        "desc": "Enterprise data modeling, active intelligence, and analytical data architecture.",
+        "url": "service-datawarehouse.html"
+      }
+    ]
+  }
+};
 const DATA = {
   "about": {
     "title": "Proprietary Engineering. Strategic Advisory.",
@@ -2142,6 +3245,11 @@ const DATA = {
     "intro": "In today\u2019s fast-paced economy, businesses must adapt quickly to changes in business processes and procedures. Systems and software solutions must be created with great care for easy adaptability to change.",
     "cards": [
       [
+        "AI & Machine Learning",
+        "Turn data into predictive intelligence through practical AI and machine learning capabilities that help organizations automate, predict, and innovate.",
+        "service-ai.html"
+      ],
+      [
         "Quality Assurance",
         "Functional, regression, security, and performance/load testing across dedicated QA labs and client environments.",
         "service-qa.html"
@@ -2190,33 +3298,33 @@ const DATA = {
     "cards": [
       [
         "Manufacturing",
-        "Modernize factory floor operations, supply chain visibility, and predictive equipment maintenance through connected IoT and enterprise ERP integration.",
-        "contact.html"
+        "Bridge shop floor operations with core SAP ERP, automated QA, and predictive equipment maintenance telemetry.",
+        "industry-manufacturing.html"
       ],
       [
         "Healthcare & Life Sciences",
-        "Support secure, HIPAA-compliant, insight-driven technology environments where patient data privacy and diagnostic precision matter most.",
-        "contact.html"
+        "Support secure, HIPAA-compliant clinical data pipelines, EHR interoperability, and life sciences regulatory software.",
+        "industry-healthcare.html"
       ],
       [
         "Public Sector & Government",
-        "Build resilient, audit-ready technology foundations, data governance pipelines, and secure cloud platforms for public agencies.",
-        "contact.html"
+        "Modernize legacy government applications, deploy FedRAMP-aligned cloud environments, and protect public assets.",
+        "industry-public-sector.html"
       ],
       [
         "Energy & Utilities",
-        "Enable scalable, high-availability supervisory architectures and analytics-driven telemetry for critical energy and infrastructure systems.",
-        "contact.html"
+        "Enable resilient SCADA telemetry integration, smart grid analytics, and critical infrastructure cybersecurity.",
+        "industry-energy.html"
       ],
       [
         "Retail & Consumer Commerce",
-        "Create unified omnichannel data models, real-time inventory synchronization, and digital analytics that illuminate complete customer journeys.",
-        "contact.html"
+        "Create real-time omnichannel inventory synchronization, end-to-end digital analytics, and peak-traffic commerce resilience.",
+        "industry-retail.html"
       ],
       [
         "Technology & Semiconductors",
-        "Help high-tech engineering organizations scale custom software platforms, cloud infrastructure, and automated testing pipelines.",
-        "contact.html"
+        "Deliver bespoke contract programming, wafer yield analytics, automated verification, and 100% client IP ownership.",
+        "industry-technology.html"
       ]
     ]
   },
@@ -2389,12 +3497,23 @@ function pageShell(content) {
   if (pContent) pContent.innerHTML = content;
 }
 
-function serviceDetailPage(s, isTech = false) {
+function serviceDetailPage(s, pageType = 'service') {
+  let parentLabel = 'Services';
+  let parentUrl = 'services.html';
+
+  if (pageType === 'technology') {
+    parentLabel = 'Technology Focus';
+    parentUrl = 'index.html#tech';
+  } else if (pageType === 'industry') {
+    parentLabel = 'Industries';
+    parentUrl = 'industries.html';
+  }
+
   const breadcrumb = `
     <nav class="service-breadcrumb" aria-label="Breadcrumb">
       <a href="index.html">Home</a>
       <span class="separator">/</span>
-      <a href="${isTech ? 'index.html#tech' : 'services.html'}">${isTech ? 'Technology Focus' : 'Services'}</a>
+      <a href="${parentUrl}">${parentLabel}</a>
       <span class="separator">/</span>
       <span>${s.shortTitle || s.title}</span>
     </nav>`;
@@ -2408,7 +3527,7 @@ function serviceDetailPage(s, isTech = false) {
 
   const capabilitiesCards = (s.capabilities || []).map((c, i) => `
     <div class="cap-card">
-      <span class="cap-num">CAPABILITY ${String(i + 1).padStart(2, '0')}</span>
+      <span class="cap-num">${pageType === 'industry' ? 'FOCUS AREA' : 'CAPABILITY'} ${String(i + 1).padStart(2, '0')}</span>
       <h3>${c.title}</h3>
       <p>${c.desc}</p>
       <div class="cap-card-items">
@@ -2453,12 +3572,12 @@ function serviceDetailPage(s, isTech = false) {
     <section class="service-hero">
       <div class="container">
         ${breadcrumb}
-        <div class="eyebrow tech-kicker">${s.kicker || 'ENTERPRISE SERVICES'}</div>
+        <div class="eyebrow tech-kicker">${s.kicker || 'ENTERPRISE CAPABILITIES'}</div>
         <h1>${s.title}</h1>
         <p class="service-hero-intro">${s.intro}</p>
         <div class="service-hero-actions">
           <a class="btn light" href="contact.html">Schedule Technical Consultation <span>→</span></a>
-          <a class="btn" href="#capabilities" style="background:rgba(255,255,255,0.12);border-color:rgba(255,255,255,0.25);">Explore Capabilities ↓</a>
+          <a class="btn" href="#capabilities" style="background:rgba(255,255,255,0.12);border-color:rgba(255,255,255,0.25);">Explore Solutions ↓</a>
         </div>
         ${heroStats ? `<div class="service-hero-stats">${heroStats}</div>` : ''}
       </div>
@@ -2481,13 +3600,13 @@ function serviceDetailPage(s, isTech = false) {
       </div>
     </section>
 
-    <!-- Core Capabilities Section -->
+    <!-- Core Capabilities / Solutions Section -->
     <section class="section capabilities-section" id="capabilities">
       <div class="container">
         <div class="section-head">
           <div>
-            <div class="eyebrow">Core Capabilities</div>
-            <h2>Enterprise Service Offerings</h2>
+            <div class="eyebrow">${pageType === 'industry' ? 'Industry Solutions' : 'Core Capabilities'}</div>
+            <h2>${pageType === 'industry' ? 'Tailored Engineering &amp; Industry Solutions' : 'Enterprise Service Offerings'}</h2>
           </div>
           <p>Engineered to address critical enterprise challenges with precision, reliability, and measurable return on investment.</p>
         </div>
@@ -2503,7 +3622,7 @@ function serviceDetailPage(s, isTech = false) {
         <div class="section-head">
           <div>
             <div class="eyebrow">Technology Ecosystem</div>
-            <h2>Enterprise Tooling &amp; Platforms</h2>
+            <h2>Platforms, Protocols &amp; Tooling</h2>
           </div>
           <p>Standardized on industry-leading platforms, frameworks, and certified methodologies.</p>
         </div>
@@ -2859,13 +3978,18 @@ function load() {
   } else if (kind.startsWith('service-')) {
     const k = kind.replace('service-', '');
     const serviceData = SERVICES[k] || SERVICES.qa;
-    pageShell(serviceDetailPage(serviceData));
+    pageShell(serviceDetailPage(serviceData, 'service'));
     document.title = `${serviceData.shortTitle || serviceData.title} — Dazzlon`;
   } else if (kind.startsWith('technology-')) {
     const k = kind.replace('technology-', '');
     const techData = TECH[k] || TECH.ai;
-    pageShell(serviceDetailPage(techData, true));
+    pageShell(serviceDetailPage(techData, 'technology'));
     document.title = `${techData.shortTitle || techData.title} — Dazzlon`;
+  } else if (kind.startsWith('industry-')) {
+    const k = kind.replace('industry-', '');
+    const industryData = INDUSTRIES[k] || INDUSTRIES.manufacturing;
+    pageShell(serviceDetailPage(industryData, 'industry'));
+    document.title = `${industryData.shortTitle || industryData.title} — Dazzlon`;
   }
 
   if (typeof initMotionScroll === 'function') {
