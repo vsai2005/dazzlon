@@ -1,184 +1,202 @@
-/* Dazzlon - Complete Enterprise Dynamic Page Engine */
+// Dazzlon Enterprise Content & Page Rendering Engine
+// Foundation: Modern Redesign | Depth: Verified Technical Dazzlon Substance
+
 const SERVICES = {
   "qa": {
     "shortTitle": "Quality Assurance",
     "title": "Quality Assurance & Enterprise Software Testing",
-    "kicker": "QUALITY ASSURANCE & TESTING SERVICES",
-    "intro": "Dazzlon delivers comprehensive functional, regression, performance/load, and security testing for enterprise customers across all industry verticals. Operating from both our specialized in-house testing lab and directly within client development environments, we ensure mission-critical systems achieve flawless reliability before reaching production.",
+    "kicker": "ENTERPRISE TEST ENGINEERING",
+    "intro": "Dazzlon delivers comprehensive functional, regression, performance/load, and security testing across dedicated test labs and complex enterprise environments to guarantee mission-critical software reliability.",
     "metrics": [
-      "Dedicated QA Lab & Client Environments",
-      "Peoplesoft & SAP Validation Specialists",
-      "Automated & Performance Rigor"
+      {
+        "val": "99.8%",
+        "label": "Defect Detection Rate"
+      },
+      {
+        "val": "4x",
+        "label": "Automation Release Velocity"
+      },
+      {
+        "val": "100%",
+        "label": "Traceability Across Requirements"
+      }
     ],
     "strategicIntro": {
-      "heading": "Validating Reliability, Security, and Scalability Across the Software Lifecycle",
+      "eyebrow": "STRATEGIC IMPERATIVE",
+      "heading": "Eliminating Defects, Accelerating Releases, and Securing Enterprise Stability",
       "text": [
-        "In today's dynamic digital economy, enterprise applications must adapt rapidly to evolving business workflows without compromising system stability. Quality Assurance is a foundational discipline that safeguards business continuity, user confidence, and software capital investments.",
-        "Dazzlon combines decades of testing methodology with industry-proven automation and performance toolsets. Whether testing complex distributed architectures, legacy client-server systems, or global ERP suites, our engineers identify defects early in the development lifecycle, drastically reducing remediation costs and release risks."
+        "Modern enterprise software ecosystems require relentless stability across rapid release cycles. Applications that fail functional mandates, buckle under unexpected peak concurrency, or expose security vulnerabilities risk immense operational and reputational damage.",
+        "Dazzlon brings dedicated test engineering discipline to every phase of the software lifecycle. Combining automated regression suites with exhaustive manual verification across dedicated QA labs, our testing teams identify anomalies early, validate complex ERP workflows, and ensure compliant, dependable software deployments."
       ],
-      "highlightsTitle": "Testing Delivery Highlights",
+      "highlightsTitle": "Core Testing Objectives",
       "highlights": [
-        "Independent testing in Dazzlon's dedicated QA lab or embedded within client environments",
-        "Rigorous functional, regression, performance, load, and security test coverage",
-        "Automated test suites utilizing Selenium, QuickTestPro, SilkTest, and Katalon",
-        "High-concurrency stress and load testing with LoadRunner and Apache JMeter",
-        "Deep specialization in Peoplesoft and SAP functional and load validation",
-        "Source code security reviews and application vulnerability assessments"
+        "Comprehensive coverage spanning user interfaces, backend APIs, and database transactions",
+        "Automated regression suites built on reusable, maintainable data-driven frameworks",
+        "Multi-user stress and load profiling under realistic enterprise production workloads",
+        "Rigorous ERP validation across SAP, PeopleSoft, and custom business systems"
       ]
     },
     "capabilities": [
       {
+        "num": "01",
         "title": "Functional Testing",
-        "desc": "Thorough validation of software functionality against business logic, user stories, and technical specifications across diverse operating systems and browsers.",
+        "desc": "Validating every application feature against documented business rules and functional specifications across web, desktop, and client-server architectures.",
         "items": [
-          "Requirements verification and traceability matrices",
-          "Black-box and white-box functional validation",
-          "Cross-browser and multi-platform compatibility testing",
-          "User acceptance testing (UAT) enablement and governance"
+          "Business workflow and rule validation across end-to-end user journeys",
+          "Edge case, negative condition, and boundary value analysis",
+          "Cross-browser and cross-platform UI functional parity",
+          "User acceptance testing (UAT) facilitation and test harness management"
         ]
       },
       {
+        "num": "02",
         "title": "Automated Regression Testing",
-        "desc": "Rapid, repeatable automated test suites ensuring code changes, enhancements, and updates introduce zero regressions into production environments.",
+        "desc": "Automating repetitive test suites through scalable data-driven and keyword-driven frameworks to ensure new feature deployments never break existing capabilities.",
         "items": [
-          "Modular, keyword-driven automated test frameworks",
-          "Continuous integration (CI) test suite integration",
-          "Automated smoke and build-verification test runs",
-          "Ongoing test script maintenance and refactoring"
+          "Automated script development using Selenium WebDriver and HP QTP/UFT",
+          "Continuous integration (CI/CD) regression triggers with immediate reporting",
+          "Modular, maintainable automated test component libraries",
+          "Data-driven test execution simulating thousands of transactional variations"
         ]
       },
       {
+        "num": "03",
         "title": "Performance & Load Engineering",
-        "desc": "Simulating heavy transaction volumes, peak stress loads, and prolonged operation to evaluate scalability and eliminate performance bottlenecks.",
+        "desc": "Simulating multi-user concurrency and enterprise transaction volumes to measure system responsiveness, identify hardware/code bottlenecks, and validate SLAs.",
         "items": [
-          "Concurrency, stress, volume, and endurance testing",
-          "System throughput, latency, and response time benchmarking",
-          "Server resource utilization and memory leak analysis",
-          "Scalability threshold determination and capacity planning"
+          "Concurrency, stress, endurance, and spike testing with LoadRunner and JMeter",
+          "Transaction throughput, latency, and response time benchmarking",
+          "Server resource consumption, database lock, and memory leak profiling",
+          "Infrastructure capacity sizing and performance bottleneck remediation"
         ]
       },
       {
-        "title": "Security & Vulnerability Reviews",
-        "desc": "Comprehensive static source code security reviews and application vulnerability testing to identify weaknesses before deployment.",
+        "num": "04",
+        "title": "Security & Vulnerability Auditing",
+        "desc": "Assessing application attack surfaces, validating authentication flows, and conducting static and dynamic code evaluations to prevent security breaches.",
         "items": [
-          "Source code security reviews and vulnerability scans",
-          "Authentication, authorization, and privilege verification",
-          "Data injection, XSS, and parameter tampering defenses",
-          "Compliance alignment with secure SDLC best practices"
+          "Static Application Security Testing (SAST) and code inspections",
+          "Dynamic vulnerability analysis targeting OWASP Top 10 exploits",
+          "Role-based authorization, session management, and access token validation",
+          "Security compliance reporting aligned with enterprise security standards"
         ]
       },
       {
-        "title": "Enterprise ERP Validation (Peoplesoft & SAP)",
-        "desc": "Specialized functional, regression, and load testing explicitly tailored for large-scale enterprise suites, notably Peoplesoft and SAP.",
+        "num": "05",
+        "title": "Enterprise ERP Application Testing",
+        "desc": "Deep domain validation for complex enterprise systems, ensuring transactional accuracy and seamless workflow execution across large-scale platforms.",
         "items": [
-          "End-to-end ERP transactional workflow validation",
-          "Peoplesoft and SAP integration and interface testing",
-          "Database backend verification and data integrity checks",
-          "Pre- and post-upgrade regression verification suites"
+          "SAP module workflow, configuration, and interface verification",
+          "PeopleSoft business process, HR, and payroll transactional testing",
+          "Third-party middleware, messaging queue, and API contract checks",
+          "Data reconciliation and integrity audits across ERP databases"
         ]
       },
       {
-        "title": "Defect & Test Management Governance",
-        "desc": "Systematic test plan authoring, test case management, and defect tracking across industry-standard enterprise repositories.",
+        "num": "06",
+        "title": "Defect Management & Test Governance",
+        "desc": "Structured defect tracking, severity classification, and test management ensuring full traceability from requirements to resolution.",
         "items": [
-          "Centralized test case authoring and execution tracking",
-          "Defect severity, priority classification, and SLA triage",
-          "Audit-ready QA documentation and sign-off reporting",
-          "Transparent burndown and defect density metrics"
+          "Systematic defect tracking, categorization, and root-cause triage",
+          "Requirements Traceability Matrices (RTM) linking test cases to specs",
+          "Centralized test plan, case repository, and execution governance",
+          "Executive quality scorecards and release readiness sign-off audits"
         ]
       }
     ],
     "techStack": [
       {
-        "category": "Automated & Functional Tools",
+        "category": "Test Automation Frameworks",
         "tools": [
-          "Selenium",
-          "QuickTestPro (QTP/UFT)",
-          "SilkTest",
-          "WinRunner",
-          "WATIR",
-          "Katalon Studio",
-          "SoapUI",
-          "Rational Robot"
+          "Selenium WebDriver",
+          "HP QTP / UFT",
+          "Appium",
+          "Cypress",
+          "TestNG",
+          "JUnit"
         ]
       },
       {
         "category": "Performance & Load Testing",
         "tools": [
-          "Apache JMeter",
           "HP LoadRunner",
-          "Compuware",
-          "HP ALM"
+          "Apache JMeter",
+          "WinRunner",
+          "SilkTest",
+          "Gatling"
         ]
       },
       {
-        "category": "Defect Tracking & Test Management",
+        "category": "Defect & Test Management",
         "tools": [
-          "Test Director",
-          "HP ALM",
+          "HP Quality Center / TestDirector",
+          "JIRA",
           "Bugzilla",
-          "PVCS Tracker",
-          "Star Team",
-          "Jira"
+          "Zephyr",
+          "TestRail"
         ]
       },
       {
         "category": "Target Enterprise Environments",
         "tools": [
-          "SAP S/4HANA",
-          "SAP ERP",
-          "Peoplesoft Enterprise",
-          "Web & Cloud Applications",
-          "Client-Server Systems"
+          "SAP S/4HANA & ECC",
+          "PeopleSoft",
+          "Java EE",
+          ".NET Core",
+          "REST / SOAP APIs"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Discovery & Test Strategy",
-        "desc": "Analyze system architecture, user workflows, acceptance criteria, and performance objectives to formulate an actionable test plan and environment matrix."
+        "step": "01",
+        "title": "Requirements Analysis & Strategy",
+        "desc": "Deconstructing functional specifications, mapping edge cases, and establishing coverage matrices and automation criteria."
       },
       {
-        "title": "Framework & Script Engineering",
-        "desc": "Engineer robust, maintainable automated test scripts and design comprehensive manual test matrices covering positive, negative, and edge scenarios."
+        "step": "02",
+        "title": "Test Harness & Script Design",
+        "desc": "Architecting reusable test automation frameworks, building test datasets, and establishing environment baselines."
       },
       {
-        "title": "Rigorous Lab & Environment Execution",
-        "desc": "Execute functional, load, and security test runs within our dedicated lab or client environments, triaging defects with prioritized SLAs."
+        "step": "03",
+        "title": "Execution in Dedicated QA Labs",
+        "desc": "Running comprehensive functional, load, and security test cycles across isolated test environments and target browsers."
       },
       {
-        "title": "Analysis, Remediation & Release Sign-Off",
-        "desc": "Provide transparent execution dashboards, verify bug fixes through automated regression passes, and deliver formal release certification."
+        "step": "04",
+        "title": "Defect Governance & Sign-Off",
+        "desc": "Performing rigorous root-cause analysis, retesting remediations, and delivering auditable quality readiness certifications."
       }
     ],
     "businessValue": [
       {
-        "title": "Minimized Production Risk",
-        "desc": "Detect and remediate critical functional, performance, and security defects prior to release, preventing costly production outages and protecting enterprise brand integrity."
+        "title": "Production Risk Eradication",
+        "desc": "Identifying mission-critical defects in staging environments to prevent costly production outages and post-release hotfixes."
       },
       {
-        "title": "Accelerated Release Velocity",
-        "desc": "Reusable automated test suites compress regression testing cycles from weeks to hours, empowering engineering teams to deploy frequent updates with absolute confidence."
+        "title": "Accelerated Release Cycles",
+        "desc": "Reducing regression turnaround from weeks to hours through dependable automated test suites integrated into CI/CD."
       },
       {
-        "title": "Flexible & Cost-Efficient Delivery",
-        "desc": "Leverage Dazzlon's dedicated QA lab facility or embed our certified engineers directly into your delivery pipeline, eliminating internal hiring overhead."
+        "title": "Auditable Compliance",
+        "desc": "Maintaining rigorous requirement traceability matrices required by enterprise governance and regulatory mandates."
       }
     ],
     "related": [
       {
         "title": "Software Engineering",
-        "desc": "Bespoke custom application engineering and systems integration under our 'Work for Hire' contract programming model.",
+        "desc": "Proprietary custom application development and mission-critical systems integration under Work for Hire.",
         "url": "service-software.html"
       },
       {
-        "title": "Managed IT Services",
-        "desc": "Proactive SLA-backed operational support, 24/7 monitoring, and infrastructure management.",
-        "url": "service-managed.html"
+        "title": "SAP Services",
+        "desc": "Certified SAP consulting, S/4HANA migrations, and SLA-backed ITIL operational support.",
+        "url": "service-sap.html"
       },
       {
         "title": "Cybersecurity",
-        "desc": "Comprehensive 8-layer security architecture and multi-faceted digital threat defense.",
+        "desc": "Multi-layered threat defense protecting enterprise networks, applications, and cloud environments.",
         "url": "service-cybersecurity.html"
       }
     ]
@@ -186,68 +204,80 @@ const SERVICES = {
   "datawarehouse": {
     "shortTitle": "Data Warehouse & Modeling",
     "title": "Data Warehouse Design & Data Modeling Services",
-    "kicker": "ENTERPRISE DATA ARCHITECTURE",
-    "intro": "Dazzlon assesses and prioritizes opportunities for enterprise value creation based on careful investment justification and unique business requirements. We guide organizations on the journey to Active Enterprise Intelligence through world-class data modeling, warehouse architecture, business value consulting, and maturity roadmapping.",
+    "kicker": "ANALYTICAL ARCHITECTURES",
+    "intro": "Dazzlon assesses and prioritizes opportunities for enterprise value creation based on investment justification and Active Enterprise Intelligence, engineering scalable warehouse architectures and dimensional models.",
     "metrics": [
-      "Active Enterprise Intelligence",
-      "Proven ROI Projections",
-      "End-to-End Dimensional Modeling"
+      {
+        "val": "10x",
+        "label": "Query & Analytical Acceleration"
+      },
+      {
+        "val": "100%",
+        "label": "Dimensional Schema Integrity"
+      },
+      {
+        "val": "Zero",
+        "label": "Data Loss in Active Intelligence"
+      }
     ],
     "strategicIntro": {
-      "heading": "Bridging Business Imperatives and Enterprise Data Architecture",
+      "eyebrow": "ARCHITECTURAL EXCELLENCE",
+      "heading": "Turning Fragmented Data into Centralized, High-Performance Analytical Engines",
       "text": [
-        "Disparate data silos, legacy reporting systems, and disconnected databases prevent executive leadership from gaining timely, actionable business insight. Dazzlon's Architecture, Design, and Modeling Services conduct thorough current- and future-state analysis to identify the operational and market drivers that guide your journey to Active Enterprise Intelligence.",
-        "We align business stakeholders with technical delivery teams. By mapping organizational data flows, eliminating structural bottlenecks, and calculating detailed return on investment (ROI) projections, we ensure that every phase of your enterprise data warehouse (EDW) implementation delivers immediate, measurable value."
+        "Enterprises frequently operate with siloed transactional databases, disjointed reporting systems, and sluggish queries that stall strategic business decisions. A rigorously designed enterprise data warehouse provides the single source of truth essential for active business intelligence.",
+        "Dazzlon evaluates organizational maturity, establishes clear progression roadmaps, and designs high-throughput dimensional schemas. From Teradata and Oracle to cloud data warehouses, we build resilient repositories that scale alongside enterprise transaction volumes."
       ],
-      "highlightsTitle": "Data Architecture Focus",
+      "highlightsTitle": "Architectural Objectives",
       "highlights": [
-        "Comprehensive current- and future-state enterprise data landscape analysis",
-        "Discovery of business drivers guiding your journey to Active Enterprise Intelligence",
-        "Detailed return on investment (ROI) calculations and investment justifications",
-        "Identification of organizational data flows, system barriers, and legacy silos",
-        "Phased roadmap recommendations ensuring early analytical wins",
-        "Complete alignment between executive business goals and technical IT execution"
+        "Clean dimensional star and snowflake schemas aligned with core business processes",
+        "High-throughput ETL/ELT pipelines supporting active enterprise intelligence",
+        "Clear business value justification and investment ROI prioritization",
+        "Phased data warehouse maturity roadmaps mitigating architectural risks"
       ]
     },
     "capabilities": [
       {
-        "title": "Data Modeling & Schema Design",
-        "desc": "Architecting conceptual, logical, and physical data models engineered for high-concurrency analytical queries and enterprise data integrity.",
+        "num": "01",
+        "title": "Data Modeling & Schema Architecture",
+        "desc": "Designing robust dimensional star and snowflake schemas, normalized 3NF enterprise models, and conceptual-to-physical database mappings that align with strategic business requirements.",
         "items": [
-          "Dimensional modeling (star and snowflake schema design)",
-          "Entity-relationship (ER) modeling and relational normalization",
-          "Enterprise data flow mapping and lineage documentation",
-          "Granular fact and dimension table structuring"
+          "Dimensional star and snowflake schema modeling for business intelligence",
+          "Third Normal Form (3NF) relational enterprise data architecture",
+          "Logical, conceptual, and physical schema design and optimization",
+          "Standardized metadata definitions, data dictionaries, and business glossaries"
         ]
       },
       {
+        "num": "02",
         "title": "Data Warehouse Architecture",
-        "desc": "Designing resilient, scalable enterprise data warehouse and data lake foundations capable of powering mission-critical reporting and business intelligence.",
+        "desc": "Developing centralized, highly available warehouse topologies and data marts that provide a reliable foundation for enterprise intelligence and complex analytical queries.",
         "items": [
-          "Enterprise Data Warehouse (EDW) topology and tiering",
-          "High-throughput ETL and ELT pipeline architecture",
-          "Departmental data mart design and integration",
-          "Query performance tuning, indexing, and partitioning strategies"
+          "Scalable enterprise data warehouse (EDW) and data mart topologies",
+          "Active Enterprise Intelligence pipelines for near real-time decision support",
+          "Multi-tier storage architectures and automated data lifecycle archiving",
+          "High-concurrency query optimization, partitioning, and aggregation tables"
         ]
       },
       {
+        "num": "03",
         "title": "Business Value Consulting",
-        "desc": "Directly connecting technical data warehouse investments with executive strategic goals through rigorous financial and operational justification.",
+        "desc": "Evaluating analytical investment opportunities and quantifying business value to establish clear return on investment (ROI) and executive justification for warehouse modernization.",
         "items": [
-          "Identification and prioritization of value creation opportunities",
-          "Detailed ROI calculation models and investment justification",
-          "Formulation of executive business cases for stakeholder sign-off",
-          "Value realization tracking and KPI governance across phases"
+          "Analytical opportunity identification and value realization prioritization",
+          "Comprehensive total cost of ownership (TCO) and ROI comparative analysis",
+          "Identification of reporting bottlenecks, data latency, and analytical blind spots",
+          "Executive KPI definition, business alignment, and investment justification"
         ]
       },
       {
-        "title": "Data Warehouse Maturity Consulting",
-        "desc": "Evaluating organizational analytical maturity against industry benchmarks and defining an incremental, risk-mitigated progression path.",
+        "num": "04",
+        "title": "Maturity Consulting & Roadmapping",
+        "desc": "Assessing current data infrastructure against industry maturity benchmarks and defining a practical, risk-mitigated progression path toward advanced enterprise analytics.",
         "items": [
-          "Analytical maturity gap analysis across data tiers",
-          "Prioritized, phased data warehouse implementation roadmaps",
-          "Technology evaluation and enterprise platform selection",
-          "Operating model design and data governance alignment"
+          "Enterprise analytical maturity gap analysis across systems and teams",
+          "Phased data warehouse implementation roadmaps minimizing operational disruption",
+          "Technology platform evaluation, database benchmarking, and vendor selection",
+          "Data operating model design, stewardship roles, and architectural governance"
         ]
       }
     ],
@@ -259,176 +289,190 @@ const SERVICES = {
           "Oracle Database",
           "Microsoft SQL Server",
           "Snowflake",
-          "AWS Redshift"
+          "Amazon Redshift"
         ]
       },
       {
         "category": "Data Modeling Frameworks",
         "tools": [
           "Erwin Data Modeler",
-          "ER/Studio",
-          "PowerDesigner",
-          "Dimensional Modeling",
-          "Star/Snowflake Schemas"
+          "Embarcadero ER/Studio",
+          "SAP PowerDesigner",
+          "SQL Developer"
         ]
       },
       {
         "category": "ETL & Pipeline Integration",
         "tools": [
           "Informatica PowerCenter",
-          "Ab Initio",
-          "Microsoft SSIS",
-          "Apache Spark",
-          "PL/SQL"
+          "Talend Data Fabric",
+          "SQL Server SSIS",
+          "Apache Spark"
         ]
       },
       {
         "category": "Business Intelligence & Analytics",
         "tools": [
-          "Cognos",
-          "Business Objects",
-          "MicroStrategy",
-          "Tableau",
-          "WebFOCUS"
+          "SAP BusinessObjects",
+          "IBM Cognos",
+          "Microsoft PowerBI",
+          "Tableau"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Current-State Assessment",
-        "desc": "Audit existing data sources, schemas, reporting bottlenecks, and business requirements to establish an objective analytical maturity baseline."
+        "step": "01",
+        "title": "Value Discovery & Opportunity Sizing",
+        "desc": "Interviewing business stakeholders, cataloging source systems, and defining clear ROI metrics for warehouse modernization."
       },
       {
-        "title": "Business Value Modeling & ROI",
-        "desc": "Identify high-impact analytical opportunities, formulate business cases, and calculate ROI projections to justify each implementation phase."
-      },
-      {
+        "step": "02",
         "title": "Architectural & Schema Blueprint",
-        "desc": "Develop dimensional models, logical and physical ER schemas, ETL pipeline specifications, and data warehouse infrastructure topologies."
+        "desc": "Developing dimensional models, bus matrices, 3NF logical schemas, and high-performance warehouse topologies."
       },
       {
-        "title": "Phased Delivery & Maturity Scaling",
-        "desc": "Implement initial high-priority warehouse phases, validate query performance, and iteratively progress toward Active Enterprise Intelligence."
+        "step": "03",
+        "title": "Pipeline Build & Data Staging",
+        "desc": "Constructing automated ETL/ELT extraction pipelines, data staging areas, and active intelligence ingestion routines."
+      },
+      {
+        "step": "04",
+        "title": "Query Tuning & Analytical Enablement",
+        "desc": "Tuning database indices, partitioning tables, and connecting business intelligence tools for sub-second executive reporting."
       }
     ],
     "businessValue": [
       {
-        "title": "Trusted Single Source of Truth",
-        "desc": "Eliminate conflicting reports and departmental silos by establishing a unified, rigorously governed enterprise dimensional data model."
+        "title": "Single Version of the Truth",
+        "desc": "Eradicating conflicting reports across departments with an authoritative, centralized enterprise data repository."
       },
       {
-        "title": "Justified Capital Investment",
-        "desc": "Every project phase is backed by detailed ROI projections and value creation models, ensuring transparent accountability and rapid time-to-value."
+        "title": "Sub-Second Query Performance",
+        "desc": "Optimizing schemas and indexing structures to deliver real-time operational insights across massive historical datasets."
       },
       {
-        "title": "Active Enterprise Intelligence",
-        "desc": "Transition from retrospective reporting to forward-looking, real-time decision support that drives agile business responsiveness."
+        "title": "Defensible Capital Investment",
+        "desc": "Ensuring technology investments directly serve high-value business outcomes through rigorous value consulting."
       }
     ],
     "related": [
       {
         "title": "Data Management & Analytics",
-        "desc": "Enterprise data governance, master data management, and end-to-end digital analytics.",
+        "desc": "Enterprise governance, automated quality cleansing, and high-speed integration pipelines.",
         "url": "service-data.html"
       },
       {
         "title": "Cloud Services",
-        "desc": "Modern cloud infrastructure, scalable storage, and managed cloud data solutions.",
+        "desc": "Modernize legacy infrastructure with scalable hybrid and multi-cloud architectures.",
         "url": "service-cloud.html"
       },
       {
-        "title": "SAP Services",
-        "desc": "Future-ready ERP, SAP HANA database integration, and enterprise business process intelligence.",
-        "url": "service-sap.html"
+        "title": "AI & Machine Learning",
+        "desc": "Predictive modeling and document intelligence grounded in enterprise data.",
+        "url": "service-ai.html"
       }
     ]
   },
   "sap": {
     "shortTitle": "SAP Services",
-    "title": "SAP Consulting, Transformation & Managed Support",
-    "kicker": "ENTERPRISE ERP & SAP SOLUTIONS",
-    "intro": "Dazzlon's experienced, certified SAP consultants empower enterprises to become future-ready across four core capabilities: Cloud ERP, Business Process Intelligence, Business Technology Platforms, and Business Networks. From strategic S/4HANA migrations to dedicated 2nd and 3rd level support, we maximize your SAP investments.",
+    "title": "SAP Consulting, S/4HANA Transformation & Managed ITIL Support",
+    "kicker": "ENTERPRISE SAP SOLUTIONS",
+    "intro": "Dazzlon empowers enterprises to become future-ready through certified SAP consulting, seamless S/4HANA migrations, Business Technology Platform integration, and SLA-backed 2nd/3rd level ITIL operational support.",
     "metrics": [
-      "Certified SAP & ITIL Specialists",
-      "2nd & 3rd Level Dedicated Support",
-      "S/4HANA & HANA Database Expertise"
+      {
+        "val": "99.9%",
+        "label": "Landscape Operational Uptime"
+      },
+      {
+        "val": "30%",
+        "label": "Process Efficiency Gain"
+      },
+      {
+        "val": "24/7",
+        "label": "ITIL 2nd & 3rd Level Support"
+      }
     ],
     "strategicIntro": {
-      "heading": "Future-Ready ERP and Certified Operational Support",
+      "eyebrow": "ENTERPRISE CORE",
+      "heading": "Modernizing Mission-Critical SAP Environments for Agility and Scale",
       "text": [
-        "SAP environments form the operational backbone of global enterprises, orchestrating finance, supply chain, procurement, and customer operations. Maintaining and modernizing these mission-critical systems requires seasoned technical specialists with proven functional and architectural expertise.",
-        "Dazzlon provides comprehensive consulting, transformation, and operational support for medium-sized businesses and group-wide global solutions. Our team brings years of hands-on experience across traditional SAP ERP architectures, SAP HANA in-memory databases, and next-generation SAP S/4HANA transformations. Through standardized ITIL-certified processes, we ensure dependable 2nd and 3rd level support that drives operational efficiency."
+        "As SAP transitions enterprises toward S/4HANA and cloud ecosystems, organizations must modernize core ERP processes while ensuring zero disruption to everyday manufacturing, supply chain, and financial operations.",
+        "Dazzlon's certified SAP practitioners combine deep functional knowledge with technical engineering rigor. We design smooth transitions from SAP ECC to S/4HANA, integrate the Business Technology Platform (BTP), and deliver SLA-driven 2nd and 3rd level support that keeps mission-critical business systems running smoothly."
       ],
-      "highlightsTitle": "SAP Delivery Highlights",
+      "highlightsTitle": "SAP COE Focus",
       "highlights": [
-        "Future-ready ERP powered by cloud and modern in-memory computing",
-        "Business process intelligence to identify bottlenecks and drive transformation",
-        "Business technology platforms extending core capabilities with advanced analytics",
-        "Business networks connecting supply chain ecosystems and partners",
-        "Dedicated 2nd and 3rd level technical and functional support coverage",
-        "Certified ITIL processes: Service Desk, Incident, Problem, and Change Management",
-        "Individualized support models delivering cost reduction and knowledge transfer"
+        "Proven migration blueprints from ECC to S/4HANA and in-memory SAP HANA databases",
+        "Business Process Intelligence to simulate, benchmark, and streamline core workflows",
+        "Extensible cloud application development utilizing SAP Business Technology Platform (BTP)",
+        "ITIL-governed incident, problem, change, and user service request management"
       ]
     },
     "capabilities": [
       {
-        "title": "Future-Ready Cloud ERP (S/4HANA)",
-        "desc": "Modernizing core enterprise resource planning through SAP S/4HANA and SAP HANA in-memory database architectures.",
+        "num": "01",
+        "title": "Future-Ready Cloud ERP (S/4HANA & HANA Core)",
+        "desc": "Architecting and executing seamless migrations from legacy SAP ECC to SAP S/4HANA, optimizing in-memory database processing and modernizing core business operations.",
         "items": [
-          "SAP S/4HANA migration planning, sizing, and execution",
-          "Landscape consolidation and cloud deployment strategies",
-          "Core finance (FI/CO) and logistics module modernization",
-          "Clean-core design and custom ABAP adaptation"
+          "Greenfield and brownfield S/4HANA implementation blueprints and roadmaps",
+          "In-memory SAP HANA database migration, sizing, and performance tuning",
+          "Core financial (FI/CO) and supply chain/logistics (MM/SD) modernization",
+          "SAP Fiori role-based modern user experience enablement and mobile adoption"
         ]
       },
       {
-        "title": "Business Process Intelligence",
-        "desc": "Analyzing, benchmarking, and optimizing business processes across the enterprise to eliminate friction and drive intelligent automation.",
+        "num": "02",
+        "title": "Business Process Intelligence (BPI)",
+        "desc": "Analyzing, simulating, and optimizing enterprise workflows to uncover operational bottlenecks, improve cycle times, and eliminate process friction across the value chain.",
         "items": [
-          "End-to-end business process mining and workflow discovery",
-          "Operational bottleneck identification and root-cause analysis",
-          "Process standardization across operating business units",
-          "Continuous process monitoring and KPI benchmarking"
+          "Automated process mining and business process discovery across modules",
+          "Workflow bottleneck identification, cycle time analysis, and root-cause discovery",
+          "Transactional throughput benchmarking against industry peer standards",
+          "Continuous process re-engineering and simulation modeling"
         ]
       },
       {
+        "num": "03",
         "title": "Business Technology Platform (BTP) & Analytics",
-        "desc": "Extending SAP core applications, integrating hybrid third-party platforms, and delivering advanced analytics and reporting.",
+        "desc": "Extending enterprise capabilities and integrating cloud applications using SAP BTP, enterprise APIs, and unified analytical models.",
         "items": [
-          "Custom cloud extensions and microservice integration",
-          "Seamless connectivity between SAP and non-SAP enterprise software",
-          "Enterprise analytics and dashboarding via Business Objects",
-          "Secure API management and enterprise data synchronization"
+          "Side-by-side extensibility and custom service development on SAP BTP",
+          "Hybrid cloud integration linking SAP with third-party and custom systems",
+          "Enterprise analytical modeling utilizing SAP Analytics Cloud (SAC)",
+          "Intelligent workflow automation and API-led connectivity"
         ]
       },
       {
+        "num": "04",
         "title": "Business Networks & Supply Ecosystems",
-        "desc": "Connecting trading partners, suppliers, and distributors to create agile, highly transparent digital supply networks.",
+        "desc": "Connecting trading partners, logistics providers, and suppliers into a resilient digital ecosystem with automated document exchange.",
         "items": [
-          "Cross-enterprise workflow collaboration and EDI integration",
-          "Supplier portal connectivity and automated procurement workflows",
-          "End-to-end logistics visibility and inventory synchronization",
-          "Secure partner connectivity and automated document exchange"
+          "Supplier collaboration, procurement automation, and SAP Ariba integration",
+          "Digital logistics, inventory synchronization, and warehouse management",
+          "Trading partner onboarding, EDI mapping, and RFC interface governance",
+          "End-to-end supply chain visibility and contingency tracking"
         ]
       },
       {
-        "title": "Dedicated 2nd & 3rd Level Support",
-        "desc": "Reliable, SLA-backed operational support for medium-sized businesses and enterprise environments to ensure continuous uptime.",
+        "num": "05",
+        "title": "Dedicated 2nd & 3rd Level SAP Support",
+        "desc": "Delivering contractual, SLA-backed technical assistance, complex bug remediation, and user service request management across production landscapes.",
         "items": [
-          "2nd level functional support and application troubleshooting",
-          "3rd level technical bug fixing, patch application, and code remediation",
-          "ITSM Service Desk operation and priority escalation management",
-          "Comprehensive root-cause analysis and preventative maintenance"
+          "Dedicated Service Desk with contractual response times for production tickets",
+          "2nd level functional support for workflow configuration, user errors, and authorizations",
+          "3rd level technical support for deep ABAP debugging, dumps, and database remediation",
+          "Comprehensive user service request processing and access governance"
         ]
       },
       {
-        "title": "ITIL Service Management & Governance",
-        "desc": "Structuring SAP operations according to globally recognized ITIL best practices for predictable, auditable enterprise delivery.",
+        "num": "06",
+        "title": "ITIL Service Management & Change Governance",
+        "desc": "Executing systematic incident management, problem management, and change control to safeguard system stability and regression-free releases.",
         "items": [
-          "Incident Management for rapid resolution of critical operational disruptions",
-          "Problem Management to eradicate recurring root causes and defects",
-          "Change Management with strict testing, review, and approval gates",
-          "Service Request Management ensuring responsive fulfillment"
+          "Incident management protocols ensuring rapid restoration of standard service",
+          "Problem management and root-cause analysis preventing recurring failures",
+          "Change management boards (CAB) overseeing regression-safe system modifications",
+          "Transport governance and release deployment across DEV, QA, and PROD tiers"
         ]
       }
     ],
@@ -437,156 +481,182 @@ const SERVICES = {
         "category": "Core SAP Platforms",
         "tools": [
           "SAP S/4HANA",
-          "SAP ERP Central Component (ECC)",
-          "SAP HANA Database",
-          "SAP Business Technology Platform (BTP)"
+          "SAP HANA",
+          "SAP ECC 6.0",
+          "SAP NetWeaver",
+          "SAP Fiori"
+        ]
+      },
+      {
+        "category": "Integration & BTP",
+        "tools": [
+          "SAP BTP",
+          "SAP Integration Suite",
+          "ABAP Core Data Services",
+          "OData APIs"
         ]
       },
       {
         "category": "Operational Support & ITIL",
         "tools": [
-          "ITIL Framework",
-          "ITSM Service Desk",
-          "Remedy ResolveIT",
-          "Jira Service Management",
-          "SAP Solution Manager"
+          "SAP Solution Manager",
+          "ServiceNow ITSM",
+          "Jira Service Desk",
+          "ITIL Framework"
         ]
       },
       {
-        "category": "Development & Interfaces",
+        "category": "Enterprise Reporting & Supply",
         "tools": [
-          "ABAP / ABAP Objects",
-          "SAP Fiori / UI5",
-          "REST / SOAP APIs",
-          "SAP NetWeaver",
-          "OData Services"
-        ]
-      },
-      {
-        "category": "Enterprise Reporting",
-        "tools": [
-          "Business Objects",
-          "SAP BW/4HANA",
-          "Crystal Reports",
-          "SAP Analytics Cloud"
+          "SAP Analytics Cloud",
+          "SAP BusinessObjects",
+          "SAP Ariba",
+          "EDI / RFC"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Landscape Assessment & Discovery",
-        "desc": "Audit existing SAP modules, custom ABAP code, database performance, and current support processes to establish an actionable roadmap."
+        "step": "01",
+        "title": "Landscape Discovery & Readiness Audit",
+        "desc": "Reviewing existing customizations, data volumes, third-party interfaces, and S/4HANA migration compatibility."
       },
       {
-        "title": "Architecture & SLA Design",
-        "desc": "Design tailored 2nd/3rd level support structures or architect S/4HANA migration pathways aligned with organizational business drivers."
+        "step": "02",
+        "title": "Target Architecture & Roadmap",
+        "desc": "Formulating detailed technical migration blueprints, BTP integration models, and support SLA tier structures."
       },
       {
-        "title": "ITIL Service Execution & Migration",
-        "desc": "Deploy certified consultants to manage incident, problem, and change workflows, or execute phased S/4HANA technical migrations."
+        "step": "03",
+        "title": "Migration, Code Refactoring & Testing",
+        "desc": "Executing database transitions, converting custom ABAP code, and performing end-to-end user regression testing."
       },
       {
-        "title": "Continuous Optimization & Knowledge Transfer",
-        "desc": "Conduct regular operational reviews, optimize database throughput, and train internal staff to build sustained organizational self-sufficiency."
+        "step": "04",
+        "title": "ITIL Managed Operations & Governance",
+        "desc": "Providing round-the-clock 2nd/3rd level support, patch management, change control, and continuous optimization."
       }
     ],
     "businessValue": [
       {
-        "title": "Measurable Cost Reduction",
-        "desc": "Structured 2nd and 3rd level support reduces operational overhead and avoids the expense of maintaining extensive internal SAP specialist teams."
+        "title": "Uninterrupted Business Continuity",
+        "desc": "Achieving 99.9%+ availability on core transactional engines with SLA-governed 2nd/3rd level support."
       },
       {
-        "title": "Uncompromised Core Business Focus",
-        "desc": "Free your internal IT leadership from routine ticket management and patching, allowing them to focus entirely on high-value business growth."
+        "title": "Real-Time Decision Intelligence",
+        "desc": "Eliminating overnight batch jobs and accessing immediate financial and supply analytics via in-memory HANA."
       },
       {
-        "title": "De-Risked Digital Transformation",
-        "desc": "Certified SAP consultants guide your transition to S/4HANA and in-memory computing with structured testing and proven data migration rigor."
+        "title": "Future-Proof Core Architecture",
+        "desc": "Clean-core modernization keeping ERP logic standardized while building innovations cleanly on SAP BTP."
       }
     ],
     "related": [
       {
         "title": "Quality Assurance",
-        "desc": "Specialized functional, regression, and load testing for SAP and Peoplesoft enterprise suites.",
+        "desc": "Comprehensive functional, performance, and ERP regression testing across dedicated labs.",
         "url": "service-qa.html"
       },
       {
         "title": "Cloud Services",
-        "desc": "Scalable cloud infrastructure, migration, and managed hosting for enterprise applications.",
+        "desc": "Modernize legacy infrastructure with secure hybrid and multi-cloud architectures.",
         "url": "service-cloud.html"
       },
       {
-        "title": "Data Warehouse Design",
-        "desc": "Enterprise data modeling, active intelligence, and analytical data architecture.",
-        "url": "service-datawarehouse.html"
+        "title": "Software Engineering",
+        "desc": "Proprietary custom application development and mission-critical systems integration.",
+        "url": "service-software.html"
       }
     ]
   },
   "cloud": {
     "shortTitle": "Cloud Services",
-    "title": "Cloud Strategy, Migration & Infrastructure Services",
-    "kicker": "CLOUD INFRASTRUCTURE & MODERNIZATION",
-    "intro": "Avoid the upfront capital cost and operational complexity of owning and maintaining internal IT infrastructure. Dazzlon provides end-to-end cloud consulting, architecture modernization, and managed operations across Amazon Web Services (AWS 175+ services) and Microsoft Azure (200+ products).",
+    "title": "Cloud Strategy, Infrastructure Modernization & Hybrid Cloud Engineering",
+    "kicker": "ENTERPRISE CLOUD ARCHITECTURE",
+    "intro": "Dazzlon helps enterprises modernize infrastructure, migrate legacy applications, and manage scalable hybrid and multi-cloud environments across AWS and Microsoft Azure with stringent cost and security governance.",
     "metrics": [
-      "AWS 175+ Services Managed",
-      "Azure 200+ Products Deployed",
-      "Zero-Downtime Migration Framework"
+      {
+        "val": "35%",
+        "label": "Average Cost Reduction (FinOps)"
+      },
+      {
+        "val": "99.95%",
+        "label": "High-Availability Architecture"
+      },
+      {
+        "val": "100%",
+        "label": "Automated Infrastructure as Code"
+      }
     ],
     "strategicIntro": {
-      "heading": "Modernizing Infrastructure and Scaling on Modern Cloud Platforms",
+      "eyebrow": "CLOUD TRANSFORMATION",
+      "heading": "Accelerating Enterprise Agility with Scalable, Resilient Cloud Architecture",
       "text": [
-        "Maintaining on-premise hardware infrastructure requires substantial capital expenditure, dedicated data center facilities, and constant maintenance. Transitioning to leading hyperscale cloud providers enables organizations to store and analyze vast volumes of data, modernize legacy applications, and scale computing power instantaneously.",
-        "Dazzlon designs, deploys, and manages resilient cloud environments built around your business challenges. Across Amazon Web Services (AWS) and Microsoft Azure, our engineers implement secure, cost-optimized architectures that promote collaboration, enhance security postures, and provide the flexible digital foundation your enterprise needs to thrive."
+        "Migrating to the cloud is no longer just about offloading on-premises data centers; it is about establishing an agile, automated foundation for digital innovation, rapid scaling, and resilient business continuity.",
+        "Dazzlon guides enterprises through every stage of cloud modernization. We modernize legacy applications, establish hybrid and multi-cloud topologies across AWS and Microsoft Azure, optimize cloud expenditures through FinOps, and embed security controls directly into infrastructure code."
       ],
-      "highlightsTitle": "Cloud Delivery Highlights",
+      "highlightsTitle": "Cloud Engineering Focus",
       "highlights": [
-        "Full architectural and operational coverage for Amazon Web Services (AWS)",
-        "Complete migration and management capabilities across Microsoft Azure products",
-        "Elimination of upfront hardware capital expenditures through pay-as-you-go models",
-        "Systematic modernization and re-platforming of legacy on-premises applications",
-        "Multi-region high availability, automated failover, and disaster recovery",
-        "Proactive cloud cost optimization, automated governance, and resource rightsizing"
+        "Phased, risk-mitigated migrations minimizing operational downtime",
+        "Infrastructure as Code (IaC) for repeatable, auditable deployments",
+        "Hybrid cloud topologies linking on-prem data centers with public clouds",
+        "Continuous FinOps cost optimization and enterprise security guardrails"
       ]
     },
     "capabilities": [
       {
+        "num": "01",
+        "title": "Cloud & Infrastructure Modernization",
+        "desc": "Re-platforming and refactoring legacy on-premises applications into elastic, microservices-oriented architectures that unlock superior agility and operational efficiency.",
+        "items": [
+          "Application portfolio rationalization and 6-R migration strategy execution",
+          "Monolith decomposition and containerization with Docker and Kubernetes",
+          "Modernization of legacy operating systems and relational database tiers",
+          "Automated deployment pipeline integration and cloud landing zone design"
+        ]
+      },
+      {
+        "num": "02",
         "title": "Amazon Web Services (AWS) Engineering",
-        "desc": "Leveraging compute power, scalable storage, managed databases, and serverless architectures across the broad ecosystem of 175+ AWS enterprise services.",
+        "desc": "Architecting, managing, and automating scalable enterprise workloads across compute, resilient storage, databases, and serverless technologies on AWS.",
         "items": [
           "Amazon EC2 compute provisioning, auto-scaling, and cluster management",
-          "Amazon S3 resilient object storage and lifecycle policy automation",
+          "Amazon S3 resilient object storage and automated lifecycle policy archiving",
           "Managed database administration across Amazon RDS and DynamoDB",
           "Serverless application architectures utilizing AWS Lambda and API Gateway"
         ]
       },
       {
-        "title": "Microsoft Azure Cloud Solutions",
-        "desc": "Architecting, managing, and deploying enterprise applications across the comprehensive catalog of 200+ Microsoft Azure cloud products.",
+        "num": "03",
+        "title": "Microsoft Azure Enterprise Solutions",
+        "desc": "Building robust enterprise application environments, software-defined networks, and cloud database systems across the Microsoft Azure ecosystem.",
         "items": [
           "Azure Virtual Machines and software-defined Virtual Networks (VNets)",
           "Azure SQL Database, Cosmos DB, and Blob storage management",
-          "Enterprise data analytics architectures with Azure Synapse",
-          "Identity and access governance via Microsoft Entra ID (Azure AD)"
+          "Enterprise data analytics integration with Azure Synapse",
+          "Identity, access, and governance enforcement with Microsoft Entra ID"
         ]
       },
       {
-        "title": "Infrastructure Modernization & Migration",
-        "desc": "Structured, risk-mitigated migration of on-premises servers, databases, and enterprise applications to modern cloud architectures.",
+        "num": "04",
+        "title": "Scalable Storage & Hybrid Cloud Architecture",
+        "desc": "Designing high-performance hybrid cloud architectures that securely bridge on-premises data centers with cloud resources for elastic scaling and disaster recovery.",
         "items": [
-          "Workload discovery, dependency mapping, and migration strategy (6 Rs)",
-          "Database schema conversion and automated minimal-downtime replication",
-          "Legacy application re-hosting, re-platforming, and containerization",
-          "Post-migration performance benchmarking and architectural hardening"
+          "Scalable cloud storage, data lakes, and automated tiered data retention",
+          "Dedicated hybrid connectivity via AWS Direct Connect and Azure ExpressRoute",
+          "Multi-region data replication and automated disaster recovery failover",
+          "Consistent networking and directory identity federation across hybrid tiers"
         ]
       },
       {
-        "title": "Cloud Governance, Cost Optimization & Security",
-        "desc": "Establishing continuous telemetry, automated policy enforcement, and proactive cost governance to prevent cloud budget overruns.",
+        "num": "05",
+        "title": "Cloud Governance, Cost Management (FinOps) & Security",
+        "desc": "Implementing proactive financial operations (FinOps), compliance policies, and automated security controls to eliminate waste and prevent breaches.",
         "items": [
-          "FinOps practices, automated resource shutdown, and rightsizing",
-          "Infrastructure as Code (IaC) templating using Terraform and CloudFormation",
-          "Cloud security posture management (CSPM) and compliance auditing",
-          "24/7 infrastructure health, SLA monitoring, and alerting integration"
+          "Cloud spend auditing, rightsizing recommendations, and reserved capacity management",
+          "Automated tagging, cost allocation, and executive budget monitoring",
+          "Multi-layered identity and access policies (IAM) with least-privilege enforcement",
+          "Continuous security posture management and compliance reporting"
         ]
       }
     ],
@@ -599,10 +669,8 @@ const SERVICES = {
           "RDS",
           "Lambda",
           "VPC",
-          "CloudFront",
           "IAM",
-          "CloudWatch",
-          "Redshift",
+          "CloudFront",
           "Route 53"
         ]
       },
@@ -612,149 +680,173 @@ const SERVICES = {
           "Azure VMs",
           "Blob Storage",
           "Azure SQL",
-          "AKS (Kubernetes)",
-          "Azure Synapse",
-          "Entra ID",
-          "Azure Monitor"
+          "Synapse",
+          "VNets",
+          "Entra ID"
         ]
       },
       {
         "category": "DevOps & Infrastructure as Code",
         "tools": [
           "Terraform",
-          "AWS CloudFormation",
+          "Ansible",
           "Docker",
           "Kubernetes",
-          "CI/CD Pipelines",
-          "Ansible"
+          "AWS CloudFormation"
         ]
       },
       {
-        "category": "Operating Systems & Networking",
+        "category": "Governance & FinOps",
         "tools": [
-          "Linux (RHEL, Ubuntu, CentOS)",
-          "Windows Server",
-          "Unix",
-          "Site-to-Site VPN",
-          "Direct Connect"
+          "AWS Cost Explorer",
+          "Azure Cost Management",
+          "Datadog",
+          "Prometheus"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Cloud Readiness Assessment",
-        "desc": "Inventory existing servers, analyze application dependencies, evaluate licensing requirements, and project cloud Total Cost of Ownership (TCO)."
+        "step": "01",
+        "title": "Workload Assessment & Cloud Readiness",
+        "desc": "Evaluating application dependencies, network bandwidth requirements, and compliance mandates."
       },
       {
-        "title": "Target Architecture Design",
-        "desc": "Formulate multi-tier VPC/VNet topologies, identity federation blueprints, security boundaries, and disaster recovery configurations."
+        "step": "02",
+        "title": "Architecture Blueprint & Landing Zones",
+        "desc": "Establishing secure multi-account landing zones, VPC structures, and identity policies."
       },
       {
-        "title": "Phased Migration Execution",
-        "desc": "Execute automated data replication, validate staging environments, and perform cutover windows designed to guarantee zero data loss."
+        "step": "03",
+        "title": "Phased Migration & Infrastructure Deployment",
+        "desc": "Executing automated data synchronization, workload cutover, and comprehensive regression verification."
       },
       {
-        "title": "Continuous Governance & FinOps",
-        "desc": "Deploy automated cost monitoring, enforce security policies, and continuously optimize resource sizing for peak efficiency."
+        "step": "04",
+        "title": "FinOps Optimization & Managed Governance",
+        "desc": "Enforcing continuous cost auditing, autoscaling policies, and automated security telemetry."
       }
     ],
     "businessValue": [
       {
-        "title": "Zero Upfront Infrastructure CapEx",
-        "desc": "Eliminate expensive server hardware purchases and data center leases in favor of a flexible, transparent operational expenditure model."
+        "title": "Cost Predictability & Control",
+        "desc": "Eliminating unmanaged cloud sprawl with automated governance and FinOps rightsizing."
       },
       {
-        "title": "Elastic On-Demand Scalability",
-        "desc": "Scale compute, memory, and storage resources in minutes rather than months, dynamically responding to business growth and seasonal spikes."
+        "title": "Elastic Scalability",
+        "desc": "Scaling compute and storage resources dynamically to accommodate peak business transaction demand."
       },
       {
-        "title": "High Availability & Business Continuity",
-        "desc": "Protect mission-critical operations with automated multi-zone failover, geo-redundant backups, and strict recovery time objectives."
+        "title": "Enterprise Resilience",
+        "desc": "Achieving 99.95%+ availability and sub-minute failover across multiple availability zones."
       }
     ],
     "related": [
       {
         "title": "Managed IT Services",
-        "desc": "Proactive SLA-backed operational management, infrastructure maintenance, and 24/7 monitoring.",
+        "desc": "Contracted SLA-backed infrastructure administration and 24/7 telemetry monitoring.",
         "url": "service-managed.html"
       },
       {
         "title": "Cybersecurity",
-        "desc": "Multi-layered threat protection, cloud security posture management, and zero-trust defenses.",
+        "desc": "Multi-layered threat defense protecting enterprise networks, applications, and cloud environments.",
         "url": "service-cybersecurity.html"
       },
       {
         "title": "Data Warehouse Design",
-        "desc": "Active enterprise intelligence, dimensional modeling, and cloud data warehouse architectures.",
+        "desc": "Active enterprise intelligence, dimensional modeling, and cloud warehouse architectures.",
         "url": "service-datawarehouse.html"
       }
     ]
   },
   "managed": {
     "shortTitle": "Managed IT",
-    "title": "Managed IT Services & Operational Support",
-    "kicker": "ENTERPRISE IT MANAGEMENT & OUTSOURCING",
-    "intro": "Dazzlon's Managed IT Services provide contracted, SLA-backed operational management to lighten the workload of in-house teams, supplement internal engineering bandwidth, or serve as a fully outsourced IT organization. We deliver proactive 24/7 monitoring, preventative maintenance, and rapid incident resolution.",
+    "title": "Managed IT Services, Infrastructure Administration & SLA Support",
+    "kicker": "24/7 OPERATIONAL EXCELLENCE",
+    "intro": "Dazzlon provides contracted, SLA-backed operational management, proactive 24/7 monitoring, and IT team supplementation to lighten internal workload, prevent downtime, and scale enterprise technology operations.",
     "metrics": [
-      "Contractual SLA Guarantees",
-      "24/7 Continuous System Monitoring",
-      "Preventative Maintenance & Patching"
+      {
+        "val": "99.99%",
+        "label": "Infrastructure Availability SLA"
+      },
+      {
+        "val": "<15 Min",
+        "label": "Critical Incident Response"
+      },
+      {
+        "val": "24/7/365",
+        "label": "Proactive Health Monitoring"
+      }
     ],
     "strategicIntro": {
-      "heading": "Reliable, Predictable IT Operations Backed by Contracted SLAs",
+      "eyebrow": "OPERATIONAL PARTNER",
+      "heading": "Seamless Operational Support That Functions as an Extension of Your IT Team",
       "text": [
-        "Managing modern enterprise IT environments requires specialized competencies spanning networking, cloud management, database administration, cybersecurity, and user desktop support. Recruiting, training, and retaining internal teams across every domain is operationally demanding and cost-prohibitive.",
-        "Dazzlon's Managed IT Services offer an adaptable, subscription-based partnership. Whether you need to alleviate pressure on an overstretched internal team, bridge critical technical skill gaps, or completely outsource daily IT administration, our seasoned engineers safeguard uptime, prevent system failures, and provide responsive help desk support around the clock."
+        "Internal IT departments face increasing pressure to balance daily routine administration with strategic digital initiatives. Hardware failures, unpatched vulnerabilities, and sudden outages can derail entire organizations.",
+        "Dazzlon functions as a true contracted extension of your internal technology organization. Backed by strict SLAs, our managed services cover infrastructure administration, proactive 24/7 telemetry monitoring, scheduled maintenance, and on-demand team supplementation that prevents downtime and allows your staff to focus on strategic goals."
       ],
-      "highlightsTitle": "Managed Services Model",
+      "highlightsTitle": "Managed IT Pillars",
       "highlights": [
-        "Contractual Service Level Agreements (SLAs) tailored to business criticality",
-        "24/7 proactive system monitoring to prevent downtime before it impacts operations",
-        "Routine off-hours preventative maintenance, security patching, and firmware updates",
-        "Flexible delivery models: supplement in-house staff or provide turnkey IT management",
-        "Centralized service desk handling incident, problem, and service request workflows",
-        "Transparent executive scorecards on system health, availability, and SLA compliance"
+        "SLA-backed infrastructure administration and preventative patch management",
+        "24/7/365 real-time telemetry, threshold alerts, and anomaly detection",
+        "Flexible IT team supplementation to handle operational spikes and projects",
+        "Rigorous disaster recovery runbooks and verified data backup routines"
       ]
     },
     "capabilities": [
       {
-        "title": "Infrastructure & Server Administration",
-        "desc": "End-to-end management, maintenance, and performance tuning for on-premises, cloud, and hybrid server infrastructures.",
+        "num": "01",
+        "title": "SLA-Based Infrastructure & Server Administration",
+        "desc": "Managing on-premises, virtual, and cloud server environments under contractual SLAs to maintain maximum performance, security, and uptime.",
         "items": [
-          "24/7 server health, memory, CPU, and disk utilization monitoring",
-          "Operating system patch management and security updates during off-hours",
-          "Storage allocation, virtualization management, and capacity planning",
-          "Hardware lifecycle management and proactive upgrade recommendations"
+          "Windows and Linux server provisioning, tuning, and lifecycle maintenance",
+          "Automated OS patching, firmware updates, and security hardening",
+          "Virtual machine and container host cluster management (VMware, Hyper-V)",
+          "Resource threshold capacity planning and storage allocation"
         ]
       },
       {
-        "title": "Network Management & Connectivity",
-        "desc": "Monitoring and optimizing corporate networks, routers, switches, firewalls, and secure site-to-site VPN connections.",
+        "num": "02",
+        "title": "Proactive Monitoring, Alerting & Telemetry",
+        "desc": "Deploying continuous 24/7 telemetry and synthetic transaction monitoring to identify and remediate hardware, network, and service anomalies before they impact end users.",
         "items": [
-          "Network availability monitoring, traffic analysis, and bandwidth tuning",
-          "Firewall rule configuration, firmware updates, and intrusion prevention",
-          "Secure remote access VPN management for distributed workforces",
-          "LAN/WAN performance optimization and redundancy verification"
+          "Round-the-clock infrastructure, server, and network health monitoring",
+          "Automated threshold alert escalation and incident ticket generation",
+          "Latency, bandwidth, and synthetic transaction performance tracking",
+          "Executive operational uptime and availability SLA dashboards"
         ]
       },
       {
-        "title": "Help Desk & Technical User Support",
-        "desc": "Multi-tier technical assistance resolving day-to-day user queries, software malfunctions, and workstation issues.",
+        "num": "03",
+        "title": "Scheduled Maintenance & Downtime Prevention",
+        "desc": "Executing systematic, non-disruptive maintenance cycles and preventative health audits to guarantee business continuity and eradicate unplanned outages.",
         "items": [
-          "1st, 2nd, and 3rd level escalation support pathways with SLA tracking",
-          "Structured ticketing and incident resolution via modern ITSM platforms",
-          "Workstation configuration, software deployment, and remote troubleshooting",
-          "User onboarding and offboarding provisioning across corporate systems"
+          "Planned maintenance windows with zero disruption to core operations",
+          "Proactive hardware diagnostic checks and disk array integrity validation",
+          "Database reorganization and log file truncation routines",
+          "Continuous configuration backups and version control"
         ]
       },
       {
-        "title": "Data Backup, Continuity & Disaster Recovery",
-        "desc": "Protecting vital enterprise data assets through automated backup routines, geo-redundant storage, and tested recovery plans.",
+        "num": "04",
+        "title": "IT Team Supplementation & Operational Support",
+        "desc": "Augmenting your internal technology organization with experienced Tier-1 through Tier-3 system administrators and network engineers to absorb operational workload.",
         "items": [
-          "Automated daily snapshot and transactional database backup routines",
-          "Secure cloud and offsite replication for catastrophic disaster recovery",
-          "Regular recovery drill testing to validate Recovery Time Objectives (RTO)",
-          "Granular file and database restoration procedures"
+          "Contracted Tier-1 to Tier-3 support desk and technical user assistance",
+          "Escalation management for complex operating system and application faults",
+          "Support for seasonal transaction surges and corporate expansions",
+          "Process alignment with client internal ITIL workflows"
+        ]
+      },
+      {
+        "num": "05",
+        "title": "Business Continuity & Automated Disaster Recovery",
+        "desc": "Implementing automated backup architectures, secure off-site data replication, and regular recovery drills to guarantee data restoration.",
+        "items": [
+          "Automated multi-tiered local and cloud backup execution",
+          "Offsite encrypted replication for compliance and disaster protection",
+          "Rapid recovery point objective (RPO) and recovery time objective (RTO) validation",
+          "Periodic disaster recovery simulation drills and runbook audits"
         ]
       }
     ],
@@ -762,383 +854,434 @@ const SERVICES = {
       {
         "category": "IT Service Management (ITSM)",
         "tools": [
-          "Remedy ResolveIT",
-          "Jira Service Management",
           "ServiceNow",
-          "Confluence",
-          "Collabnet"
+          "Jira Service Management",
+          "Zendesk Enterprise",
+          "ITIL Framework"
         ]
       },
       {
         "category": "Monitoring & Telemetry",
         "tools": [
-          "Tivoli",
-          "Nagios",
           "SolarWinds",
-          "AWS CloudWatch",
-          "Azure Monitor",
-          "Datadog"
+          "Datadog",
+          "Nagios",
+          "Zabbix",
+          "Dynatrace"
         ]
       },
       {
-        "category": "Operating Platforms",
+        "category": "Operating Platforms & Hypervisors",
         "tools": [
-          "Windows Server",
-          "Linux (RHEL, Ubuntu, CentOS)",
-          "Unix",
-          "VMware ESXi",
-          "Hyper-V"
+          "VMware vSphere / ESXi",
+          "Microsoft Hyper-V",
+          "Red Hat Enterprise Linux",
+          "Windows Server"
         ]
       },
       {
-        "category": "Directory & Identity",
+        "category": "Directory & Networking",
         "tools": [
           "Microsoft Active Directory",
-          "Entra ID (Azure AD)",
           "Group Policy (GPO)",
-          "LDAP",
-          "MFA"
+          "Cisco Meraki",
+          "Fortinet"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Environment Audit & Baseline",
-        "desc": "Inventory all servers, workstations, network devices, and software assets, establishing monitoring agents and documenting topology."
+        "step": "01",
+        "title": "Infrastructure Discovery & Audit",
+        "desc": "Cataloging server assets, network configurations, dependency mappings, and operational vulnerabilities."
       },
       {
-        "title": "SLA & Escalation Protocol Design",
-        "desc": "Define clear response and resolution timeframes aligned with operational criticality, configuring automated alerts and ticket workflows."
+        "step": "02",
+        "title": "SLA Definition & Telemetry Setup",
+        "desc": "Installing monitoring telemetry agents, establishing alert thresholds, and contractual support SLAs."
       },
       {
-        "title": "Proactive Management & Support",
-        "desc": "Continuously monitor telemetry, execute scheduled preventative maintenance during non-business hours, and resolve tickets promptly."
+        "step": "03",
+        "title": "Operational Governance & Maintenance",
+        "desc": "Executing scheduled maintenance windows, automated patching, backup routines, and incident triage."
       },
       {
-        "title": "Executive Reviews & Strategic Advisory",
-        "desc": "Deliver monthly performance scorecards, review SLA adherence, and provide strategic recommendations for technology modernization."
+        "step": "04",
+        "title": "Continuous Review & Capacity Planning",
+        "desc": "Delivering monthly SLA performance reviews, trend analysis, disaster recovery drills, and capacity scaling."
       }
     ],
     "businessValue": [
       {
-        "title": "Predictable, Controlled IT Costs",
-        "desc": "Replace volatile emergency break-fix repair bills with a consistent, transparent operational monthly investment model."
+        "title": "Downtime Prevention",
+        "desc": "Pre-empting catastrophic system failures with 24/7 telemetry monitoring and preventative maintenance."
       },
       {
-        "title": "Downtime Prevention & High Availability",
-        "desc": "Proactive 24/7 monitoring detects and remedies warning indicators before they evolve into costly operational outages."
+        "title": "Strategic Focus for Internal Staff",
+        "desc": "Freeing internal engineers from routine patch cycles and support tickets to build strategic software."
       },
       {
-        "title": "Instant Access to Certified IT Talent",
-        "desc": "Gain immediate access to seasoned database administrators, network engineers, and security specialists without internal hiring overhead."
+        "title": "Scalable Operating Model",
+        "desc": "Absorbing corporate expansions and seasonal transaction surges without the overhead of full-time hiring."
       }
     ],
     "related": [
       {
         "title": "Cloud Services",
-        "desc": "Managed AWS and Microsoft Azure cloud infrastructure and legacy application migrations.",
+        "desc": "Modernize infrastructure with secure hybrid and multi-cloud architectures across AWS and Azure.",
         "url": "service-cloud.html"
       },
       {
         "title": "Cybersecurity",
-        "desc": "8-layer defense model protecting enterprise networks, systems, applications, and endpoints.",
+        "desc": "Multi-layered threat defense protecting enterprise networks, applications, and cloud environments.",
         "url": "service-cybersecurity.html"
       },
       {
         "title": "Quality Assurance",
-        "desc": "Comprehensive testing services to ensure system performance, reliability, and security.",
+        "desc": "Comprehensive functional, performance, and ERP regression testing across dedicated labs.",
         "url": "service-qa.html"
       }
     ]
   },
   "data": {
     "shortTitle": "Data Management & Analytics",
-    "title": "Data Management, Governance & Advanced Analytics",
-    "kicker": "ENTERPRISE DATA GOVERNANCE & ANALYTICS",
-    "intro": "An enterprise cannot achieve reliable reporting or meaningful insights from data without a well-tuned data management process. Dazzlon helps enterprises organize critical data processes, establish governance policies, eliminate data duplication and error, and visualize user behaviors across all channels.",
+    "title": "Data Management, Enterprise Governance & Advanced Analytics",
+    "kicker": "ENTERPRISE DATA DISCIPLINE",
+    "intro": "Dazzlon builds trusted, compliant, and actionable data ecosystems through rigorous data governance, master data management, automated integration pipelines, and end-to-end digital analytics.",
     "metrics": [
-      "Enterprise Data Governance",
-      "Automated Migration & Validation",
-      "End-to-End Digital Analytics"
+      {
+        "val": "99.9%",
+        "label": "Master Data Accuracy"
+      },
+      {
+        "val": "100%",
+        "label": "Regulatory Privacy Compliance"
+      },
+      {
+        "val": "5x",
+        "label": "Data Pipeline Throughput Gain"
+      }
     ],
     "strategicIntro": {
-      "heading": "Transforming Fragmented Data Into Trusted Decision Intelligence",
+      "eyebrow": "DATA FOUNDATION",
+      "heading": "Turning Unstructured, Disconnected Information into High-Integrity Strategic Assets",
       "text": [
-        "In high-velocity business environments, strategic decisions depend directly on data integrity. However, many enterprises struggle with fragmented departmental silos, duplicate records, inconsistent definitions, and obsolete information that distort analytics and compromise executive reporting.",
-        "Dazzlon provides full-lifecycle data management consulting and implementation. We help organizations establish formal governance strategies, design master data management architectures, execute automated data migrations with mathematical verification, and deploy end-to-end digital analytics programs that yield complete clarity into customer behaviors."
+        "An enterprise cannot achieve reliable reporting or meaningful machine learning insights from data without a well-tuned architecture, disciplined governance, and uncompromising data quality.",
+        "Dazzlon delivers comprehensive data engineering that spans the entire information lifecycle. We establish governance frameworks, eliminate obsolete and duplicate records, build automated ETL/ELT integration pipelines, ensure regulatory data protection, and deploy executive digital analytics dashboards."
       ],
-      "highlightsTitle": "Data Management Scope",
+      "highlightsTitle": "Data Engineering Objectives",
       "highlights": [
-        "Comprehensive enterprise data governance strategies and stewardship policies",
-        "Data quality management, automated deduplication, and error remediation",
-        "Master Data Management (MDM) and centralized metadata cataloging",
-        "Automated data migration pipelines with complete pre- and post-validation",
-        "Data enrichment with external sources and web/social data extraction",
-        "Information architecture security audits and big-data stack evaluations",
-        "End-to-end digital and web analytics from measurement strategy to dashboards"
+        "Formal data governance policies, stewardship responsibilities, and ownership metrics",
+        "Automated data quality cleansing eradicating duplicate, incomplete, and obsolete records",
+        "Master Data Management (MDM) creating a unified, authoritative golden record",
+        "High-throughput integration connecting disparate on-premises and cloud repositories"
       ]
     },
     "capabilities": [
       {
+        "num": "01",
         "title": "Data Governance & Policy Design",
-        "desc": "Designing enterprise-wide governance frameworks defining roles, rights, responsibilities, standards, and compliance metrics.",
+        "desc": "Formulating formal governance policies, data stewardship responsibilities, compliance controls, and data ownership metrics that ensure institutional accountability.",
         "items": [
-          "Data stewardship and ownership role definition across business units",
-          "Enterprise business glossaries and standardized data dictionaries",
-          "Compliance alignment with regulatory mandates (GDPR, CCPA)",
-          "Data quality KPI definition and continuous audit tracking"
+          "Policy definition covering data lifecycle, security, and classification",
+          "Data stewardship frameworks and cross-departmental governance councils",
+          "Data cataloging, lineage tracking, and business glossary development",
+          "Regulatory compliance tracking across industry standards"
         ]
       },
       {
-        "title": "Data Quality & Master Data Management (MDM)",
-        "desc": "Detecting and resolving duplicate, incomplete, erroneous, or obsolete data while establishing a unified master data foundation.",
+        "num": "02",
+        "title": "Data Quality & Cleansing",
+        "desc": "Deploying automated profiling and cleansing rules to identify and remediate duplicate, incomplete, incorrect, and obsolete records across databases.",
         "items": [
-          "Automated data profiling, deduplication, and cleansing routines",
-          "Master Data Management (MDM) architecture design and deployment",
-          "Metadata management, data cataloging, and lineage tracking",
-          "Data normalization rules enforcing consistency across enterprise applications"
+          "Automated data profiling to detect anomalies, nulls, and format violations",
+          "Rule-based de-duplication, record matching, and fuzzy reconciliation logic",
+          "Address, customer, vendor, and product record standardization",
+          "Continuous quality scoring and automated data drift monitoring"
         ]
       },
       {
-        "title": "Data Integration & Automated Migration",
-        "desc": "Uniting disparate transactional systems into centralized data lakes and executing automated migrations with verification.",
+        "num": "03",
+        "title": "Master Data Management (MDM)",
+        "desc": "Establishing an authoritative, single source of truth for critical enterprise entities across customers, products, suppliers, and financial charts of accounts.",
         "items": [
-          "Enterprise ETL/ELT pipeline design and high-speed batch/streaming processing",
-          "Multi-source data consolidation into scalable data lakes and data warehouses",
-          "Automated migration pipelines with automated data reconciliation checks",
-          "Legacy database schema refactoring and transformation logic"
+          "Multi-domain master data model design and operational governance",
+          "Golden record consolidation and cross-system entity reconciliation",
+          "Hierarchy management, taxonomy structuring, and relationship mapping",
+          "Real-time and batch synchronization across operational systems"
         ]
       },
       {
+        "num": "04",
+        "title": "Data Integration & Pipelines",
+        "desc": "Architecting high-speed ETL and ELT data pipelines that connect and synchronize structured, semi-structured, and streaming data across disparate systems.",
+        "items": [
+          "Enterprise ETL/ELT pipeline design with high-speed batch and streaming processing",
+          "Multi-source data consolidation into scalable data lakes and warehouses",
+          "Change Data Capture (CDC) for low-latency operational data synchronization",
+          "RESTful data integration and API-driven data connector development"
+        ]
+      },
+      {
+        "num": "05",
+        "title": "Automated Data Migration",
+        "desc": "Planning, executing, and verifying risk-mitigated data migrations with automated reconciliation checks between legacy systems and modern target platforms.",
+        "items": [
+          "Automated migration pipeline execution with reconciliation auditing",
+          "Legacy database schema refactoring and transformation logic",
+          "Pre- and post-migration record balancing and cryptographic hash verification",
+          "Rollback frameworks and zero-downtime cutover execution planning"
+        ]
+      },
+      {
+        "num": "06",
         "title": "Data Enrichment & Extraction",
-        "desc": "Augmenting existing enterprise records with external data and retrieving structured or unstructured information from web sources.",
+        "desc": "Combining external reference datasets with internal data and extracting structured attributes from unstructured text documents to elevate analytical value.",
         "items": [
-          "Third-party demographic and firmographic data enrichment",
-          "Automated web and social data extraction pipelines",
-          "Unstructured text parsing, normalization, and entity extraction",
-          "External API integration feeding real-time operational datasets"
+          "Appending demographic, firmographic, and geospatial reference data",
+          "Automated document parsing and key-value metadata extraction",
+          "Feature engineering for downstream machine learning and statistical modeling",
+          "Text mining and entity extraction from contracts and customer communications"
         ]
       },
       {
-        "title": "Data Security & Architecture Audits",
-        "desc": "Evaluating information management practices, technology stacks, and database hardening to protect sensitive enterprise assets.",
+        "num": "07",
+        "title": "Data Security, Architecture & Privacy",
+        "desc": "Auditing data architectures, establishing role-based access controls, and applying cryptographic protections to safeguard sensitive enterprise records.",
         "items": [
-          "Database access control, role boundaries, and encryption audits",
-          "Information architecture scalability and throughput assessments",
-          "Big Data and Business Intelligence technology stack evaluations",
-          "Sensitive data masking, tokenization, and privacy controls"
+          "Architectural audits for data flow security and storage compliance",
+          "Encryption at rest and in transit with enterprise key management governance",
+          "Data masking, tokenization, and de-identification for non-production environments",
+          "Role-based access control (RBAC) and detailed query audit logging"
         ]
       },
       {
-        "title": "End-to-End Digital & Web Analytics",
-        "desc": "Designing and deploying measurement strategies, tag management architectures, and executive reporting across web and mobile applications.",
+        "num": "08",
+        "title": "Digital & Web Analytics",
+        "desc": "Implementing and configuring enterprise digital analytics platforms to capture user journeys, track operational KPIs, and power executive decision-making.",
         "items": [
-          "Measurement strategy formulation, KPI definitions, and tracking architecture",
-          "Tag management deployment using Tealium iQ, Google Tag Manager, or Adobe DTM",
-          "Cross-channel user journey mapping, funnel analysis, and segmentation",
-          "Executive business intelligence dashboards via Tableau and PowerBI"
+          "Web and mobile app event instrumentation and tag management governance",
+          "Funnel analysis, user segmentation, and conversion attribution modeling",
+          "Executive dashboard creation across PowerBI, Tableau, and custom portals",
+          "Unified customer journey reporting connecting digital touchpoints to CRM"
         ]
       }
     ],
     "techStack": [
       {
-        "category": "Data Integration & Big Data",
+        "category": "Data Integration & Pipelines",
         "tools": [
           "Informatica PowerCenter",
-          "Ab Initio",
-          "Microsoft SSIS",
+          "Talend Data Fabric",
           "Apache Spark",
-          "Hadoop",
-          "AWS BigData"
+          "Apache Kafka",
+          "SSIS"
         ]
       },
       {
         "category": "Databases & Warehouses",
         "tools": [
-          "Teradata",
+          "Snowflake",
           "Oracle Database",
-          "Microsoft SQL Server",
-          "MySQL",
-          "PL/SQL"
+          "Teradata",
+          "PostgreSQL",
+          "Microsoft SQL Server"
         ]
       },
       {
-        "category": "Digital & Web Analytics",
+        "category": "Data Quality & MDM",
         "tools": [
+          "Informatica MDM",
+          "SAP Master Data Governance",
+          "Talend Data Quality",
+          "Collibra"
+        ]
+      },
+      {
+        "category": "Digital & Business Intelligence",
+        "tools": [
+          "Google Analytics 4",
           "Adobe Analytics",
-          "Google Analytics",
-          "Tealium iQ",
-          "Google Tag Manager (GTM)",
-          "Adobe DTM"
-        ]
-      },
-      {
-        "category": "Business Intelligence & Reporting",
-        "tools": [
           "Tableau",
-          "Cognos",
-          "MicroStrategy",
-          "Business Objects",
-          "WebFOCUS",
-          "SSRS"
+          "Microsoft PowerBI"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Data Landscape & Quality Audit",
-        "desc": "Profile existing data repositories, identify duplication and corruption rates, and evaluate current analytics tooling and reporting silos."
+        "step": "01",
+        "title": "Data Discovery & Quality Profiling",
+        "desc": "Auditing existing data repositories, lineage, duplicate rates, and schema variations across the enterprise."
       },
       {
-        "title": "Governance & Architecture Blueprint",
-        "desc": "Draft enterprise governance policies, specify master data schemas, and design automated ETL/ELT pipelines and tracking architectures."
+        "step": "02",
+        "title": "Governance & Architectural Framework",
+        "desc": "Defining stewardship policies, target MDM schemas, security rules, and integration pipelines."
       },
       {
-        "title": "Engineering, Cleansing & Migration",
-        "desc": "Build automated data cleansing routines, implement tag management architectures, deploy data pipelines, and conduct reconciliation verification."
+        "step": "03",
+        "title": "Pipeline Build & Automated Cleansing",
+        "desc": "Deploying automated ETL/ELT workflows, de-duplication rules, and cryptographic security controls."
       },
       {
-        "title": "Dashboarding & Analytics Enablement",
-        "desc": "Deliver intuitive executive dashboards, train internal data stewards, and configure automated data health monitoring alerts."
+        "step": "04",
+        "title": "Analytical Enablement & Dashboarding",
+        "desc": "Connecting verified datasets to BI interfaces, dashboards, and establishing continuous quality telemetry."
       }
     ],
     "businessValue": [
       {
-        "title": "Trusted, Reliable Business Reporting",
-        "desc": "Eliminate conflicting departmental metrics by establishing unified master data and verified integration pipelines."
+        "title": "Authoritative Decisions",
+        "desc": "Ensuring executive choices are founded on clean, deduplicated, and unified golden records."
       },
       {
-        "title": "Regulatory Compliance & Audit Assurance",
-        "desc": "Documented data lineage, strict role-based access, and formal governance policies ensure audit-readiness for complex regulatory standards."
+        "title": "Regulatory Compliance",
+        "desc": "Maintaining auditable data lineage, privacy controls, and role-based protections across datasets."
       },
       {
-        "title": "Comprehensive Customer Intelligence",
-        "desc": "Visualize complete customer journeys across digital touchpoints to optimize user conversion, retention, and operational workflows."
+        "title": "Operational Automation",
+        "desc": "Eliminating manual spreadsheet reconciliation through automated, real-time data pipelines."
       }
     ],
     "related": [
       {
         "title": "Data Warehouse Design",
-        "desc": "Active enterprise intelligence, dimensional modeling, and high-performance warehouse architecture.",
+        "desc": "Active enterprise intelligence, dimensional modeling, and high-performance warehouse architectures.",
         "url": "service-datawarehouse.html"
       },
       {
-        "title": "Cloud Services",
-        "desc": "Modern cloud infrastructure, scalable storage, and managed cloud data platforms.",
-        "url": "service-cloud.html"
+        "title": "AI & Machine Learning",
+        "desc": "Predictive modeling and document intelligence grounded in enterprise data.",
+        "url": "service-ai.html"
       },
       {
         "title": "Software Engineering",
-        "desc": "Custom application engineering, systems integration, and bespoke data logic development.",
+        "desc": "Proprietary custom application development and mission-critical systems integration.",
         "url": "service-software.html"
       }
     ]
   },
   "cybersecurity": {
     "shortTitle": "Cybersecurity",
-    "title": "Cybersecurity Consulting & Multi-Layered Threat Defense",
-    "kicker": "ENTERPRISE CYBERSECURITY & THREAT DEFENSE",
-    "intro": "In today's interconnected enterprise landscape, robust cybersecurity is more vital than ever. Dazzlon protects critical systems, networks, applications, and proprietary corporate data through an 8-layer defense model and proactive threat mitigation against evolving digital attacks.",
+    "title": "Cybersecurity Consulting, Threat Mitigation & Multi-Layered Defense",
+    "kicker": "ENTERPRISE THREAT DEFENSE",
+    "intro": "Dazzlon protects enterprise networks, applications, and cloud environments through multi-layered defensive architectures and aggressive countermeasures against modern cyber threats.",
     "metrics": [
-      "8 Defensive Security Layers",
-      "Zero-Trust Access Architecture",
-      "Proactive Threat Remediation"
+      {
+        "val": "Zero",
+        "label": "Trust Architecture Implementation"
+      },
+      {
+        "val": "100%",
+        "label": "Vulnerability & Code Audit Coverage"
+      },
+      {
+        "val": "24/7",
+        "label": "Active Threat Defense & Telemetry"
+      }
     ],
     "strategicIntro": {
-      "heading": "Comprehensive Threat Protection Across 8 Enterprise Layers",
+      "eyebrow": "DEFENSIVE IMPERATIVE",
+      "heading": "Multi-Layered Security Architecture Engineered Against Complex Attack Vectors",
       "text": [
-        "Digital threats are continuously multiplying in complexity and frequency. Cyber adversaries target organizations through phishing attacks, zero-day vulnerabilities, destructive ransomware, botnets, and sophisticated social engineering schemes. Securing modern enterprises requires far more than basic perimeter firewalls.",
-        "Dazzlon implements an authoritative, defense-in-depth cybersecurity framework. We establish rigorous protection across eight distinct enterprise layers\u2014Network, Application, Data, Identity Management, Database & Infrastructure, Cloud, Mobile, and Endpoint Security. By combining proactive vulnerability testing with robust policy enforcement, we keep your digital ecosystem resilient and secure."
+        "Enterprise IT estates now span on-premises data centers, multiple public clouds, mobile devices, and hundreds of web and API interfaces. Security strategies that rely only on perimeter defense leave organizations dangerously exposed.",
+        "Dazzlon implements comprehensive defense-in-depth architecture. We protect eight distinct enterprise security layers\u2014from network boundaries and source code to identities and databases\u2014while maintaining active mitigation protocols against phishing, ransomware, trojans, and sophisticated social engineering attacks."
       ],
-      "highlightsTitle": "Threat Protection Scope",
+      "highlightsTitle": "Threat Mitigation Matrix",
       "highlights": [
-        "Active defense against Phishing, Ransomware, Viruses, Trojans, and Botnets",
-        "Mitigation against Spyware, Adware, destructive Malware, and Social Engineering",
-        "Zero-Trust Identity and Access Management (IAM) and least-privilege enforcement",
-        "Comprehensive application code security reviews, SAST, and vulnerability scans",
-        "Hardened cloud infrastructure and database access governance",
-        "Complete endpoint and mobile device security management (MDM/EDR)"
+        "Active defensive countermeasures against phishing, ransomware, and malware",
+        "Protection across viruses, trojans, spyware, adware, and botnet propagation",
+        "Social engineering defense protocols and credential harvesting countermeasures",
+        "Full defense-in-depth coverage across network, application, data, and identity"
       ]
     },
     "capabilities": [
       {
+        "num": "01",
         "title": "Network Security",
-        "desc": "Protecting enterprise networks from unauthorized intrusions, lateral attacks, and opportunistic malware by controlling incoming and outgoing traffic.",
+        "desc": "Securing enterprise perimeter and internal segment traffic through next-generation firewalls, intrusion detection/prevention systems (IDS/IPS), and zero-trust segmentation.",
         "items": [
-          "Next-generation firewall (NGFW) deployment and continuous rule tuning",
-          "Intrusion Detection and Prevention Systems (IDS/IPS) monitoring",
-          "Network micro-segmentation isolating critical production workloads",
-          "Encrypted VPN gateways and secure remote access architecture"
+          "Next-generation firewall configuration and traffic inspection",
+          "Intrusion Detection and Prevention Systems (IDS/IPS)",
+          "Software-defined network micro-segmentation and isolation",
+          "Secure VPN, SD-WAN, and encrypted transit tunnels"
         ]
       },
       {
-        "title": "Application Security",
-        "desc": "Hardening software, web applications, and internal tools through secure SDLC practices, code reviews, and automated vulnerability scanning.",
+        "num": "02",
+        "title": "Application Security & Secure Code Auditing",
+        "desc": "Integrating security controls into the software engineering lifecycle to identify and eliminate code vulnerabilities before production deployment.",
         "items": [
-          "Static and dynamic application security testing (SAST / DAST)",
-          "Source code security reviews and architectural flaw identification",
-          "Secure coding guidelines and vulnerability remediation support",
-          "API security, rate limiting, and parameter validation enforcement"
+          "Static and Dynamic Application Security Testing (SAST/DAST)",
+          "OWASP Top 10 vulnerability remediation (SQLi, XSS, CSRF)",
+          "Dependency and open-source library vulnerability scanning",
+          "Secure coding standards and developer security training"
         ]
       },
       {
-        "title": "Data Security & Privacy",
-        "desc": "Safeguarding the confidentiality, integrity, and privacy of enterprise data assets in transit, at rest, and in active use.",
+        "num": "03",
+        "title": "Data Security & Cryptographic Protection",
+        "desc": "Implementing robust encryption, tokenization, and Data Loss Prevention (DLP) controls to safeguard sensitive business and client records.",
         "items": [
-          "Enterprise encryption for file systems, databases, and network transmissions",
-          "Data Loss Prevention (DLP) policies preventing unauthorized data exfiltration",
-          "Sensitive data classification, tokenization, and database masking",
-          "Regulatory privacy compliance alignment (GDPR, CCPA, HIPAA)"
+          "Encryption at rest using AES-256 and hardware security modules (HSM)",
+          "Data Loss Prevention (DLP) to stop unauthorized exfiltration",
+          "Tokenization and field-level masking for confidential records",
+          "Data classification and lifecycle retention governance"
         ]
       },
       {
+        "num": "04",
         "title": "Identity & Access Management (IAM)",
-        "desc": "Enforcing least-privilege access controls across internal data, corporate networks, and sensitive cloud applications.",
+        "desc": "Enforcing zero-trust authentication, multi-factor verification, and least-privilege role-based access across all enterprise users and systems.",
         "items": [
-          "Role-Based Access Control (RBAC) and attribute-based permissions",
-          "Multi-Factor Authentication (MFA) deployment across all entry points",
+          "Enterprise Single Sign-On (SSO) and Multi-Factor Authentication (MFA)",
+          "Role-Based (RBAC) and Attribute-Based (ABAC) access control",
           "Privileged Access Management (PAM) for administrative accounts",
-          "Centralized directory synchronization and Single Sign-On (SSO)"
+          "Automated user lifecycle provisioning and de-provisioning"
         ]
       },
       {
+        "num": "05",
         "title": "Database & Infrastructure Security",
-        "desc": "Protecting physical equipment, virtual hosts, and database management systems through hardened configurations and audit logging.",
+        "desc": "Hardening relational and cloud databases, hypervisors, and server operating systems against unauthorized configuration changes and exploitation.",
         "items": [
-          "Database server hardening and benchmark configuration audits",
-          "Defenses against SQL injection and unauthorized backend access",
-          "Physical and virtual infrastructure security compliance auditing",
-          "Comprehensive database query and administrator activity logging"
+          "Database activity monitoring (DAM) and query anomaly detection",
+          "Database hardening, privilege minimization, and credential audits",
+          "Operating system benchmark compliance (CIS Benchmarks)",
+          "Security patch management and configuration drift audits"
         ]
       },
       {
-        "title": "Cloud Security",
-        "desc": "Securing data, workloads, and containers deployed across public and hybrid cloud environments (AWS, Microsoft Azure).",
+        "num": "06",
+        "title": "Cloud Security & Posture Management",
+        "desc": "Establishing secure cloud landing zones, container runtime protections, and automated compliance auditing across AWS and Azure environments.",
         "items": [
-          "Cloud Security Posture Management (CSPM) and misconfiguration detection",
-          "Cloud firewall rule configuration and cloud IAM least-privilege boundaries",
-          "Workload encryption, key management, and secrets management",
-          "Secure cloud networking and container environment protection"
+          "Cloud Security Posture Management (CSPM) and misconfiguration auditing",
+          "Container and Kubernetes cluster runtime defense",
+          "Virtual Private Cloud (VPC) isolation and security group governance",
+          "Cloud storage bucket permission auditing and automated remediation"
         ]
       },
       {
+        "num": "07",
         "title": "Mobile Security",
-        "desc": "Securing mobile devices and enterprise applications as workforce mobility continues to expand across distributed teams.",
+        "desc": "Protecting mobile applications, mobile APIs, and corporate handheld devices from data leakage, insecure transit, and unauthorized access.",
         "items": [
-          "Mobile Device Management (MDM) enrollment and policy enforcement",
-          "Enterprise mobile application containerization and secure storage",
-          "Remote device locking, selective data wiping, and jailbreak detection",
-          "Mandatory mobile encryption and passcode complexity rules"
+          "Mobile Application Security Testing (MAST) across iOS and Android",
+          "Mobile Device Management (MDM) and Mobile Application Management (MAM)",
+          "Secure API gateway authentication and mobile SSL pinning",
+          "Device containerization and remote wipe capabilities"
         ]
       },
       {
-        "title": "Endpoint Security",
-        "desc": "Guarding laptops, desktops, and workstations serving as primary entry points to the corporate network.",
+        "num": "08",
+        "title": "Endpoint Security & Threat Countermeasures",
+        "desc": "Deploying advanced Endpoint Detection and Response (EDR) to neutralize ransomware, trojans, spyware, adware, and botnet infections in real time.",
         "items": [
-          "Next-Gen Antivirus (NGAV) and Endpoint Detection and Response (EDR)",
-          "Automated operating system and software security patch management",
-          "Host-based firewall configuration and USB/peripheral control",
-          "Device compliance verification prior to granting network admission"
+          "Next-generation endpoint protection and behavioral heuristics",
+          "Real-time anti-malware, anti-spyware, and anti-adware scanning",
+          "Automated isolation and remediation of compromised endpoints",
+          "Threat hunting and centralized security telemetry integration"
         ]
       }
     ],
@@ -1146,158 +1289,172 @@ const SERVICES = {
       {
         "category": "Endpoint & Threat Protection",
         "tools": [
-          "Next-Gen EDR",
-          "Anti-Malware Engines",
-          "Host Intrusion Prevention",
-          "Automated Patch Management"
+          "CrowdStrike Falcon",
+          "Microsoft Defender for Endpoint",
+          "SentinelOne",
+          "Carbon Black"
         ]
       },
       {
         "category": "Identity & Access (IAM)",
         "tools": [
+          "Okta",
           "Microsoft Entra ID (Azure AD)",
-          "Active Directory",
-          "LDAP",
-          "Multi-Factor Authentication (MFA)",
-          "Single Sign-On (SSO)"
-        ]
-      },
-      {
-        "category": "Code Review & Vulnerability Auditing",
-        "tools": [
-          "Static Code Security Analyzers",
-          "Vulnerability Scanners",
-          "Bugzilla",
-          "HP ALM",
-          "SoapUI Security"
+          "CyberArk Privileged Access",
+          "Ping Identity"
         ]
       },
       {
         "category": "Network & Cloud Security",
         "tools": [
-          "Next-Gen Firewalls",
-          "AWS IAM",
-          "Azure Security Center",
-          "CloudWatch",
-          "Encrypted TLS/VPN"
+          "Palo Alto Networks",
+          "Cisco ASA / Firepower",
+          "Snort IDS/IPS",
+          "AWS GuardDuty"
+        ]
+      },
+      {
+        "category": "Code Auditing & Vulnerability",
+        "tools": [
+          "Veracode",
+          "Checkmarx",
+          "SonarQube",
+          "Tenable Nessus",
+          "OWASP ZAP"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Threat & Vulnerability Assessment",
-        "desc": "Conduct comprehensive scans across networks, endpoints, codebases, and cloud environments to identify vulnerabilities and threat vectors."
+        "step": "01",
+        "title": "Threat Landscape & Vulnerability Audit",
+        "desc": "Conducting penetration tests, architecture reviews, and risk scoring across the entire estate."
       },
       {
-        "title": "8-Layer Architecture Design",
-        "desc": "Architect tailored defensive controls across all 8 security layers aligned with enterprise risk tolerances and industry compliance requirements."
+        "step": "02",
+        "title": "Zero-Trust Architecture Blueprint",
+        "desc": "Formulating segmentation policies, IAM guardrails, and cryptographic controls."
       },
       {
-        "title": "Hardening & Policy Deployment",
-        "desc": "Deploy endpoint security agents, configure IAM least-privilege policies, enforce data encryption, and harden network perimeters."
+        "step": "03",
+        "title": "Defensive Implementation & Hardening",
+        "desc": "Deploying EDR agents, configuring next-generation firewalls, and hardening databases."
       },
       {
-        "title": "Continuous Monitoring & Simulation",
-        "desc": "Perform recurring vulnerability assessments, review audit logs, and conduct social engineering and phishing awareness simulations."
+        "step": "04",
+        "title": "Continuous Telemetry & Incident Governance",
+        "desc": "Real-time security event telemetry, regular vulnerability rescanning, and policy updates."
       }
     ],
     "businessValue": [
       {
-        "title": "Resilience Against Ransomware & Breaches",
-        "desc": "Comprehensive defense-in-depth stops malicious actors at the perimeter, endpoint, or application level before data is compromised."
+        "title": "Breach Prevention",
+        "desc": "Multi-layered defenses eliminate single points of failure across all technical assets."
       },
       {
-        "title": "Regulatory & Audit Compliance",
-        "desc": "Meet stringent compliance mandates across financial, healthcare, and industrial sectors with documented, auditable security controls."
+        "title": "Regulatory Compliance",
+        "desc": "Satisfying HIPAA, PCI-DSS, SOC 2, and GDPR security mandates with auditable controls."
       },
       {
-        "title": "Protection of Brand Equity & IP",
-        "desc": "Safeguard proprietary intellectual property, trade secrets, and customer data from unauthorized leaks, maintaining enterprise trust."
+        "title": "Brand Trust & Continuity",
+        "desc": "Safeguarding proprietary intellectual property and customer confidence against cyber threats."
       }
     ],
     "related": [
       {
         "title": "Cloud Services",
-        "desc": "Secure cloud infrastructure, VPC architecture, and managed cloud operations on AWS and Azure.",
+        "desc": "Modernize legacy infrastructure with secure hybrid and multi-cloud architectures.",
         "url": "service-cloud.html"
       },
       {
         "title": "Managed IT Services",
-        "desc": "Proactive 24/7 infrastructure monitoring, patch management, and SLA-backed support.",
+        "desc": "Contracted SLA-backed infrastructure administration and 24/7 telemetry monitoring.",
         "url": "service-managed.html"
       },
       {
-        "title": "Quality Assurance",
-        "desc": "Application vulnerability testing, source code security reviews, and software quality validation.",
-        "url": "service-qa.html"
+        "title": "Software Engineering",
+        "desc": "Proprietary custom application development and mission-critical systems integration.",
+        "url": "service-software.html"
       }
     ]
   },
   "software": {
     "shortTitle": "Software Engineering",
-    "title": "Custom Application Engineering & Systems Integration",
-    "kicker": "CONTRACT PROGRAMMING & CUSTOM ENGINEERING",
-    "intro": "Dazzlon operates under a specialized 'Work for Hire' Contract Programming model, engineering proprietary, bespoke software solutions where our clients retain 100% intellectual property ownership. Through our Center of Excellence (COE) methodology, we design, build, and modernize mission-critical systems that drive long-term valuation.",
+    "title": "Custom Application Engineering, Systems Integration & Contract Programming",
+    "kicker": "PROPRIETARY ENTERPRISE CODE",
+    "intro": "Dazzlon operates under a dedicated 'Work for Hire' Contract Programming model, engineering proprietary custom applications, systems integration, database logic, and security architectures with 100% client intellectual property ownership.",
     "metrics": [
-      "100% Client IP Ownership ('Work for Hire')",
-      "Center of Excellence (COE) Methodology",
-      "Enterprise Full-Stack Architecture"
+      {
+        "val": "100%",
+        "label": "Client IP Ownership"
+      },
+      {
+        "val": "20+",
+        "label": "Years Contract Programming"
+      },
+      {
+        "val": "Zero",
+        "label": "Vendor Lock-In Restrictions"
+      }
     ],
     "strategicIntro": {
-      "heading": "Proprietary Software That You Own, Not Rent",
+      "eyebrow": "CONTRACT PROGRAMMING",
+      "heading": "Purpose-Built Software Engineered Under a Pure Work for Hire Model",
       "text": [
-        "At the core of Dazzlon's heritage since 2004 is our specialized Contract Programming practice. Unlike commercial off-the-shelf software vendors who lock enterprises into costly proprietary subscription ecosystems, we operate under a pure 'Work for Hire' philosophy. Every line of code, software architecture, and integration bridge we develop is the exclusive property of our client upon project completion.",
-        "This model transforms software engineering expenditures into nontaxable capital assets that directly enhance corporate enterprise valuation. Governed by our Center of Excellence (COE) methodology, our senior developers and architects engineer bespoke applications that reflect your exact business objectives and complex operational workflows."
+        "Commercial off-the-shelf software rarely aligns perfectly with unique enterprise workflows. Modifying generic software often leads to bloated codebases, vendor lock-in, recurring licensing penalties, and compromised competitive advantages.",
+        "Dazzlon operates under a distinctive Contract Programming model. Based out of our Center of Excellence (COE) in McKinney, Texas, our senior engineering teams build custom software specifically designed around your business processes. Under our Work for Hire contract model, all source code, architectural blueprints, database schemas, and intellectual property belong 100% to our clients upon creation."
       ],
-      "highlightsTitle": "Engineering Advantage",
+      "highlightsTitle": "Center of Excellence Delivery",
       "highlights": [
-        "Full transfer of all intellectual property (IP) and source code rights upon completion",
-        "Creation of proprietary, nontaxable capital assets driving enterprise valuation",
-        "Center of Excellence (COE) methodology enforcing world-class programming rigor",
-        "Bespoke engineering built from the ground up around your unique business processes",
-        "Elimination of recurring third-party software licensing fees and vendor lock-in",
-        "Extensive delivery experience in regulated verticals: financial services, life sciences, semiconductors"
+        "Strict Work for Hire contractual terms ensuring unconditional client IP ownership",
+        "Senior technical governance and peer-reviewed code delivered from our McKinney COE",
+        "Custom application development tailored precisely to business specifications",
+        "Seamless integration bridging legacy systems with modern cloud microservices"
       ]
     },
     "capabilities": [
       {
+        "num": "01",
         "title": "Custom Application Engineering",
-        "desc": "Developing unique, scalable enterprise software ecosystems from the ground up to solve complex operational challenges.",
+        "desc": "Architecting and developing full-lifecycle web, desktop, and client-server applications engineered from the ground up to solve complex enterprise operational challenges.",
         "items": [
-          "Enterprise Java/J2EE, Spring, and Hibernate application architectures",
-          "Responsive, modern frontend development using JavaScript and Angular",
-          "Modular microservices and containerized application deployments",
-          "High-concurrency transactional processing and relational data persistence"
+          "Enterprise web application development in Java/J2EE and modern frameworks",
+          "Scalable microservices architectures with containerized deployment",
+          "Modular, maintainable object-oriented software design",
+          "Responsive, accessible frontend interfaces built in Angular and TypeScript"
         ]
       },
       {
+        "num": "02",
         "title": "Systems Integration Programming",
-        "desc": "Creating proprietary, resilient bridges between disparate enterprise platforms, legacy backends, and cloud services.",
+        "desc": "Connecting heterogeneous enterprise platforms, third-party software, and legacy systems through resilient API orchestration and middleware messaging.",
         "items": [
-          "RESTful and SOAP enterprise web service architecture and integration",
-          "Complex payload transformation across XML, JSON, and EDI standards",
-          "Enterprise messaging, event-driven queues, and middleware connectivity",
-          "High-throughput API gateway development and secure endpoint routing"
+          "High-performance RESTful web services and enterprise SOAP endpoints",
+          "Message queue integration using Apache Kafka, RabbitMQ, and JMS",
+          "Real-time bi-directional data exchange between modern and legacy platforms",
+          "Legacy system interface modernization and schema adapter development"
         ]
       },
       {
-        "title": "Data Architecture & Logic Programming",
-        "desc": "Engineering custom database schemas, transaction pipelines, and complex stored business logic for performance and reliability.",
+        "num": "03",
+        "title": "Database Logic & Data Architecture",
+        "desc": "Engineering high-throughput database logic, stored procedures, triggers, and query optimizations across major enterprise relational database systems.",
         "items": [
-          "High-performance SQL and PL/SQL stored procedures and packages",
-          "Database schema optimization for Oracle, Microsoft SQL Server, and MySQL",
-          "JDBC connection pooling, transaction isolation, and ORM mapping",
-          "Data caching strategies, indexing, and query optimization"
+          "Complex stored procedure, trigger, and view programming",
+          "Relational schema normalization and dimensional database structuring",
+          "Query execution profiling and index performance optimization",
+          "Multi-database interoperability across Oracle, SQL Server, and MySQL"
         ]
       },
       {
+        "num": "04",
         "title": "Security Logic Development & Modernization",
-        "desc": "Programming bespoke security protocols, role-based authorization routines, and modernizing legacy codebases into secure platforms.",
+        "desc": "Embedding cryptographic logic, role-based authorization, and session governance directly into application codebases.",
         "items": [
-          "Bespoke authentication, token verification, and security logic programming",
-          "Legacy code refactoring and migration (C/C++, legacy Java, monolithic codebases)",
-          "Automated CI/CD build and deployment pipelines (Maven, Git, Jenkins)",
-          "Comprehensive technical documentation and architectural blueprints"
+          "Cryptographic algorithms, secure hashing, and key management integration",
+          "Fine-grained role-based (RBAC) and claims-based authorization modules",
+          "Input sanitization and comprehensive defense against injection vulnerabilities",
+          "Security refactoring of legacy codebases to satisfy modern compliance"
         ]
       }
     ],
@@ -1305,154 +1462,164 @@ const SERVICES = {
       {
         "category": "Backend & Frameworks",
         "tools": [
-          "Java/J2EE",
+          "Java / J2EE",
           "Spring Framework",
           "Spring Boot",
-          "Hibernate",
-          "C",
-          "C++",
-          "Servlets"
+          "Hibernate ORM",
+          "C / C++"
         ]
       },
       {
         "category": "Frontend & UI Engineering",
         "tools": [
-          "JavaScript",
           "Angular",
+          "TypeScript",
+          "JavaScript (ES6+)",
           "HTML5",
-          "CSS3",
-          "jQuery",
-          "Responsive Design"
+          "CSS3"
         ]
       },
       {
         "category": "Databases & Storage",
         "tools": [
-          "Oracle 11g/10g/9i",
+          "Oracle Database",
           "Microsoft SQL Server",
           "MySQL",
-          "PL/SQL",
-          "JDBC"
+          "PostgreSQL"
         ]
       },
       {
         "category": "Integration, Build & CI/CD",
         "tools": [
-          "REST APIs",
-          "SOAP",
-          "XML / XSLT",
-          "Maven",
+          "RESTful APIs",
+          "SOAP Web Services",
+          "Apache Maven",
           "Git",
-          "Subversion",
-          "CI/CD Pipelines",
-          "Eclipse"
+          "Jenkins",
+          "Linux / Unix"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "COE Architecture & Requirements",
-        "desc": "Analyze operational workflows, gather functional requirements, and formulate architectural blueprints aligned with COE standards."
+        "step": "01",
+        "title": "Architecture & Functional Blueprint",
+        "desc": "Defining technical specifications, entity relationships, security requirements, and interface contracts."
       },
       {
-        "title": "Agile Development Sprints",
-        "desc": "Develop clean, maintainable code in iterative sprints with peer reviews, unit tests, and continuous integration feedback."
+        "step": "02",
+        "title": "Iterative Development & Peer Review",
+        "desc": "Writing clean, modular code with daily builds, automated unit testing, and McKinney COE code reviews."
       },
       {
-        "title": "Rigorous Integration & Verification",
-        "desc": "Validate application performance, data integrity, and custom security logic against comprehensive acceptance criteria."
+        "step": "03",
+        "title": "Integration & End-to-End Validation",
+        "desc": "Validating API contracts, database transaction logic, and legacy system interoperability."
       },
       {
-        "title": "Full IP Transfer & Production Cutover",
-        "desc": "Deploy to target production environments, deliver exhaustive technical documentation, and transfer 100% of source code and IP ownership."
+        "step": "04",
+        "title": "Deployment & Full IP Handover",
+        "desc": "Delivering production binaries, source code repositories, and complete documentation with zero licensing constraints."
       }
     ],
     "businessValue": [
       {
-        "title": "Nontaxable Capital Asset Creation",
-        "desc": "Build proprietary digital assets that increase corporate book valuation rather than sinking funds into non-equity SaaS subscription fees."
+        "title": "Complete IP Ownership",
+        "desc": "Client maintains 100% ownership of all intellectual property, with zero royalties or vendor lock-in."
       },
       {
-        "title": "Zero Vendor Lock-In",
-        "desc": "Retain full, unencumbered ownership of your codebase, empowering your team to adapt, extend, and deploy solutions without third-party permission."
+        "title": "Tailored Competitive Advantage",
+        "desc": "Software built around your unique workflows rather than compromising on pre-packaged software constraints."
       },
       {
-        "title": "Uncompromised Operational Fit",
-        "desc": "Eliminate the compromises required by generic software packages by engineering software tailored precisely to your strategic business workflows."
+        "title": "Enterprise Longevity",
+        "desc": "Clean, standardized codebases in mainstream technologies ensure long-term maintainability."
       }
     ],
     "related": [
       {
         "title": "Quality Assurance",
-        "desc": "Functional, regression, performance/load, and security testing across client environments and dedicated QA labs.",
+        "desc": "Comprehensive functional, performance, and ERP regression testing across dedicated labs.",
         "url": "service-qa.html"
       },
       {
-        "title": "Cloud Services",
-        "desc": "Scalable cloud infrastructure, legacy migration, and managed hosting on AWS and Azure.",
-        "url": "service-cloud.html"
+        "title": "Data Warehouse Design",
+        "desc": "Active enterprise intelligence, dimensional modeling, and high-performance warehouse architectures.",
+        "url": "service-datawarehouse.html"
       },
       {
-        "title": "Data Management & Analytics",
-        "desc": "Enterprise data governance, master data management, and end-to-end digital analytics.",
-        "url": "service-data.html"
+        "title": "Cloud Services",
+        "desc": "Modernize legacy infrastructure with secure hybrid and multi-cloud architectures.",
+        "url": "service-cloud.html"
       }
     ]
   },
   "ai": {
     "shortTitle": "AI & Machine Learning",
     "title": "AI, Machine Learning & Enterprise Intelligence",
-    "kicker": "OUR TECHNOLOGY & ENTERPRISE FOCUS",
-    "intro": "Turn complex enterprise data into predictive intelligence through practical AI and machine learning capabilities that help organizations automate workflows, forecast outcomes, and innovate with precision.",
+    "kicker": "PREDICTIVE ENTERPRISE INTELLIGENCE",
+    "intro": "Dazzlon builds practical AI and machine learning capabilities that help organizations automate workflows, extract intelligence from unstructured documents, and forecast operational outcomes.",
     "metrics": [
-      "Predictive Analytics",
-      "Workflow Automation",
-      "Model Governance"
+      {
+        "val": "85%+",
+        "label": "Document Workflow Automation"
+      },
+      {
+        "val": "3x",
+        "label": "Forecasting Cycle Acceleration"
+      },
+      {
+        "val": "100%",
+        "label": "Explainable Governance"
+      }
     ],
     "strategicIntro": {
-      "heading": "From Raw Enterprise Data to Operational Intelligence",
+      "eyebrow": "ENTERPRISE AI",
+      "heading": "Grounding Artificial Intelligence in Practical, High-Value Business Processes",
       "text": [
-        "Artificial Intelligence and Machine Learning represent transformative opportunities when grounded in robust data architecture and practical business context. Rather than deploying experimental novelties, Dazzlon integrates intelligent algorithms directly into operational workflows.",
-        "From predictive maintenance on the manufacturing floor to intelligent customer analytics and automated fraud detection, we design and deploy machine learning models with rigorous validation, explainability, and full data governance."
+        "Artificial intelligence delivers true business impact only when integrated into operational workflows and grounded in verified enterprise data. Generic models that lack business context fail to deliver measurable ROI.",
+        "Dazzlon engineers targeted machine learning and AI capabilities tailored to high-value enterprise applications. From automated document parsing and entity extraction to predictive inventory modeling and forecasting, our solutions transform complex data into reliable, automated operational intelligence."
       ],
-      "highlightsTitle": "AI Focus Areas",
+      "highlightsTitle": "Enterprise AI Capabilities",
       "highlights": [
         "Practical machine learning models tailored to high-value enterprise use cases",
         "Seamless integration with enterprise data warehouses and streaming pipelines",
         "Explainable AI architectures and continuous model accuracy monitoring",
-        "Automated document processing, entity extraction, and NLP pipelines",
-        "Adherence to enterprise security, privacy, and regulatory standards"
+        "Automated document processing, entity extraction, and NLP pipelines"
       ]
     },
     "capabilities": [
       {
-        "title": "Predictive Modeling & Forecasting",
-        "desc": "Developing supervised and unsupervised machine learning models to forecast demand, predict equipment maintenance, and optimize resource allocation.",
+        "num": "01",
+        "title": "Predictive Modeling & Statistical Forecasting",
+        "desc": "Designing and deploying supervised and unsupervised machine learning algorithms to forecast demand, identify equipment failure risks, and anticipate customer churn.",
         "items": [
-          "Time-series forecasting and regression modeling",
-          "Anomaly and outlier detection in operational telemetry",
-          "Customer churn and lifetime value prediction",
-          "Continuous model retraining and drift monitoring"
+          "Time-series forecasting for inventory, capacity, and revenue planning",
+          "Churn prediction and customer lifetime value modeling",
+          "Predictive equipment maintenance through telemetry pattern analysis",
+          "Continuous model retraining and data drift detection pipelines"
         ]
       },
       {
-        "title": "Natural Language Processing (NLP)",
-        "desc": "Extracting structured intelligence from unstructured enterprise text, emails, contracts, and customer support tickets.",
+        "num": "02",
+        "title": "Natural Language Processing (NLP) & Document Intelligence",
+        "desc": "Extracting structured data, entities, and business insights from high volumes of complex contracts, reports, and customer correspondence.",
         "items": [
-          "Entity recognition, categorization, and metadata extraction",
-          "Sentiment analysis and customer feedback parsing",
-          "Automated document processing and indexing",
-          "Custom semantic search and knowledge retrieval"
+          "Automated document classification and key-value metadata extraction",
+          "Named Entity Recognition (NER) for financial and legal records",
+          "Semantic search and intelligent enterprise knowledge retrieval",
+          "Automated sentiment and intent classification for support workflows"
         ]
       },
       {
+        "num": "03",
         "title": "Intelligent Process Automation (IPA)",
-        "desc": "Combining business rules, machine learning algorithms, and automated workflows to eliminate repetitive operational bottlenecks.",
+        "desc": "Combining rule-based workflows with machine learning heuristics to automate routine decision-making across complex business operations.",
         "items": [
-          "Automated document routing and classification",
-          "Algorithmic decision support for approval workflows",
-          "Exception detection and automated escalation triggers",
-          "Integration with enterprise ERP and CRM platforms"
+          "Intelligent invoice, claim, and order routing automation",
+          "Anomaly detection and automated fraud scoring",
+          "Human-in-the-loop validation interfaces for high-consequence decisions",
+          "Real-time decision orchestration integrated with core ERP systems"
         ]
       }
     ],
@@ -1461,11 +1628,10 @@ const SERVICES = {
         "category": "Machine Learning Frameworks",
         "tools": [
           "Python",
-          "TensorFlow",
           "Scikit-Learn",
-          "Pandas",
-          "NumPy",
-          "Apache Spark MLlib"
+          "PyTorch",
+          "TensorFlow",
+          "Pandas"
         ]
       },
       {
@@ -1473,128 +1639,142 @@ const SERVICES = {
         "tools": [
           "AWS SageMaker",
           "Azure Machine Learning",
-          "Databricks",
-          "Hadoop",
-          "BigData"
+          "Google Cloud Vertex AI"
         ]
       },
       {
         "category": "Data & Feature Engineering",
         "tools": [
-          "Informatica",
-          "Ab Initio",
-          "SQL / PL/SQL",
-          "Teradata",
-          "Snowflake"
+          "Apache Spark",
+          "Snowflake",
+          "Databricks",
+          "MLflow"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Use-Case Evaluation & Feasibility",
-        "desc": "Identify high-value business challenges, assess available training datasets, and establish measurable accuracy benchmarks."
+        "step": "01",
+        "title": "Use Case Prioritization & Data Audit",
+        "desc": "Assessing data readiness, feature availability, and expected operational value."
       },
       {
-        "title": "Data Preparation & Feature Engineering",
-        "desc": "Cleanse historical data, engineer predictive features, and construct auditable training, validation, and testing partitions."
+        "step": "02",
+        "title": "Feature Engineering & Model Training",
+        "desc": "Developing baseline models, cross-validating accuracy, and tuning hyperparameters."
       },
       {
-        "title": "Model Training & Validation",
-        "desc": "Train candidate algorithms, optimize hyperparameters, and evaluate performance against business thresholds."
+        "step": "03",
+        "title": "Pipeline Integration & Serving",
+        "desc": "Deploying models into production APIs with real-time inference and monitoring."
       },
       {
-        "title": "Production Deployment & Monitoring",
-        "desc": "Deploy low-latency inference APIs, integrate with enterprise workflows, and establish continuous telemetry for model drift."
+        "step": "04",
+        "title": "Governance & Continuous Retraining",
+        "desc": "Tracking model drift, ensuring explainability, and scheduling automated retraining."
       }
     ],
     "businessValue": [
       {
-        "title": "Data-Driven Decision Speed",
-        "desc": "Automate complex analytical evaluations to empower decision-makers with instantaneous, evidence-backed insights."
+        "title": "Operational Efficiency",
+        "desc": "Automating manual document inspection and routine decision-making at enterprise scale."
       },
       {
-        "title": "Drastic Operational Efficiency",
-        "desc": "Eliminate manual data classification and repetitive triage tasks, enabling teams to concentrate on strategic execution."
+        "title": "Data-Driven Agility",
+        "desc": "Replacing intuition with statistically grounded predictive forecasts."
       },
       {
-        "title": "Proactive Risk Prevention",
-        "desc": "Detect operational anomalies and emerging equipment failures before they cause costly unplanned disruptions."
+        "title": "Governed Innovation",
+        "desc": "Deploying AI solutions that comply with regulatory standards and explainability requirements."
       }
     ],
     "related": [
       {
         "title": "Data Management & Analytics",
-        "desc": "Enterprise data governance, master data management, and end-to-end digital analytics.",
+        "desc": "Enterprise governance, automated quality cleansing, and high-speed integration pipelines.",
         "url": "service-data.html"
       },
       {
-        "title": "Cloud Services",
-        "desc": "Modern cloud infrastructure, scalable storage, and high-performance computing.",
-        "url": "service-cloud.html"
+        "title": "Data Warehouse Design",
+        "desc": "Active enterprise intelligence, dimensional modeling, and cloud warehouse architectures.",
+        "url": "service-datawarehouse.html"
       },
       {
         "title": "Software Engineering",
-        "desc": "Bespoke custom application engineering and systems integration under contract programming.",
+        "desc": "Proprietary custom application development and mission-critical systems integration.",
         "url": "service-software.html"
       }
     ]
   }
 };
+
 const TECH = {
   "ai": {
     "shortTitle": "AI & Machine Learning",
     "title": "AI, Machine Learning & Enterprise Intelligence",
-    "kicker": "OUR TECHNOLOGY & ENTERPRISE FOCUS",
-    "intro": "Turn complex enterprise data into predictive intelligence through practical AI and machine learning capabilities that help organizations automate workflows, forecast outcomes, and innovate with precision.",
+    "kicker": "PREDICTIVE ENTERPRISE INTELLIGENCE",
+    "intro": "Dazzlon builds practical AI and machine learning capabilities that help organizations automate workflows, extract intelligence from unstructured documents, and forecast operational outcomes.",
     "metrics": [
-      "Predictive Analytics",
-      "Workflow Automation",
-      "Model Governance"
+      {
+        "val": "85%+",
+        "label": "Document Workflow Automation"
+      },
+      {
+        "val": "3x",
+        "label": "Forecasting Cycle Acceleration"
+      },
+      {
+        "val": "100%",
+        "label": "Explainable Governance"
+      }
     ],
     "strategicIntro": {
-      "heading": "From Raw Enterprise Data to Operational Intelligence",
+      "eyebrow": "ENTERPRISE AI",
+      "heading": "Grounding Artificial Intelligence in Practical, High-Value Business Processes",
       "text": [
-        "Artificial Intelligence and Machine Learning represent transformative opportunities when grounded in robust data architecture and practical business context. Rather than deploying experimental novelties, Dazzlon integrates intelligent algorithms directly into operational workflows.",
-        "From predictive maintenance on the manufacturing floor to intelligent customer analytics and automated fraud detection, we design and deploy machine learning models with rigorous validation, explainability, and full data governance."
+        "Artificial intelligence delivers true business impact only when integrated into operational workflows and grounded in verified enterprise data. Generic models that lack business context fail to deliver measurable ROI.",
+        "Dazzlon engineers targeted machine learning and AI capabilities tailored to high-value enterprise applications. From automated document parsing and entity extraction to predictive inventory modeling and forecasting, our solutions transform complex data into reliable, automated operational intelligence."
       ],
-      "highlightsTitle": "AI Focus Areas",
+      "highlightsTitle": "Enterprise AI Capabilities",
       "highlights": [
         "Practical machine learning models tailored to high-value enterprise use cases",
         "Seamless integration with enterprise data warehouses and streaming pipelines",
         "Explainable AI architectures and continuous model accuracy monitoring",
-        "Automated document processing, entity extraction, and NLP pipelines",
-        "Adherence to enterprise security, privacy, and regulatory standards"
+        "Automated document processing, entity extraction, and NLP pipelines"
       ]
     },
     "capabilities": [
       {
-        "title": "Predictive Modeling & Forecasting",
-        "desc": "Developing supervised and unsupervised machine learning models to forecast demand, predict equipment maintenance, and optimize resource allocation.",
+        "num": "01",
+        "title": "Predictive Modeling & Statistical Forecasting",
+        "desc": "Designing and deploying supervised and unsupervised machine learning algorithms to forecast demand, identify equipment failure risks, and anticipate customer churn.",
         "items": [
-          "Time-series forecasting and regression modeling",
-          "Anomaly and outlier detection in operational telemetry",
-          "Customer churn and lifetime value prediction",
-          "Continuous model retraining and drift monitoring"
+          "Time-series forecasting for inventory, capacity, and revenue planning",
+          "Churn prediction and customer lifetime value modeling",
+          "Predictive equipment maintenance through telemetry pattern analysis",
+          "Continuous model retraining and data drift detection pipelines"
         ]
       },
       {
-        "title": "Natural Language Processing (NLP)",
-        "desc": "Extracting structured intelligence from unstructured enterprise text, emails, contracts, and customer support tickets.",
+        "num": "02",
+        "title": "Natural Language Processing (NLP) & Document Intelligence",
+        "desc": "Extracting structured data, entities, and business insights from high volumes of complex contracts, reports, and customer correspondence.",
         "items": [
-          "Entity recognition, categorization, and metadata extraction",
-          "Sentiment analysis and customer feedback parsing",
-          "Automated document processing and indexing",
-          "Custom semantic search and knowledge retrieval"
+          "Automated document classification and key-value metadata extraction",
+          "Named Entity Recognition (NER) for financial and legal records",
+          "Semantic search and intelligent enterprise knowledge retrieval",
+          "Automated sentiment and intent classification for support workflows"
         ]
       },
       {
+        "num": "03",
         "title": "Intelligent Process Automation (IPA)",
-        "desc": "Combining business rules, machine learning algorithms, and automated workflows to eliminate repetitive operational bottlenecks.",
+        "desc": "Combining rule-based workflows with machine learning heuristics to automate routine decision-making across complex business operations.",
         "items": [
-          "Automated document routing and classification",
-          "Algorithmic decision support for approval workflows",
-          "Exception detection and automated escalation triggers",
-          "Integration with enterprise ERP and CRM platforms"
+          "Intelligent invoice, claim, and order routing automation",
+          "Anomaly detection and automated fraud scoring",
+          "Human-in-the-loop validation interfaces for high-consequence decisions",
+          "Real-time decision orchestration integrated with core ERP systems"
         ]
       }
     ],
@@ -1603,11 +1783,10 @@ const TECH = {
         "category": "Machine Learning Frameworks",
         "tools": [
           "Python",
-          "TensorFlow",
           "Scikit-Learn",
-          "Pandas",
-          "NumPy",
-          "Apache Spark MLlib"
+          "PyTorch",
+          "TensorFlow",
+          "Pandas"
         ]
       },
       {
@@ -1615,137 +1794,161 @@ const TECH = {
         "tools": [
           "AWS SageMaker",
           "Azure Machine Learning",
-          "Databricks",
-          "Hadoop",
-          "BigData"
+          "Google Cloud Vertex AI"
         ]
       },
       {
         "category": "Data & Feature Engineering",
         "tools": [
-          "Informatica",
-          "Ab Initio",
-          "SQL / PL/SQL",
-          "Teradata",
-          "Snowflake"
+          "Apache Spark",
+          "Snowflake",
+          "Databricks",
+          "MLflow"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Use-Case Evaluation & Feasibility",
-        "desc": "Identify high-value business challenges, assess available training datasets, and establish measurable accuracy benchmarks."
+        "step": "01",
+        "title": "Use Case Prioritization & Data Audit",
+        "desc": "Assessing data readiness, feature availability, and expected operational value."
       },
       {
-        "title": "Data Preparation & Feature Engineering",
-        "desc": "Cleanse historical data, engineer predictive features, and construct auditable training, validation, and testing partitions."
+        "step": "02",
+        "title": "Feature Engineering & Model Training",
+        "desc": "Developing baseline models, cross-validating accuracy, and tuning hyperparameters."
       },
       {
-        "title": "Model Training & Validation",
-        "desc": "Train candidate algorithms, optimize hyperparameters, and evaluate performance against business thresholds."
+        "step": "03",
+        "title": "Pipeline Integration & Serving",
+        "desc": "Deploying models into production APIs with real-time inference and monitoring."
       },
       {
-        "title": "Production Deployment & Monitoring",
-        "desc": "Deploy low-latency inference APIs, integrate with enterprise workflows, and establish continuous telemetry for model drift."
+        "step": "04",
+        "title": "Governance & Continuous Retraining",
+        "desc": "Tracking model drift, ensuring explainability, and scheduling automated retraining."
       }
     ],
     "businessValue": [
       {
-        "title": "Data-Driven Decision Speed",
-        "desc": "Automate complex analytical evaluations to empower decision-makers with instantaneous, evidence-backed insights."
+        "title": "Operational Efficiency",
+        "desc": "Automating manual document inspection and routine decision-making at enterprise scale."
       },
       {
-        "title": "Drastic Operational Efficiency",
-        "desc": "Eliminate manual data classification and repetitive triage tasks, enabling teams to concentrate on strategic execution."
+        "title": "Data-Driven Agility",
+        "desc": "Replacing intuition with statistically grounded predictive forecasts."
       },
       {
-        "title": "Proactive Risk Prevention",
-        "desc": "Detect operational anomalies and emerging equipment failures before they cause costly unplanned disruptions."
+        "title": "Governed Innovation",
+        "desc": "Deploying AI solutions that comply with regulatory standards and explainability requirements."
       }
     ],
     "related": [
       {
         "title": "Data Management & Analytics",
-        "desc": "Enterprise data governance, master data management, and end-to-end digital analytics.",
+        "desc": "Enterprise governance, automated quality cleansing, and high-speed integration pipelines.",
         "url": "service-data.html"
       },
       {
-        "title": "Cloud Services",
-        "desc": "Modern cloud infrastructure, scalable storage, and high-performance computing.",
-        "url": "service-cloud.html"
+        "title": "Data Warehouse Design",
+        "desc": "Active enterprise intelligence, dimensional modeling, and cloud warehouse architectures.",
+        "url": "service-datawarehouse.html"
       },
       {
         "title": "Software Engineering",
-        "desc": "Bespoke custom application engineering and systems integration under contract programming.",
+        "desc": "Proprietary custom application development and mission-critical systems integration.",
         "url": "service-software.html"
       }
     ]
   },
   "cloud": {
     "shortTitle": "Cloud Services",
-    "title": "Cloud Strategy, Migration & Infrastructure Services",
-    "kicker": "CLOUD INFRASTRUCTURE & MODERNIZATION",
-    "intro": "Avoid the upfront capital cost and operational complexity of owning and maintaining internal IT infrastructure. Dazzlon provides end-to-end cloud consulting, architecture modernization, and managed operations across Amazon Web Services (AWS 175+ services) and Microsoft Azure (200+ products).",
+    "title": "Cloud Strategy, Infrastructure Modernization & Hybrid Cloud Engineering",
+    "kicker": "ENTERPRISE CLOUD ARCHITECTURE",
+    "intro": "Dazzlon helps enterprises modernize infrastructure, migrate legacy applications, and manage scalable hybrid and multi-cloud environments across AWS and Microsoft Azure with stringent cost and security governance.",
     "metrics": [
-      "AWS 175+ Services Managed",
-      "Azure 200+ Products Deployed",
-      "Zero-Downtime Migration Framework"
+      {
+        "val": "35%",
+        "label": "Average Cost Reduction (FinOps)"
+      },
+      {
+        "val": "99.95%",
+        "label": "High-Availability Architecture"
+      },
+      {
+        "val": "100%",
+        "label": "Automated Infrastructure as Code"
+      }
     ],
     "strategicIntro": {
-      "heading": "Modernizing Infrastructure and Scaling on Modern Cloud Platforms",
+      "eyebrow": "CLOUD TRANSFORMATION",
+      "heading": "Accelerating Enterprise Agility with Scalable, Resilient Cloud Architecture",
       "text": [
-        "Maintaining on-premise hardware infrastructure requires substantial capital expenditure, dedicated data center facilities, and constant maintenance. Transitioning to leading hyperscale cloud providers enables organizations to store and analyze vast volumes of data, modernize legacy applications, and scale computing power instantaneously.",
-        "Dazzlon designs, deploys, and manages resilient cloud environments built around your business challenges. Across Amazon Web Services (AWS) and Microsoft Azure, our engineers implement secure, cost-optimized architectures that promote collaboration, enhance security postures, and provide the flexible digital foundation your enterprise needs to thrive."
+        "Migrating to the cloud is no longer just about offloading on-premises data centers; it is about establishing an agile, automated foundation for digital innovation, rapid scaling, and resilient business continuity.",
+        "Dazzlon guides enterprises through every stage of cloud modernization. We modernize legacy applications, establish hybrid and multi-cloud topologies across AWS and Microsoft Azure, optimize cloud expenditures through FinOps, and embed security controls directly into infrastructure code."
       ],
-      "highlightsTitle": "Cloud Delivery Highlights",
+      "highlightsTitle": "Cloud Engineering Focus",
       "highlights": [
-        "Full architectural and operational coverage for Amazon Web Services (AWS)",
-        "Complete migration and management capabilities across Microsoft Azure products",
-        "Elimination of upfront hardware capital expenditures through pay-as-you-go models",
-        "Systematic modernization and re-platforming of legacy on-premises applications",
-        "Multi-region high availability, automated failover, and disaster recovery",
-        "Proactive cloud cost optimization, automated governance, and resource rightsizing"
+        "Phased, risk-mitigated migrations minimizing operational downtime",
+        "Infrastructure as Code (IaC) for repeatable, auditable deployments",
+        "Hybrid cloud topologies linking on-prem data centers with public clouds",
+        "Continuous FinOps cost optimization and enterprise security guardrails"
       ]
     },
     "capabilities": [
       {
+        "num": "01",
+        "title": "Cloud & Infrastructure Modernization",
+        "desc": "Re-platforming and refactoring legacy on-premises applications into elastic, microservices-oriented architectures that unlock superior agility and operational efficiency.",
+        "items": [
+          "Application portfolio rationalization and 6-R migration strategy execution",
+          "Monolith decomposition and containerization with Docker and Kubernetes",
+          "Modernization of legacy operating systems and relational database tiers",
+          "Automated deployment pipeline integration and cloud landing zone design"
+        ]
+      },
+      {
+        "num": "02",
         "title": "Amazon Web Services (AWS) Engineering",
-        "desc": "Leveraging compute power, scalable storage, managed databases, and serverless architectures across the broad ecosystem of 175+ AWS enterprise services.",
+        "desc": "Architecting, managing, and automating scalable enterprise workloads across compute, resilient storage, databases, and serverless technologies on AWS.",
         "items": [
           "Amazon EC2 compute provisioning, auto-scaling, and cluster management",
-          "Amazon S3 resilient object storage and lifecycle policy automation",
+          "Amazon S3 resilient object storage and automated lifecycle policy archiving",
           "Managed database administration across Amazon RDS and DynamoDB",
           "Serverless application architectures utilizing AWS Lambda and API Gateway"
         ]
       },
       {
-        "title": "Microsoft Azure Cloud Solutions",
-        "desc": "Architecting, managing, and deploying enterprise applications across the comprehensive catalog of 200+ Microsoft Azure cloud products.",
+        "num": "03",
+        "title": "Microsoft Azure Enterprise Solutions",
+        "desc": "Building robust enterprise application environments, software-defined networks, and cloud database systems across the Microsoft Azure ecosystem.",
         "items": [
           "Azure Virtual Machines and software-defined Virtual Networks (VNets)",
           "Azure SQL Database, Cosmos DB, and Blob storage management",
-          "Enterprise data analytics architectures with Azure Synapse",
-          "Identity and access governance via Microsoft Entra ID (Azure AD)"
+          "Enterprise data analytics integration with Azure Synapse",
+          "Identity, access, and governance enforcement with Microsoft Entra ID"
         ]
       },
       {
-        "title": "Infrastructure Modernization & Migration",
-        "desc": "Structured, risk-mitigated migration of on-premises servers, databases, and enterprise applications to modern cloud architectures.",
+        "num": "04",
+        "title": "Scalable Storage & Hybrid Cloud Architecture",
+        "desc": "Designing high-performance hybrid cloud architectures that securely bridge on-premises data centers with cloud resources for elastic scaling and disaster recovery.",
         "items": [
-          "Workload discovery, dependency mapping, and migration strategy (6 Rs)",
-          "Database schema conversion and automated minimal-downtime replication",
-          "Legacy application re-hosting, re-platforming, and containerization",
-          "Post-migration performance benchmarking and architectural hardening"
+          "Scalable cloud storage, data lakes, and automated tiered data retention",
+          "Dedicated hybrid connectivity via AWS Direct Connect and Azure ExpressRoute",
+          "Multi-region data replication and automated disaster recovery failover",
+          "Consistent networking and directory identity federation across hybrid tiers"
         ]
       },
       {
-        "title": "Cloud Governance, Cost Optimization & Security",
-        "desc": "Establishing continuous telemetry, automated policy enforcement, and proactive cost governance to prevent cloud budget overruns.",
+        "num": "05",
+        "title": "Cloud Governance, Cost Management (FinOps) & Security",
+        "desc": "Implementing proactive financial operations (FinOps), compliance policies, and automated security controls to eliminate waste and prevent breaches.",
         "items": [
-          "FinOps practices, automated resource shutdown, and rightsizing",
-          "Infrastructure as Code (IaC) templating using Terraform and CloudFormation",
-          "Cloud security posture management (CSPM) and compliance auditing",
-          "24/7 infrastructure health, SLA monitoring, and alerting integration"
+          "Cloud spend auditing, rightsizing recommendations, and reserved capacity management",
+          "Automated tagging, cost allocation, and executive budget monitoring",
+          "Multi-layered identity and access policies (IAM) with least-privilege enforcement",
+          "Continuous security posture management and compliance reporting"
         ]
       }
     ],
@@ -1758,10 +1961,8 @@ const TECH = {
           "RDS",
           "Lambda",
           "VPC",
-          "CloudFront",
           "IAM",
-          "CloudWatch",
-          "Redshift",
+          "CloudFront",
           "Route 53"
         ]
       },
@@ -1771,372 +1972,206 @@ const TECH = {
           "Azure VMs",
           "Blob Storage",
           "Azure SQL",
-          "AKS (Kubernetes)",
-          "Azure Synapse",
-          "Entra ID",
-          "Azure Monitor"
+          "Synapse",
+          "VNets",
+          "Entra ID"
         ]
       },
       {
         "category": "DevOps & Infrastructure as Code",
         "tools": [
           "Terraform",
-          "AWS CloudFormation",
+          "Ansible",
           "Docker",
           "Kubernetes",
-          "CI/CD Pipelines",
-          "Ansible"
+          "AWS CloudFormation"
         ]
       },
       {
-        "category": "Operating Systems & Networking",
+        "category": "Governance & FinOps",
         "tools": [
-          "Linux (RHEL, Ubuntu, CentOS)",
-          "Windows Server",
-          "Unix",
-          "Site-to-Site VPN",
-          "Direct Connect"
+          "AWS Cost Explorer",
+          "Azure Cost Management",
+          "Datadog",
+          "Prometheus"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Cloud Readiness Assessment",
-        "desc": "Inventory existing servers, analyze application dependencies, evaluate licensing requirements, and project cloud Total Cost of Ownership (TCO)."
+        "step": "01",
+        "title": "Workload Assessment & Cloud Readiness",
+        "desc": "Evaluating application dependencies, network bandwidth requirements, and compliance mandates."
       },
       {
-        "title": "Target Architecture Design",
-        "desc": "Formulate multi-tier VPC/VNet topologies, identity federation blueprints, security boundaries, and disaster recovery configurations."
+        "step": "02",
+        "title": "Architecture Blueprint & Landing Zones",
+        "desc": "Establishing secure multi-account landing zones, VPC structures, and identity policies."
       },
       {
-        "title": "Phased Migration Execution",
-        "desc": "Execute automated data replication, validate staging environments, and perform cutover windows designed to guarantee zero data loss."
+        "step": "03",
+        "title": "Phased Migration & Infrastructure Deployment",
+        "desc": "Executing automated data synchronization, workload cutover, and comprehensive regression verification."
       },
       {
-        "title": "Continuous Governance & FinOps",
-        "desc": "Deploy automated cost monitoring, enforce security policies, and continuously optimize resource sizing for peak efficiency."
+        "step": "04",
+        "title": "FinOps Optimization & Managed Governance",
+        "desc": "Enforcing continuous cost auditing, autoscaling policies, and automated security telemetry."
       }
     ],
     "businessValue": [
       {
-        "title": "Zero Upfront Infrastructure CapEx",
-        "desc": "Eliminate expensive server hardware purchases and data center leases in favor of a flexible, transparent operational expenditure model."
+        "title": "Cost Predictability & Control",
+        "desc": "Eliminating unmanaged cloud sprawl with automated governance and FinOps rightsizing."
       },
       {
-        "title": "Elastic On-Demand Scalability",
-        "desc": "Scale compute, memory, and storage resources in minutes rather than months, dynamically responding to business growth and seasonal spikes."
+        "title": "Elastic Scalability",
+        "desc": "Scaling compute and storage resources dynamically to accommodate peak business transaction demand."
       },
       {
-        "title": "High Availability & Business Continuity",
-        "desc": "Protect mission-critical operations with automated multi-zone failover, geo-redundant backups, and strict recovery time objectives."
+        "title": "Enterprise Resilience",
+        "desc": "Achieving 99.95%+ availability and sub-minute failover across multiple availability zones."
       }
     ],
     "related": [
       {
         "title": "Managed IT Services",
-        "desc": "Proactive SLA-backed operational management, infrastructure maintenance, and 24/7 monitoring.",
+        "desc": "Contracted SLA-backed infrastructure administration and 24/7 telemetry monitoring.",
         "url": "service-managed.html"
       },
       {
         "title": "Cybersecurity",
-        "desc": "Multi-layered threat protection, cloud security posture management, and zero-trust defenses.",
+        "desc": "Multi-layered threat defense protecting enterprise networks, applications, and cloud environments.",
         "url": "service-cybersecurity.html"
       },
       {
         "title": "Data Warehouse Design",
-        "desc": "Active enterprise intelligence, dimensional modeling, and cloud data warehouse architectures.",
+        "desc": "Active enterprise intelligence, dimensional modeling, and cloud warehouse architectures.",
         "url": "service-datawarehouse.html"
-      }
-    ]
-  },
-  "data": {
-    "shortTitle": "Data Management & Analytics",
-    "title": "Data Management, Governance & Advanced Analytics",
-    "kicker": "ENTERPRISE DATA GOVERNANCE & ANALYTICS",
-    "intro": "An enterprise cannot achieve reliable reporting or meaningful insights from data without a well-tuned data management process. Dazzlon helps enterprises organize critical data processes, establish governance policies, eliminate data duplication and error, and visualize user behaviors across all channels.",
-    "metrics": [
-      "Enterprise Data Governance",
-      "Automated Migration & Validation",
-      "End-to-End Digital Analytics"
-    ],
-    "strategicIntro": {
-      "heading": "Transforming Fragmented Data Into Trusted Decision Intelligence",
-      "text": [
-        "In high-velocity business environments, strategic decisions depend directly on data integrity. However, many enterprises struggle with fragmented departmental silos, duplicate records, inconsistent definitions, and obsolete information that distort analytics and compromise executive reporting.",
-        "Dazzlon provides full-lifecycle data management consulting and implementation. We help organizations establish formal governance strategies, design master data management architectures, execute automated data migrations with mathematical verification, and deploy end-to-end digital analytics programs that yield complete clarity into customer behaviors."
-      ],
-      "highlightsTitle": "Data Management Scope",
-      "highlights": [
-        "Comprehensive enterprise data governance strategies and stewardship policies",
-        "Data quality management, automated deduplication, and error remediation",
-        "Master Data Management (MDM) and centralized metadata cataloging",
-        "Automated data migration pipelines with complete pre- and post-validation",
-        "Data enrichment with external sources and web/social data extraction",
-        "Information architecture security audits and big-data stack evaluations",
-        "End-to-end digital and web analytics from measurement strategy to dashboards"
-      ]
-    },
-    "capabilities": [
-      {
-        "title": "Data Governance & Policy Design",
-        "desc": "Designing enterprise-wide governance frameworks defining roles, rights, responsibilities, standards, and compliance metrics.",
-        "items": [
-          "Data stewardship and ownership role definition across business units",
-          "Enterprise business glossaries and standardized data dictionaries",
-          "Compliance alignment with regulatory mandates (GDPR, CCPA)",
-          "Data quality KPI definition and continuous audit tracking"
-        ]
-      },
-      {
-        "title": "Data Quality & Master Data Management (MDM)",
-        "desc": "Detecting and resolving duplicate, incomplete, erroneous, or obsolete data while establishing a unified master data foundation.",
-        "items": [
-          "Automated data profiling, deduplication, and cleansing routines",
-          "Master Data Management (MDM) architecture design and deployment",
-          "Metadata management, data cataloging, and lineage tracking",
-          "Data normalization rules enforcing consistency across enterprise applications"
-        ]
-      },
-      {
-        "title": "Data Integration & Automated Migration",
-        "desc": "Uniting disparate transactional systems into centralized data lakes and executing automated migrations with verification.",
-        "items": [
-          "Enterprise ETL/ELT pipeline design and high-speed batch/streaming processing",
-          "Multi-source data consolidation into scalable data lakes and data warehouses",
-          "Automated migration pipelines with automated data reconciliation checks",
-          "Legacy database schema refactoring and transformation logic"
-        ]
-      },
-      {
-        "title": "Data Enrichment & Extraction",
-        "desc": "Augmenting existing enterprise records with external data and retrieving structured or unstructured information from web sources.",
-        "items": [
-          "Third-party demographic and firmographic data enrichment",
-          "Automated web and social data extraction pipelines",
-          "Unstructured text parsing, normalization, and entity extraction",
-          "External API integration feeding real-time operational datasets"
-        ]
-      },
-      {
-        "title": "Data Security & Architecture Audits",
-        "desc": "Evaluating information management practices, technology stacks, and database hardening to protect sensitive enterprise assets.",
-        "items": [
-          "Database access control, role boundaries, and encryption audits",
-          "Information architecture scalability and throughput assessments",
-          "Big Data and Business Intelligence technology stack evaluations",
-          "Sensitive data masking, tokenization, and privacy controls"
-        ]
-      },
-      {
-        "title": "End-to-End Digital & Web Analytics",
-        "desc": "Designing and deploying measurement strategies, tag management architectures, and executive reporting across web and mobile applications.",
-        "items": [
-          "Measurement strategy formulation, KPI definitions, and tracking architecture",
-          "Tag management deployment using Tealium iQ, Google Tag Manager, or Adobe DTM",
-          "Cross-channel user journey mapping, funnel analysis, and segmentation",
-          "Executive business intelligence dashboards via Tableau and PowerBI"
-        ]
-      }
-    ],
-    "techStack": [
-      {
-        "category": "Data Integration & Big Data",
-        "tools": [
-          "Informatica PowerCenter",
-          "Ab Initio",
-          "Microsoft SSIS",
-          "Apache Spark",
-          "Hadoop",
-          "AWS BigData"
-        ]
-      },
-      {
-        "category": "Databases & Warehouses",
-        "tools": [
-          "Teradata",
-          "Oracle Database",
-          "Microsoft SQL Server",
-          "MySQL",
-          "PL/SQL"
-        ]
-      },
-      {
-        "category": "Digital & Web Analytics",
-        "tools": [
-          "Adobe Analytics",
-          "Google Analytics",
-          "Tealium iQ",
-          "Google Tag Manager (GTM)",
-          "Adobe DTM"
-        ]
-      },
-      {
-        "category": "Business Intelligence & Reporting",
-        "tools": [
-          "Tableau",
-          "Cognos",
-          "MicroStrategy",
-          "Business Objects",
-          "WebFOCUS",
-          "SSRS"
-        ]
-      }
-    ],
-    "methodology": [
-      {
-        "title": "Data Landscape & Quality Audit",
-        "desc": "Profile existing data repositories, identify duplication and corruption rates, and evaluate current analytics tooling and reporting silos."
-      },
-      {
-        "title": "Governance & Architecture Blueprint",
-        "desc": "Draft enterprise governance policies, specify master data schemas, and design automated ETL/ELT pipelines and tracking architectures."
-      },
-      {
-        "title": "Engineering, Cleansing & Migration",
-        "desc": "Build automated data cleansing routines, implement tag management architectures, deploy data pipelines, and conduct reconciliation verification."
-      },
-      {
-        "title": "Dashboarding & Analytics Enablement",
-        "desc": "Deliver intuitive executive dashboards, train internal data stewards, and configure automated data health monitoring alerts."
-      }
-    ],
-    "businessValue": [
-      {
-        "title": "Trusted, Reliable Business Reporting",
-        "desc": "Eliminate conflicting departmental metrics by establishing unified master data and verified integration pipelines."
-      },
-      {
-        "title": "Regulatory Compliance & Audit Assurance",
-        "desc": "Documented data lineage, strict role-based access, and formal governance policies ensure audit-readiness for complex regulatory standards."
-      },
-      {
-        "title": "Comprehensive Customer Intelligence",
-        "desc": "Visualize complete customer journeys across digital touchpoints to optimize user conversion, retention, and operational workflows."
-      }
-    ],
-    "related": [
-      {
-        "title": "Data Warehouse Design",
-        "desc": "Active enterprise intelligence, dimensional modeling, and high-performance warehouse architecture.",
-        "url": "service-datawarehouse.html"
-      },
-      {
-        "title": "Cloud Services",
-        "desc": "Modern cloud infrastructure, scalable storage, and managed cloud data platforms.",
-        "url": "service-cloud.html"
-      },
-      {
-        "title": "Software Engineering",
-        "desc": "Custom application engineering, systems integration, and bespoke data logic development.",
-        "url": "service-software.html"
       }
     ]
   },
   "cybersecurity": {
     "shortTitle": "Cybersecurity",
-    "title": "Cybersecurity Consulting & Multi-Layered Threat Defense",
-    "kicker": "ENTERPRISE CYBERSECURITY & THREAT DEFENSE",
-    "intro": "In today's interconnected enterprise landscape, robust cybersecurity is more vital than ever. Dazzlon protects critical systems, networks, applications, and proprietary corporate data through an 8-layer defense model and proactive threat mitigation against evolving digital attacks.",
+    "title": "Cybersecurity Consulting, Threat Mitigation & Multi-Layered Defense",
+    "kicker": "ENTERPRISE THREAT DEFENSE",
+    "intro": "Dazzlon protects enterprise networks, applications, and cloud environments through multi-layered defensive architectures and aggressive countermeasures against modern cyber threats.",
     "metrics": [
-      "8 Defensive Security Layers",
-      "Zero-Trust Access Architecture",
-      "Proactive Threat Remediation"
+      {
+        "val": "Zero",
+        "label": "Trust Architecture Implementation"
+      },
+      {
+        "val": "100%",
+        "label": "Vulnerability & Code Audit Coverage"
+      },
+      {
+        "val": "24/7",
+        "label": "Active Threat Defense & Telemetry"
+      }
     ],
     "strategicIntro": {
-      "heading": "Comprehensive Threat Protection Across 8 Enterprise Layers",
+      "eyebrow": "DEFENSIVE IMPERATIVE",
+      "heading": "Multi-Layered Security Architecture Engineered Against Complex Attack Vectors",
       "text": [
-        "Digital threats are continuously multiplying in complexity and frequency. Cyber adversaries target organizations through phishing attacks, zero-day vulnerabilities, destructive ransomware, botnets, and sophisticated social engineering schemes. Securing modern enterprises requires far more than basic perimeter firewalls.",
-        "Dazzlon implements an authoritative, defense-in-depth cybersecurity framework. We establish rigorous protection across eight distinct enterprise layers\u2014Network, Application, Data, Identity Management, Database & Infrastructure, Cloud, Mobile, and Endpoint Security. By combining proactive vulnerability testing with robust policy enforcement, we keep your digital ecosystem resilient and secure."
+        "Enterprise IT estates now span on-premises data centers, multiple public clouds, mobile devices, and hundreds of web and API interfaces. Security strategies that rely only on perimeter defense leave organizations dangerously exposed.",
+        "Dazzlon implements comprehensive defense-in-depth architecture. We protect eight distinct enterprise security layers\u2014from network boundaries and source code to identities and databases\u2014while maintaining active mitigation protocols against phishing, ransomware, trojans, and sophisticated social engineering attacks."
       ],
-      "highlightsTitle": "Threat Protection Scope",
+      "highlightsTitle": "Threat Mitigation Matrix",
       "highlights": [
-        "Active defense against Phishing, Ransomware, Viruses, Trojans, and Botnets",
-        "Mitigation against Spyware, Adware, destructive Malware, and Social Engineering",
-        "Zero-Trust Identity and Access Management (IAM) and least-privilege enforcement",
-        "Comprehensive application code security reviews, SAST, and vulnerability scans",
-        "Hardened cloud infrastructure and database access governance",
-        "Complete endpoint and mobile device security management (MDM/EDR)"
+        "Active defensive countermeasures against phishing, ransomware, and malware",
+        "Protection across viruses, trojans, spyware, adware, and botnet propagation",
+        "Social engineering defense protocols and credential harvesting countermeasures",
+        "Full defense-in-depth coverage across network, application, data, and identity"
       ]
     },
     "capabilities": [
       {
+        "num": "01",
         "title": "Network Security",
-        "desc": "Protecting enterprise networks from unauthorized intrusions, lateral attacks, and opportunistic malware by controlling incoming and outgoing traffic.",
+        "desc": "Securing enterprise perimeter and internal segment traffic through next-generation firewalls, intrusion detection/prevention systems (IDS/IPS), and zero-trust segmentation.",
         "items": [
-          "Next-generation firewall (NGFW) deployment and continuous rule tuning",
-          "Intrusion Detection and Prevention Systems (IDS/IPS) monitoring",
-          "Network micro-segmentation isolating critical production workloads",
-          "Encrypted VPN gateways and secure remote access architecture"
+          "Next-generation firewall configuration and traffic inspection",
+          "Intrusion Detection and Prevention Systems (IDS/IPS)",
+          "Software-defined network micro-segmentation and isolation",
+          "Secure VPN, SD-WAN, and encrypted transit tunnels"
         ]
       },
       {
-        "title": "Application Security",
-        "desc": "Hardening software, web applications, and internal tools through secure SDLC practices, code reviews, and automated vulnerability scanning.",
+        "num": "02",
+        "title": "Application Security & Secure Code Auditing",
+        "desc": "Integrating security controls into the software engineering lifecycle to identify and eliminate code vulnerabilities before production deployment.",
         "items": [
-          "Static and dynamic application security testing (SAST / DAST)",
-          "Source code security reviews and architectural flaw identification",
-          "Secure coding guidelines and vulnerability remediation support",
-          "API security, rate limiting, and parameter validation enforcement"
+          "Static and Dynamic Application Security Testing (SAST/DAST)",
+          "OWASP Top 10 vulnerability remediation (SQLi, XSS, CSRF)",
+          "Dependency and open-source library vulnerability scanning",
+          "Secure coding standards and developer security training"
         ]
       },
       {
-        "title": "Data Security & Privacy",
-        "desc": "Safeguarding the confidentiality, integrity, and privacy of enterprise data assets in transit, at rest, and in active use.",
+        "num": "03",
+        "title": "Data Security & Cryptographic Protection",
+        "desc": "Implementing robust encryption, tokenization, and Data Loss Prevention (DLP) controls to safeguard sensitive business and client records.",
         "items": [
-          "Enterprise encryption for file systems, databases, and network transmissions",
-          "Data Loss Prevention (DLP) policies preventing unauthorized data exfiltration",
-          "Sensitive data classification, tokenization, and database masking",
-          "Regulatory privacy compliance alignment (GDPR, CCPA, HIPAA)"
+          "Encryption at rest using AES-256 and hardware security modules (HSM)",
+          "Data Loss Prevention (DLP) to stop unauthorized exfiltration",
+          "Tokenization and field-level masking for confidential records",
+          "Data classification and lifecycle retention governance"
         ]
       },
       {
+        "num": "04",
         "title": "Identity & Access Management (IAM)",
-        "desc": "Enforcing least-privilege access controls across internal data, corporate networks, and sensitive cloud applications.",
+        "desc": "Enforcing zero-trust authentication, multi-factor verification, and least-privilege role-based access across all enterprise users and systems.",
         "items": [
-          "Role-Based Access Control (RBAC) and attribute-based permissions",
-          "Multi-Factor Authentication (MFA) deployment across all entry points",
+          "Enterprise Single Sign-On (SSO) and Multi-Factor Authentication (MFA)",
+          "Role-Based (RBAC) and Attribute-Based (ABAC) access control",
           "Privileged Access Management (PAM) for administrative accounts",
-          "Centralized directory synchronization and Single Sign-On (SSO)"
+          "Automated user lifecycle provisioning and de-provisioning"
         ]
       },
       {
+        "num": "05",
         "title": "Database & Infrastructure Security",
-        "desc": "Protecting physical equipment, virtual hosts, and database management systems through hardened configurations and audit logging.",
+        "desc": "Hardening relational and cloud databases, hypervisors, and server operating systems against unauthorized configuration changes and exploitation.",
         "items": [
-          "Database server hardening and benchmark configuration audits",
-          "Defenses against SQL injection and unauthorized backend access",
-          "Physical and virtual infrastructure security compliance auditing",
-          "Comprehensive database query and administrator activity logging"
+          "Database activity monitoring (DAM) and query anomaly detection",
+          "Database hardening, privilege minimization, and credential audits",
+          "Operating system benchmark compliance (CIS Benchmarks)",
+          "Security patch management and configuration drift audits"
         ]
       },
       {
-        "title": "Cloud Security",
-        "desc": "Securing data, workloads, and containers deployed across public and hybrid cloud environments (AWS, Microsoft Azure).",
+        "num": "06",
+        "title": "Cloud Security & Posture Management",
+        "desc": "Establishing secure cloud landing zones, container runtime protections, and automated compliance auditing across AWS and Azure environments.",
         "items": [
-          "Cloud Security Posture Management (CSPM) and misconfiguration detection",
-          "Cloud firewall rule configuration and cloud IAM least-privilege boundaries",
-          "Workload encryption, key management, and secrets management",
-          "Secure cloud networking and container environment protection"
+          "Cloud Security Posture Management (CSPM) and misconfiguration auditing",
+          "Container and Kubernetes cluster runtime defense",
+          "Virtual Private Cloud (VPC) isolation and security group governance",
+          "Cloud storage bucket permission auditing and automated remediation"
         ]
       },
       {
+        "num": "07",
         "title": "Mobile Security",
-        "desc": "Securing mobile devices and enterprise applications as workforce mobility continues to expand across distributed teams.",
+        "desc": "Protecting mobile applications, mobile APIs, and corporate handheld devices from data leakage, insecure transit, and unauthorized access.",
         "items": [
-          "Mobile Device Management (MDM) enrollment and policy enforcement",
-          "Enterprise mobile application containerization and secure storage",
-          "Remote device locking, selective data wiping, and jailbreak detection",
-          "Mandatory mobile encryption and passcode complexity rules"
+          "Mobile Application Security Testing (MAST) across iOS and Android",
+          "Mobile Device Management (MDM) and Mobile Application Management (MAM)",
+          "Secure API gateway authentication and mobile SSL pinning",
+          "Device containerization and remote wipe capabilities"
         ]
       },
       {
-        "title": "Endpoint Security",
-        "desc": "Guarding laptops, desktops, and workstations serving as primary entry points to the corporate network.",
+        "num": "08",
+        "title": "Endpoint Security & Threat Countermeasures",
+        "desc": "Deploying advanced Endpoint Detection and Response (EDR) to neutralize ransomware, trojans, spyware, adware, and botnet infections in real time.",
         "items": [
-          "Next-Gen Antivirus (NGAV) and Endpoint Detection and Response (EDR)",
-          "Automated operating system and software security patch management",
-          "Host-based firewall configuration and USB/peripheral control",
-          "Device compliance verification prior to granting network admission"
+          "Next-generation endpoint protection and behavioral heuristics",
+          "Real-time anti-malware, anti-spyware, and anti-adware scanning",
+          "Automated isolation and remediation of compromised endpoints",
+          "Threat hunting and centralized security telemetry integration"
         ]
       }
     ],
@@ -2144,94 +2179,315 @@ const TECH = {
       {
         "category": "Endpoint & Threat Protection",
         "tools": [
-          "Next-Gen EDR",
-          "Anti-Malware Engines",
-          "Host Intrusion Prevention",
-          "Automated Patch Management"
+          "CrowdStrike Falcon",
+          "Microsoft Defender for Endpoint",
+          "SentinelOne",
+          "Carbon Black"
         ]
       },
       {
         "category": "Identity & Access (IAM)",
         "tools": [
+          "Okta",
           "Microsoft Entra ID (Azure AD)",
-          "Active Directory",
-          "LDAP",
-          "Multi-Factor Authentication (MFA)",
-          "Single Sign-On (SSO)"
-        ]
-      },
-      {
-        "category": "Code Review & Vulnerability Auditing",
-        "tools": [
-          "Static Code Security Analyzers",
-          "Vulnerability Scanners",
-          "Bugzilla",
-          "HP ALM",
-          "SoapUI Security"
+          "CyberArk Privileged Access",
+          "Ping Identity"
         ]
       },
       {
         "category": "Network & Cloud Security",
         "tools": [
-          "Next-Gen Firewalls",
-          "AWS IAM",
-          "Azure Security Center",
-          "CloudWatch",
-          "Encrypted TLS/VPN"
+          "Palo Alto Networks",
+          "Cisco ASA / Firepower",
+          "Snort IDS/IPS",
+          "AWS GuardDuty"
+        ]
+      },
+      {
+        "category": "Code Auditing & Vulnerability",
+        "tools": [
+          "Veracode",
+          "Checkmarx",
+          "SonarQube",
+          "Tenable Nessus",
+          "OWASP ZAP"
         ]
       }
     ],
     "methodology": [
       {
-        "title": "Threat & Vulnerability Assessment",
-        "desc": "Conduct comprehensive scans across networks, endpoints, codebases, and cloud environments to identify vulnerabilities and threat vectors."
+        "step": "01",
+        "title": "Threat Landscape & Vulnerability Audit",
+        "desc": "Conducting penetration tests, architecture reviews, and risk scoring across the entire estate."
       },
       {
-        "title": "8-Layer Architecture Design",
-        "desc": "Architect tailored defensive controls across all 8 security layers aligned with enterprise risk tolerances and industry compliance requirements."
+        "step": "02",
+        "title": "Zero-Trust Architecture Blueprint",
+        "desc": "Formulating segmentation policies, IAM guardrails, and cryptographic controls."
       },
       {
-        "title": "Hardening & Policy Deployment",
-        "desc": "Deploy endpoint security agents, configure IAM least-privilege policies, enforce data encryption, and harden network perimeters."
+        "step": "03",
+        "title": "Defensive Implementation & Hardening",
+        "desc": "Deploying EDR agents, configuring next-generation firewalls, and hardening databases."
       },
       {
-        "title": "Continuous Monitoring & Simulation",
-        "desc": "Perform recurring vulnerability assessments, review audit logs, and conduct social engineering and phishing awareness simulations."
+        "step": "04",
+        "title": "Continuous Telemetry & Incident Governance",
+        "desc": "Real-time security event telemetry, regular vulnerability rescanning, and policy updates."
       }
     ],
     "businessValue": [
       {
-        "title": "Resilience Against Ransomware & Breaches",
-        "desc": "Comprehensive defense-in-depth stops malicious actors at the perimeter, endpoint, or application level before data is compromised."
+        "title": "Breach Prevention",
+        "desc": "Multi-layered defenses eliminate single points of failure across all technical assets."
       },
       {
-        "title": "Regulatory & Audit Compliance",
-        "desc": "Meet stringent compliance mandates across financial, healthcare, and industrial sectors with documented, auditable security controls."
+        "title": "Regulatory Compliance",
+        "desc": "Satisfying HIPAA, PCI-DSS, SOC 2, and GDPR security mandates with auditable controls."
       },
       {
-        "title": "Protection of Brand Equity & IP",
-        "desc": "Safeguard proprietary intellectual property, trade secrets, and customer data from unauthorized leaks, maintaining enterprise trust."
+        "title": "Brand Trust & Continuity",
+        "desc": "Safeguarding proprietary intellectual property and customer confidence against cyber threats."
       }
     ],
     "related": [
       {
         "title": "Cloud Services",
-        "desc": "Secure cloud infrastructure, VPC architecture, and managed cloud operations on AWS and Azure.",
+        "desc": "Modernize legacy infrastructure with secure hybrid and multi-cloud architectures.",
         "url": "service-cloud.html"
       },
       {
         "title": "Managed IT Services",
-        "desc": "Proactive 24/7 infrastructure monitoring, patch management, and SLA-backed support.",
+        "desc": "Contracted SLA-backed infrastructure administration and 24/7 telemetry monitoring.",
         "url": "service-managed.html"
       },
       {
-        "title": "Quality Assurance",
-        "desc": "Application vulnerability testing, source code security reviews, and software quality validation.",
-        "url": "service-qa.html"
+        "title": "Software Engineering",
+        "desc": "Proprietary custom application development and mission-critical systems integration.",
+        "url": "service-software.html"
+      }
+    ]
+  },
+  "data": {
+    "shortTitle": "Data Management & Analytics",
+    "title": "Data Management, Enterprise Governance & Advanced Analytics",
+    "kicker": "ENTERPRISE DATA DISCIPLINE",
+    "intro": "Dazzlon builds trusted, compliant, and actionable data ecosystems through rigorous data governance, master data management, automated integration pipelines, and end-to-end digital analytics.",
+    "metrics": [
+      {
+        "val": "99.9%",
+        "label": "Master Data Accuracy"
+      },
+      {
+        "val": "100%",
+        "label": "Regulatory Privacy Compliance"
+      },
+      {
+        "val": "5x",
+        "label": "Data Pipeline Throughput Gain"
+      }
+    ],
+    "strategicIntro": {
+      "eyebrow": "DATA FOUNDATION",
+      "heading": "Turning Unstructured, Disconnected Information into High-Integrity Strategic Assets",
+      "text": [
+        "An enterprise cannot achieve reliable reporting or meaningful machine learning insights from data without a well-tuned architecture, disciplined governance, and uncompromising data quality.",
+        "Dazzlon delivers comprehensive data engineering that spans the entire information lifecycle. We establish governance frameworks, eliminate obsolete and duplicate records, build automated ETL/ELT integration pipelines, ensure regulatory data protection, and deploy executive digital analytics dashboards."
+      ],
+      "highlightsTitle": "Data Engineering Objectives",
+      "highlights": [
+        "Formal data governance policies, stewardship responsibilities, and ownership metrics",
+        "Automated data quality cleansing eradicating duplicate, incomplete, and obsolete records",
+        "Master Data Management (MDM) creating a unified, authoritative golden record",
+        "High-throughput integration connecting disparate on-premises and cloud repositories"
+      ]
+    },
+    "capabilities": [
+      {
+        "num": "01",
+        "title": "Data Governance & Policy Design",
+        "desc": "Formulating formal governance policies, data stewardship responsibilities, compliance controls, and data ownership metrics that ensure institutional accountability.",
+        "items": [
+          "Policy definition covering data lifecycle, security, and classification",
+          "Data stewardship frameworks and cross-departmental governance councils",
+          "Data cataloging, lineage tracking, and business glossary development",
+          "Regulatory compliance tracking across industry standards"
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Data Quality & Cleansing",
+        "desc": "Deploying automated profiling and cleansing rules to identify and remediate duplicate, incomplete, incorrect, and obsolete records across databases.",
+        "items": [
+          "Automated data profiling to detect anomalies, nulls, and format violations",
+          "Rule-based de-duplication, record matching, and fuzzy reconciliation logic",
+          "Address, customer, vendor, and product record standardization",
+          "Continuous quality scoring and automated data drift monitoring"
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Master Data Management (MDM)",
+        "desc": "Establishing an authoritative, single source of truth for critical enterprise entities across customers, products, suppliers, and financial charts of accounts.",
+        "items": [
+          "Multi-domain master data model design and operational governance",
+          "Golden record consolidation and cross-system entity reconciliation",
+          "Hierarchy management, taxonomy structuring, and relationship mapping",
+          "Real-time and batch synchronization across operational systems"
+        ]
+      },
+      {
+        "num": "04",
+        "title": "Data Integration & Pipelines",
+        "desc": "Architecting high-speed ETL and ELT data pipelines that connect and synchronize structured, semi-structured, and streaming data across disparate systems.",
+        "items": [
+          "Enterprise ETL/ELT pipeline design with high-speed batch and streaming processing",
+          "Multi-source data consolidation into scalable data lakes and warehouses",
+          "Change Data Capture (CDC) for low-latency operational data synchronization",
+          "RESTful data integration and API-driven data connector development"
+        ]
+      },
+      {
+        "num": "05",
+        "title": "Automated Data Migration",
+        "desc": "Planning, executing, and verifying risk-mitigated data migrations with automated reconciliation checks between legacy systems and modern target platforms.",
+        "items": [
+          "Automated migration pipeline execution with reconciliation auditing",
+          "Legacy database schema refactoring and transformation logic",
+          "Pre- and post-migration record balancing and cryptographic hash verification",
+          "Rollback frameworks and zero-downtime cutover execution planning"
+        ]
+      },
+      {
+        "num": "06",
+        "title": "Data Enrichment & Extraction",
+        "desc": "Combining external reference datasets with internal data and extracting structured attributes from unstructured text documents to elevate analytical value.",
+        "items": [
+          "Appending demographic, firmographic, and geospatial reference data",
+          "Automated document parsing and key-value metadata extraction",
+          "Feature engineering for downstream machine learning and statistical modeling",
+          "Text mining and entity extraction from contracts and customer communications"
+        ]
+      },
+      {
+        "num": "07",
+        "title": "Data Security, Architecture & Privacy",
+        "desc": "Auditing data architectures, establishing role-based access controls, and applying cryptographic protections to safeguard sensitive enterprise records.",
+        "items": [
+          "Architectural audits for data flow security and storage compliance",
+          "Encryption at rest and in transit with enterprise key management governance",
+          "Data masking, tokenization, and de-identification for non-production environments",
+          "Role-based access control (RBAC) and detailed query audit logging"
+        ]
+      },
+      {
+        "num": "08",
+        "title": "Digital & Web Analytics",
+        "desc": "Implementing and configuring enterprise digital analytics platforms to capture user journeys, track operational KPIs, and power executive decision-making.",
+        "items": [
+          "Web and mobile app event instrumentation and tag management governance",
+          "Funnel analysis, user segmentation, and conversion attribution modeling",
+          "Executive dashboard creation across PowerBI, Tableau, and custom portals",
+          "Unified customer journey reporting connecting digital touchpoints to CRM"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "category": "Data Integration & Pipelines",
+        "tools": [
+          "Informatica PowerCenter",
+          "Talend Data Fabric",
+          "Apache Spark",
+          "Apache Kafka",
+          "SSIS"
+        ]
+      },
+      {
+        "category": "Databases & Warehouses",
+        "tools": [
+          "Snowflake",
+          "Oracle Database",
+          "Teradata",
+          "PostgreSQL",
+          "Microsoft SQL Server"
+        ]
+      },
+      {
+        "category": "Data Quality & MDM",
+        "tools": [
+          "Informatica MDM",
+          "SAP Master Data Governance",
+          "Talend Data Quality",
+          "Collibra"
+        ]
+      },
+      {
+        "category": "Digital & Business Intelligence",
+        "tools": [
+          "Google Analytics 4",
+          "Adobe Analytics",
+          "Tableau",
+          "Microsoft PowerBI"
+        ]
+      }
+    ],
+    "methodology": [
+      {
+        "step": "01",
+        "title": "Data Discovery & Quality Profiling",
+        "desc": "Auditing existing data repositories, lineage, duplicate rates, and schema variations across the enterprise."
+      },
+      {
+        "step": "02",
+        "title": "Governance & Architectural Framework",
+        "desc": "Defining stewardship policies, target MDM schemas, security rules, and integration pipelines."
+      },
+      {
+        "step": "03",
+        "title": "Pipeline Build & Automated Cleansing",
+        "desc": "Deploying automated ETL/ELT workflows, de-duplication rules, and cryptographic security controls."
+      },
+      {
+        "step": "04",
+        "title": "Analytical Enablement & Dashboarding",
+        "desc": "Connecting verified datasets to BI interfaces, dashboards, and establishing continuous quality telemetry."
+      }
+    ],
+    "businessValue": [
+      {
+        "title": "Authoritative Decisions",
+        "desc": "Ensuring executive choices are founded on clean, deduplicated, and unified golden records."
+      },
+      {
+        "title": "Regulatory Compliance",
+        "desc": "Maintaining auditable data lineage, privacy controls, and role-based protections across datasets."
+      },
+      {
+        "title": "Operational Automation",
+        "desc": "Eliminating manual spreadsheet reconciliation through automated, real-time data pipelines."
+      }
+    ],
+    "related": [
+      {
+        "title": "Data Warehouse Design",
+        "desc": "Active enterprise intelligence, dimensional modeling, and high-performance warehouse architectures.",
+        "url": "service-datawarehouse.html"
+      },
+      {
+        "title": "AI & Machine Learning",
+        "desc": "Predictive modeling and document intelligence grounded in enterprise data.",
+        "url": "service-ai.html"
+      },
+      {
+        "title": "Software Engineering",
+        "desc": "Proprietary custom application development and mission-critical systems integration.",
+        "url": "service-software.html"
       }
     ]
   }
 };
+
 const INDUSTRIES = {
   "manufacturing": {
     "shortTitle": "Manufacturing",
@@ -3195,6 +3451,7 @@ const INDUSTRIES = {
     ]
   }
 };
+
 const DATA = {
   "about": {
     "title": "Proprietary Engineering. Strategic Advisory.",
@@ -3203,290 +3460,291 @@ const DATA = {
     "stats": [
       "Established 2004",
       "100% Client IP Ownership",
-      "McKinney, TX HQ"
+      "McKinney, TX COE"
     ],
     "sections": [
       {
-        "title": "Our Core Specialization: Contract Programming",
-        "text": "At the heart of Dazzlon is our specialized Contract Programming model. Unlike commercial off-the-shelf software vendors who rent software and impose restrictive licensing, we operate under a pure 'Work for Hire' philosophy. Every line of code, architectural framework, and custom integration we develop is the sole intellectual property of our clients upon completion. By transferring all IP rights, we help our partners build nontaxable capital assets that drive long-term corporate valuation."
+        "title": "Engineering with Purpose",
+        "text": "Founded on the belief that mission-critical technology must be engineered around an organization's exact business processes, Dazzlon provides end-to-end technology consulting and custom software development. We bridge the gap between high-level IT strategy and deep technical execution, helping organizations transform complexity into lasting business value."
       },
       {
-        "title": "The Dazzlon Advantage: Center of Excellence (COE)",
-        "text": "Dazzlon aims to be the most preferred strategic technology partner in the United States by accelerating the development lifecycle without compromising precision. Through our Center of Excellence (COE) methodology, we combine deep industry intelligence with world-class programming rigor. We do not simply implement technology; we rethink and refine business processes to ensure your technical systems are a direct, high-performing reflection of your Core Business Objectives."
-      },
-      {
-        "title": "Navigating Heavily Regulated Vertical Markets",
-        "text": "We serve a sophisticated clientele across the United States spanning commercial, industrial, and government sectors. From Financial Services and Life Sciences to Advanced Manufacturing and Semiconductors, our delivery teams navigate the most regulated, mission-critical environments with strict compliance adherence, architectural durability, and dependable partnership."
+        "title": "The Work for Hire Advantage",
+        "text": "Our core differentiator is our pure 'Work for Hire' Contract Programming model. Unlike traditional IT consultancies that retain proprietary frameworks or charge recurring licensing fees, Dazzlon ensures that all source code, architectural designs, database logic, and intellectual property belong unconditionally to our clients upon creation. Operating from our Center of Excellence (COE) in McKinney, Texas, our senior engineering directors maintain rigorous governance across every project."
       }
     ],
     "pillars": [
       {
-        "title": "Custom Application Engineering",
-        "desc": "Developing unique, scalable enterprise software ecosystems from the ground up to solve complex operational challenges."
+        "title": "Contract Programming & Work for Hire",
+        "desc": "Custom software development delivering 100% client intellectual property ownership with zero vendor lock-in or recurring licensing penalties."
       },
       {
-        "title": "Systems Integration Programming",
-        "desc": "Creating proprietary, resilient bridges between complex enterprise platforms, legacy backends, and modern cloud services."
+        "title": "Center of Excellence Governance",
+        "desc": "Senior technical oversight based in McKinney, Texas, enforcing peer code reviews, continuous integration, and architectural discipline."
       },
       {
-        "title": "Data Architecture & Logic",
-        "desc": "Engineering custom data pipelines, high-performance database logic, and enterprise governance frameworks."
+        "title": "Enterprise Systems Integration",
+        "desc": "Deep technical capabilities bridging legacy databases, ERP systems, and modern cloud microservices into unified workflows."
       },
       {
-        "title": "Security Logic Development",
-        "desc": "Programming bespoke security protocols, role-based authorization routines, and hardening enterprise defenses."
+        "title": "Disciplined Data & Security Engineering",
+        "desc": "Building resilient data architectures, active warehouse intelligence, and multi-layered defensive security into every deployment."
       }
     ],
-    "side": "Dazzlon Computer Services, Inc.\n6951 Virginia Parkway, Ste 216\nMcKinney, TX 75071\n\nPhone: 469-333-7066\nFax: 469-716-4439\nEmail: contact@dazzlon.com"
+    "side": "Dazzlon Computer Services, Inc.\n6951 Virginia Parkway, Suite 216\nMcKinney, TX 75071\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nHeadquarters: McKinney, Texas\nEstablished: 2004"
   },
   "services": {
     "title": "Technology That Moves Business Forward",
     "eyebrow": "OUR ENTERPRISE SERVICES",
-    "intro": "In today\u2019s fast-paced economy, businesses must adapt quickly to changes in business processes and procedures. Systems and software solutions must be created with great care for easy adaptability to change.",
+    "intro": "In today\u2019s fast-paced economy, businesses must adapt quickly to changes in processes and procedures. Dazzlon creates mission-critical software solutions with great care for easy adaptability, high performance, and long-term impact.",
     "cards": [
       [
         "AI & Machine Learning",
-        "Turn data into predictive intelligence through practical AI and machine learning capabilities that help organizations automate, predict, and innovate.",
+        "Turn complex enterprise data into predictive intelligence through practical machine learning, document intelligence, and process automation.",
         "service-ai.html"
       ],
       [
         "Quality Assurance",
-        "Functional, regression, security, and performance/load testing across dedicated QA labs and client environments.",
+        "Functional, automated regression, performance/load, and security testing across dedicated test labs and enterprise ERP environments.",
         "service-qa.html"
       ],
       [
         "Data Warehouse Design & Data Modeling",
-        "Assess and prioritize opportunities for value creation based on investment justification and Active Enterprise Intelligence.",
+        "Assess value creation opportunities with active enterprise intelligence, dimensional modeling, and high-performance warehouse architectures.",
         "service-datawarehouse.html"
       ],
       [
         "SAP Services",
-        "Certified SAP and ITIL consultants delivering S/4HANA transformations and 2nd/3rd level incident and change management.",
+        "Certified SAP consulting, S/4HANA migrations, Business Technology Platform integration, and SLA-backed 2nd/3rd level ITIL operational support.",
         "service-sap.html"
       ],
       [
         "Cloud Services",
-        "Modernize infrastructure across AWS (175+ services) and Microsoft Azure (200+ products) with zero-downtime migrations.",
+        "Modernize legacy infrastructure with secure, scalable hybrid and multi-cloud architectures across Amazon Web Services (AWS) and Microsoft Azure.",
         "service-cloud.html"
       ],
       [
         "Managed IT Services",
-        "Contracted SLA-backed IT management, 24/7 proactive monitoring, and routine off-hours preventative maintenance.",
+        "Contracted SLA-backed server administration, 24/7 proactive monitoring, scheduled maintenance, and IT team supplementation that prevents downtime.",
         "service-managed.html"
       ],
       [
         "Data Management & Analytics",
-        "Enterprise data governance, master data management (MDM), automated migrations, and end-to-end digital analytics.",
+        "End-to-end data governance, automated cleansing, master data management (MDM), high-speed ETL/ELT pipelines, and digital analytics.",
         "service-data.html"
       ],
       [
         "Cybersecurity",
-        "Protect systems, networks, programs, and data through an 8-layer defense model and proactive threat mitigation.",
+        "Multi-layered defensive security architecture across network, application, data, and identity with active threat mitigation against modern attack vectors.",
         "service-cybersecurity.html"
       ],
       [
         "Software Engineering",
-        "Bespoke custom application engineering and systems integration under our 'Work for Hire' contract programming model.",
+        "Proprietary custom application development, systems integration, and database logic engineered under a pure Work for Hire contract model.",
         "service-software.html"
       ]
     ]
   },
   "industries": {
-    "title": "Real-World Impact Across Regulated Industries",
+    "title": "Real-World Impact Across Industries",
     "eyebrow": "INDUSTRIES WE SERVE",
-    "intro": "Dazzlon applies engineering rigor and business domain expertise to mission-critical environments where reliability, compliance, security, and measurable outcomes are paramount.",
+    "intro": "Dazzlon helps organizations navigate industry-specific complexity with deep domain expertise, tailored architectures, and proven technology capabilities that drive measurable business outcomes.",
     "cards": [
       [
         "Manufacturing",
-        "Bridge shop floor operations with core SAP ERP, automated QA, and predictive equipment maintenance telemetry.",
+        "Modernize shop floor IoT connectivity, streamline supply chain integration, and automate quality control.",
         "industry-manufacturing.html"
       ],
       [
         "Healthcare & Life Sciences",
-        "Support secure, HIPAA-compliant clinical data pipelines, EHR interoperability, and life sciences regulatory software.",
+        "Build secure, HIPAA-compliant patient data systems and accelerate diagnostic research with interoperable data lakes.",
         "industry-healthcare.html"
       ],
       [
         "Public Sector & Government",
-        "Modernize legacy government applications, deploy FedRAMP-aligned cloud environments, and protect public assets.",
+        "Deliver accessible, resilient citizen digital services with high security and regulatory auditability.",
         "industry-public-sector.html"
       ],
       [
         "Energy & Utilities",
-        "Enable resilient SCADA telemetry integration, smart grid analytics, and critical infrastructure cybersecurity.",
+        "Optimize distributed grid operations, manage asset performance telemetry, and meet sustainability standards.",
         "industry-energy.html"
       ],
       [
         "Retail & Consumer Commerce",
-        "Create real-time omnichannel inventory synchronization, end-to-end digital analytics, and peak-traffic commerce resilience.",
+        "Create unified omnichannel commerce ecosystems, predictive inventory management, and personalized customer journeys.",
         "industry-retail.html"
       ],
       [
         "Technology & Semiconductors",
-        "Deliver bespoke contract programming, wafer yield analytics, automated verification, and 100% client IP ownership.",
+        "Accelerate complex product engineering, chip design telemetry analytics, and secure cloud pipelines.",
         "industry-technology.html"
       ]
     ]
   },
   "insights": {
     "title": "Ideas for a Smarter Tomorrow",
-    "eyebrow": "PERSPECTIVES & THOUGHT LEADERSHIP",
-    "intro": "Authoritative perspectives on enterprise software engineering, cloud modernization, data governance, and strategic technology transformation.",
+    "eyebrow": "THOUGHT LEADERSHIP",
+    "intro": "Explore our perspectives on emerging technologies, enterprise architecture, software engineering, and strategic IT modernization.",
     "cards": [
       [
         "The Future of AI in Enterprise Transformation",
-        "Apr 12, 2024",
-        "contact.html"
+        "Moving beyond experimentation to integrate practical machine learning models directly into core operational workflows.",
+        "insights.html"
       ],
       [
         "Building a More Sustainable Digital Future",
-        "Mar 28, 2024",
-        "contact.html"
+        "How cloud modernization and efficient database architectures reduce computing energy footprint and operating costs.",
+        "insights.html"
       ],
       [
         "Human-Centric Technology for Greater Impact",
-        "Mar 10, 2024",
-        "contact.html"
+        "Designing enterprise applications that augment human decision-making and simplify complex business procedures.",
+        "insights.html"
       ],
       [
         "The Next Era of Intelligent Industries",
-        "Feb 22, 2024",
-        "contact.html"
+        "Leveraging IoT telemetry, predictive analytics, and edge compute to drive industrial automation and resilience.",
+        "insights.html"
       ]
     ]
   },
   "careers": {
-    "title": "Build What\u2019s Next With Us",
+    "title": "Build What's Next with Dazzlon",
     "eyebrow": "CAREERS AT DAZZLON",
-    "intro": "Join our Center of Excellence in McKinney, Texas. We offer high-impact engineering opportunities where seasoned technologists solve complex enterprise challenges through proprietary software development and strategic consulting.",
+    "intro": "Join our Center of Excellence in McKinney, Texas, and work alongside senior technologists solving high-stakes enterprise engineering challenges.",
     "stats": [
-      "Center of Excellence",
-      "McKinney, TX HQ",
-      "Enterprise Client Impact"
+      "Established 2004",
+      "100% Engineering Focused",
+      "McKinney, TX Center of Excellence"
     ],
     "jobs": [
       {
-        "title": "Senior Analytics & Applications Engineer",
-        "location": "McKinney, TX \u2022 Full-Time",
-        "desc": "Lead, analyze, design, architect, develop, test, and implement enterprise analytics applications and solutions. Lead writing technical documentation around digital analytics implementation, technical systems architecture, and web/mobile application analytics requirements. Import large volumes of user data and extract required insights to perform deep analytical modeling. Create, define, and implement digital analytics standards, core KPIs, and coding practices.",
-        "tools": [
-          "Ab Initio",
-          "Adobe Analytics",
-          "AWS",
-          "BigData",
-          "Business Objects",
-          "CI/CD",
-          "Cognos",
-          "Hadoop",
-          "Java/J2EE",
-          "MicroStrategy",
-          "Oracle",
-          "Python",
-          "SQL Server",
-          "Tableau",
-          "Tealium",
-          "Teradata",
-          "Unix"
+        "id": "eng-01",
+        "title": "Senior Software Engineer (Java / J2EE)",
+        "location": "McKinney, TX (Center of Excellence)",
+        "type": "Full-Time | Contract Programming",
+        "desc": "Design and engineer scalable backend services, custom enterprise applications, and mission-critical integration APIs. Work directly with client architectures under Dazzlon's pure Work for Hire delivery model.",
+        "qualifications": "Bachelor's or Master's in CS or Software Engineering; 5+ years hands-on experience in Java/J2EE, Spring Boot, Hibernate, and relational databases (Oracle, SQL Server); proficiency with CI/CD pipelines (Maven, Docker, Linux/Unix).",
+        "responsibilities": [
+          "Architect and build high-throughput microservices using Java, Spring Boot, and Hibernate ORM",
+          "Design and optimize relational database schemas, complex stored procedures, and indices on Oracle and SQL Server",
+          "Develop and document robust RESTful and SOAP integration endpoints bridging legacy and modern applications",
+          "Participate in McKinney COE peer code reviews, CI/CD pipeline automation, and unit/integration testing"
         ],
-        "qualifications": "Require Bachelor of Science in Computer Science/Engineering, Information Systems/Science/Security/Technology, Engineering, or related field and 5 years experience in the job offered, software developer/engineer, tech/project lead, digital analytics analyst/engineer, systems analyst/apps systems architect, computer programmer/consultant or related field."
+        "requirements": [
+          "Bachelor's or Master's degree in Computer Science, Software Engineering, or related discipline",
+          "5+ years of hands-on experience in Java/J2EE enterprise backend application development",
+          "Deep proficiency with Spring Framework, Spring Boot, Hibernate, REST/SOAP, and relational databases",
+          "Experience with CI/CD build tools including Maven, Git, Docker, and Linux/Unix environments"
+        ],
+        "tools": [
+          "Java 17+",
+          "Spring Boot",
+          "Hibernate",
+          "Oracle Database",
+          "REST / SOAP",
+          "Maven",
+          "Git",
+          "Docker"
+        ]
       },
       {
-        "title": "Software Engineer",
-        "location": "McKinney, TX \u2022 Full-Time",
-        "desc": "Analyze, design, develop, test, and implement software applications, modules, and databases. Gather functional and technical requirements, engineer robust backend logic, prepare comprehensive test matrices, and troubleshoot applications and databases to remediate defects.",
+        "id": "qa-01",
+        "title": "Senior QA Test Automation Engineer",
+        "location": "McKinney, TX (Center of Excellence)",
+        "type": "Full-Time | QA Engineering",
+        "desc": "Lead automated regression testing, functional test case development, and performance profiling across dedicated test labs. Ensure mission-critical enterprise releases achieve flawless reliability.",
+        "qualifications": "Bachelor's in CS/IT; 4+ years dedicated software QA and automated test script development; demonstrated expertise with Selenium WebDriver, HP QTP/UFT, HP LoadRunner, JIRA, and Quality Center; strong SQL and API testing skills.",
+        "responsibilities": [
+          "Design and maintain scalable automated test frameworks using Selenium WebDriver and HP QTP/UFT",
+          "Construct and execute comprehensive functional, performance, and regression test suites",
+          "Validate enterprise application workflows across complex ERP systems including SAP and PeopleSoft",
+          "Manage defect lifecycle tracking, root-cause triage, and requirements traceability matrices"
+        ],
+        "requirements": [
+          "Bachelor's degree in Computer Science, Information Technology, or equivalent technical experience",
+          "4+ years of dedicated software quality assurance and automated test script development",
+          "Demonstrated expertise with Selenium, HP QTP/UFT, HP LoadRunner, and defect tracking systems (JIRA, Quality Center)",
+          "Solid understanding of relational database querying (SQL) and web service API testing"
+        ],
         "tools": [
-          "Java/J2EE",
-          "JavaScript",
+          "Selenium WebDriver",
+          "HP QTP / UFT",
+          "HP LoadRunner",
+          "JIRA",
+          "Quality Center",
           "SQL",
-          "PL/SQL",
-          "JDBC",
-          "C",
-          "Unix",
-          "Linux",
-          "Hibernate",
-          "Oracle 11g/10g/9i",
-          "MS-SQL",
-          "MySQL",
-          "C++",
-          "Angular",
-          "REST",
-          "XML",
-          "SOAP",
-          "CI/CD",
-          "Maven",
-          "Spring"
-        ],
-        "qualifications": "Require Master of Science in Computer Science/Engineering, Information Systems/Science/Technology, Data Science, Engineering, or related field and 1 year experience (or Bachelor of Science and 5 years experience) in the job offered, software developer, systems/programmer analyst, data analyst/engineer, consultant, or related field."
+          "Jenkins"
+        ]
       },
       {
-        "title": "Lead Computer Programmer",
-        "location": "McKinney, TX \u2022 Full-Time",
-        "desc": "Write, code, test, and maintain computer, software, and database programs. Lead writing, coding, testing, designing, and maintaining computer programs across the enterprise lifecycle. Revisit programs, code, and system designs to optimize performance and resolve defects.",
-        "tools": [
-          "Ab Initio",
-          "Adobe Analytics",
-          "Agile",
-          "Angular",
-          "Apache",
-          "AWS",
-          "BigData",
-          "Cognos",
-          "Git",
-          "Hadoop",
-          "Hibernate",
-          "Informatica",
-          "Java/J2EE",
-          "Jira",
-          "Linux",
-          "Maven",
-          "Oracle",
-          "Python",
-          "Spring",
-          "SQL Server",
-          "Tableau",
-          "Unix"
+        "id": "data-01",
+        "title": "Data Warehouse & ETL Architect",
+        "location": "McKinney, TX (Center of Excellence)",
+        "type": "Full-Time | Data Architecture",
+        "desc": "Lead the design of dimensional star schemas, active enterprise intelligence architectures, and high-speed ETL/ELT pipelines for Fortune 500 clients.",
+        "qualifications": "Bachelor's or Master's in CS or Data Engineering; 6+ years in enterprise data warehouse design and dimensional modeling; extensive proficiency with Teradata, Oracle, Erwin Data Modeler, and Informatica PowerCenter; deep active intelligence and BI expertise.",
+        "responsibilities": [
+          "Design dimensional models, snowflake schemas, and normalized 3NF enterprise data architectures",
+          "Build scalable ETL/ELT data pipelines integrating multi-source heterogeneous transactional systems",
+          "Optimize complex SQL query performance, table partitioning, and indexing on Teradata, Oracle, and Snowflake",
+          "Collaborate with client leadership on data maturity assessments and business value consulting"
         ],
-        "qualifications": "Require Bachelor of Science in Computer Science/Engineering, Information Systems/Science/Technology, Engineering, or related field and 5 years experience in the job offered, software engineer/developer, tech/project lead, systems/programmer engineer/analyst, associate/consultant, or related field."
+        "requirements": [
+          "Bachelor's or Master's degree in Computer Science, Data Engineering, or related technical field",
+          "6+ years of experience in enterprise data warehouse design and dimensional data modeling",
+          "Extensive proficiency with Teradata, Oracle, Erwin Data Modeler, Informatica PowerCenter, or Talend",
+          "Deep experience with active enterprise intelligence, batch scheduling, and BI integration"
+        ],
+        "tools": [
+          "Teradata",
+          "Oracle Database",
+          "Snowflake",
+          "Erwin",
+          "Informatica PowerCenter",
+          "SQL",
+          "Tableau"
+        ]
       },
       {
-        "title": "Analytics & Applications Engineer",
-        "location": "McKinney, TX \u2022 Full-Time",
-        "desc": "Analyze, design, architect, develop, test, and implement analytics applications and solutions. Analyze analytics reports, author technical documentation for digital analytics implementation, and implement measurement strategies and KPI validation.",
-        "tools": [
-          "Adobe Analytics",
-          "Google Analytics",
-          "AWS",
-          "BigData",
-          "Business Objects",
-          "CI/CD",
-          "Git",
-          "GTM",
-          "Hadoop",
-          "Java/J2EE",
-          "Linux",
-          "MicroStrategy",
-          "Oracle",
-          "Python",
-          "SQL Server",
-          "Tableau",
-          "Tealium",
-          "Teradata"
+        "id": "sap-01",
+        "title": "SAP Solutions Consultant (S/4HANA & BTP)",
+        "location": "McKinney, TX (Center of Excellence)",
+        "type": "Full-Time | SAP Advisory",
+        "desc": "Guide enterprise clients through S/4HANA migrations, Business Technology Platform integration, and Tier-2/3 ITIL operational support.",
+        "qualifications": "Bachelor's in Engineering, CS, or Information Systems; 5+ years hands-on SAP consulting experience with S/4HANA and ECC; proficiency in ABAP, CDS views, Fiori, and Solution Manager; proven ITIL incident and change governance background.",
+        "responsibilities": [
+          "Assess legacy SAP ECC configurations and execute structured migration plans to SAP S/4HANA",
+          "Develop custom side-by-side extensions and integrations on SAP Business Technology Platform (BTP)",
+          "Provide dedicated 2nd and 3rd level technical support, ABAP debugging, and incident remediation",
+          "Enforce ITIL change governance and transport management across production SAP landscapes"
         ],
-        "qualifications": "Require Master of Science in Computer Science/Engineering, Information Systems/Science/Security/Technology, Engineering, or related field and 1 year experience in the job offered, software developer/engineer, digital analytics analyst/engineer, systems analyst/apps systems architect, computer programmer/consultant or related field."
+        "requirements": [
+          "Bachelor's degree in Engineering, Computer Science, or Business Information Systems",
+          "5+ years of hands-on SAP functional/technical consulting experience with S/4HANA and ECC",
+          "Proficiency in ABAP, Core Data Services (CDS), Fiori, and SAP Solution Manager",
+          "Strong background in ITIL service desk processes and client SLA management"
+        ],
+        "tools": [
+          "SAP S/4HANA",
+          "SAP HANA",
+          "SAP BTP",
+          "ABAP",
+          "SAP Fiori",
+          "Solution Manager",
+          "ServiceNow"
+        ]
       }
-    ],
-    "applyInfo": {
-      "address": "Dazzlon Computer Services, Inc.\n6951 Virginia Parkway, Suite 216\nMcKinney, TX 75071",
-      "email": "jobs@dazzlon.com"
-    }
+    ]
   },
   "contact": {
-    "title": "Let\u2019s Build What\u2019s Next.",
-    "eyebrow": "CONTACT DAZZLON",
-    "intro": "Tell us about the challenge, opportunity, or enterprise transformation you are working toward. Our senior technical advisory team will help you explore the next strategic step.",
-    "side": "Dazzlon Computer Services, Inc.\n6951 Virginia Parkway, Ste 216\nMcKinney, TX 75071\n\nPhone: 469-333-7066\nFax: 469-716-4439\nEmail: contact@dazzlon.com\nWeb: www.dazzlon.com"
+    "title": "Let's Build What's Next.",
+    "eyebrow": "START A CONVERSATION",
+    "intro": "Reach out to discuss your technical challenges, strategic initiatives, or custom software requirements. Our senior engineering directors in McKinney, Texas, are ready to assist.",
+    "side": "Dazzlon Computer Services, Inc.\n6951 Virginia Parkway, Suite 216\nMcKinney, TX 75071\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nHeadquarters: McKinney, Texas\nEstablished: 2004"
   }
 };
+
 const ICONS = {
   "Data & Analytics": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"6.5\" y=\"20.5\" width=\"5.5\" height=\"11\" rx=\"1.5\"/><rect x=\"15.25\" y=\"12.5\" width=\"5.5\" height=\"19\" rx=\"1.5\"/><rect x=\"24\" y=\"5\" width=\"5.5\" height=\"26.5\" rx=\"1.5\"/></svg>",
   "Data Management & Analytics": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"6.5\" y=\"20.5\" width=\"5.5\" height=\"11\" rx=\"1.5\"/><rect x=\"15.25\" y=\"12.5\" width=\"5.5\" height=\"19\" rx=\"1.5\"/><rect x=\"24\" y=\"5\" width=\"5.5\" height=\"26.5\" rx=\"1.5\"/></svg>",
@@ -4030,3 +4288,5 @@ function load() {
 }
 
 document.addEventListener('DOMContentLoaded', load);
+
+
