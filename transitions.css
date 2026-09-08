@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Dazzlon Motion-Graphics Enhancements: SVG Drawing & Page Transitions
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   PART 1: SVG Line-Drawing Service Icons
+   -------------------------------------------------------------------------- */
+.service-icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  overflow: visible;
+}
+
+.service-icon path,
+.service-icon line,
+.service-icon polyline,
+.service-icon polygon,
+.service-icon circle,
+.service-icon rect {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: var(--path-len, 120);
+  stroke-dashoffset: var(--path-len, 120);
+  transition: stroke-dashoffset 1s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: stroke-dashoffset;
+}
+
+.service-icon.in-view path,
+.service-icon.in-view line,
+.service-icon.in-view polyline,
+.service-icon.in-view polygon,
+.service-icon.in-view circle,
+.service-icon.in-view rect {
+  stroke-dashoffset: 0;
+}
+
+/* --------------------------------------------------------------------------
+   PART 2: Page Transition Wipe Effect
+   -------------------------------------------------------------------------- */
+#page-transition-panel {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--navy, #031321);
+  z-index: 999999;
+  pointer-events: none;
+  transform: translateY(100%);
+  will-change: transform;
+}
+
+/* Exit: wipes up from bottom to fully cover viewport */
+#page-transition-panel.wipe-exit {
+  transform: translateY(0);
+  pointer-events: auto;
+  transition: transform 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Enter: starts covering, wipes away to top */
+#page-transition-panel.wipe-enter {
+  transform: translateY(-100%);
+  pointer-events: none;
+  transition: transform 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Immediate cover on destination load if transitioning */
+#page-transition-panel.wipe-covered {
+  transform: translateY(0);
+  transition: none;
+}
+
