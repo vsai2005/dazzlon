@@ -31,7 +31,8 @@
 #page-transition-panel {
   position: fixed;
   inset: 0;
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
   height: 100vh;
   background-color: var(--navy, #031321);
   z-index: 999999;
