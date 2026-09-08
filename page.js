@@ -3496,7 +3496,7 @@ const DATA = {
         "desc": "Building resilient data architectures, active warehouse intelligence, and multi-layered defensive security into every deployment."
       }
     ],
-    "side": "Dazzlon Computer Services, Inc.\n6951 Virginia Parkway, Suite 216\nMcKinney, TX 75071\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nHeadquarters: McKinney, Texas\nEstablished: 2004"
+    "side": "Dazzlon\n75 Valley Stream Parkway,\n2nd Floor, Office No - 120,\nMalvern, PA - 19355\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nHeadquarters: Malvern, Pennsylvania\nEstablished: 2004"
   },
   "services": {
     "title": "Technology That Moves Business Forward",
@@ -3596,8 +3596,8 @@ const DATA = {
   "contact": {
     "title": "Let's Build What's Next.",
     "eyebrow": "START A CONVERSATION",
-    "intro": "Reach out to discuss your technical challenges, strategic initiatives, or custom software requirements. Our senior engineering directors in McKinney, Texas, are ready to assist.",
-    "side": "Dazzlon Computer Services, Inc.\n6951 Virginia Parkway, Suite 216\nMcKinney, TX 75071\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nHeadquarters: McKinney, Texas\nEstablished: 2004"
+    "intro": "Reach out to discuss your technical challenges, strategic initiatives, or custom software requirements. Our senior engineering directors are ready to assist.",
+    "side": "Dazzlon\n75 Valley Stream Parkway,\n2nd Floor, Office No - 120,\nMalvern, PA - 19355\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nHeadquarters: Malvern, Pennsylvania\nEstablished: 2004"
   }
 };
 
@@ -3974,9 +3974,10 @@ function careersPage(d) {
             Please mail your comprehensive resume and cover letter to our headquarters or submit your application directly via email:
           </p>
           <div style="font-size:14px;color:#233441;line-height:1.6;">
-            <strong>Dazzlon Computer Services, Inc.</strong><br>
-            6951 Virginia Parkway, Suite 216<br>
-            McKinney, TX 75071<br>
+            <strong>Dazzlon</strong><br>
+            75 Valley Stream Parkway,<br>
+            2nd Floor, Office No - 120,<br>
+            Malvern, PA - 19355<br>
             Email: <a href="mailto:jobs@dazzlon.com" style="color:var(--blue);font-weight:600;">jobs@dazzlon.com</a>
           </div>
         </div>
