@@ -3496,7 +3496,7 @@ const DATA = {
         "desc": "Building resilient data architectures, active warehouse intelligence, and multi-layered defensive security into every deployment."
       }
     ],
-    "side": "Dazzlon\n75 Valley Stream Parkway,\n2nd Floor, Office No - 120,\nMalvern, PA - 19355\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nHeadquarters: Malvern, Pennsylvania\nEstablished: 2004"
+    "side": "<strong>Global Office</strong>\nDazzlon\n6951 Virginia Parkway, Ste 216\nMcKinney, TX 75071\nUnited States\n\n<strong>Branch Office</strong>\nDazzlon\n75 Valley Stream Parkway,\n2nd Floor, Office No - 120,\nMalvern, PA - 19355\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nEstablished: 2004"
   },
   "services": {
     "title": "Technology That Moves Business Forward",
@@ -3556,9 +3556,9 @@ const DATA = {
     "intro": "Dazzlon helps organizations navigate industry-specific complexity with deep domain expertise, tailored architectures, and proven technology capabilities that drive measurable business outcomes.",
     "cards": [
       [
-        "Manufacturing",
-        "Modernize shop floor IoT connectivity, streamline supply chain integration, and automate quality control.",
-        "industry-manufacturing.html"
+        "Technology & Semiconductors",
+        "Accelerate complex product engineering, chip design telemetry analytics, and secure cloud pipelines.",
+        "industry-technology.html"
       ],
       [
         "Healthcare & Life Sciences",
@@ -3566,9 +3566,14 @@ const DATA = {
         "industry-healthcare.html"
       ],
       [
-        "Public Sector & Government",
-        "Deliver accessible, resilient citizen digital services with high security and regulatory auditability.",
-        "industry-public-sector.html"
+        "Retail & Consumer Commerce",
+        "Create unified omnichannel commerce ecosystems, predictive inventory management, and personalized customer journeys.",
+        "industry-retail.html"
+      ],
+      [
+        "Manufacturing",
+        "Modernize shop floor IoT connectivity, streamline supply chain integration, and automate quality control.",
+        "industry-manufacturing.html"
       ],
       [
         "Energy & Utilities",
@@ -3576,14 +3581,9 @@ const DATA = {
         "industry-energy.html"
       ],
       [
-        "Retail & Consumer Commerce",
-        "Create unified omnichannel commerce ecosystems, predictive inventory management, and personalized customer journeys.",
-        "industry-retail.html"
-      ],
-      [
-        "Technology & Semiconductors",
-        "Accelerate complex product engineering, chip design telemetry analytics, and secure cloud pipelines.",
-        "industry-technology.html"
+        "Public Sector & Government",
+        "Deliver accessible, resilient citizen digital services with high security and regulatory auditability.",
+        "industry-public-sector.html"
       ]
     ]
   },
@@ -3597,7 +3597,7 @@ const DATA = {
     "title": "Let's Build What's Next.",
     "eyebrow": "START A CONVERSATION",
     "intro": "Reach out to discuss your technical challenges, strategic initiatives, or custom software requirements. Our senior engineering directors are ready to assist.",
-    "side": "Dazzlon\n75 Valley Stream Parkway,\n2nd Floor, Office No - 120,\nMalvern, PA - 19355\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nHeadquarters: Malvern, Pennsylvania\nEstablished: 2004"
+    "side": "<strong>Global Office</strong>\nDazzlon\n6951 Virginia Parkway, Ste 216\nMcKinney, TX 75071\nUnited States\n\n<strong>Branch Office</strong>\nDazzlon\n75 Valley Stream Parkway,\n2nd Floor, Office No - 120,\nMalvern, PA - 19355\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nEstablished: 2004"
   }
 };
 
@@ -3865,7 +3865,7 @@ function aboutPage(d) {
           ${sectionsHtml}
         </div>
         <aside class="detail-side">
-          <h3>Global Headquarters</h3>
+          <h3>Offices &amp; Locations</h3>
           <p>${d.side.replace(/\n/g, '<br>')}</p>
           <div style="margin-top:24px;">
             <a class="btn" href="contact.html">Connect With Leadership <span>→</span></a>
@@ -3974,10 +3974,17 @@ function careersPage(d) {
             Please mail your comprehensive resume and cover letter to our headquarters or submit your application directly via email:
           </p>
           <div style="font-size:14px;color:#233441;line-height:1.6;">
-            <strong>Dazzlon</strong><br>
+            <strong>Global Office</strong><br>
+            Dazzlon<br>
+            6951 Virginia Parkway, Ste 216<br>
+            McKinney, TX 75071<br>
+            United States<br><br>
+            <strong>Branch Office</strong><br>
+            Dazzlon<br>
             75 Valley Stream Parkway,<br>
             2nd Floor, Office No - 120,<br>
             Malvern, PA - 19355<br>
+            United States<br><br>
             Email: <a href="mailto:jobs@dazzlon.com" style="color:var(--blue);font-weight:600;">jobs@dazzlon.com</a>
           </div>
         </div>
@@ -4062,7 +4069,7 @@ function contactPage(d) {
       <div class="container contact-grid">
         <div>
           <div class="notice">
-            <h4 style="margin:0 0 10px;font-size:15px;color:var(--navy);">Global Headquarters</h4>
+            <h4 style="margin:0 0 10px;font-size:15px;color:var(--navy);">Offices &amp; Locations</h4>
             ${d.side.replace(/\n/g, '<br>')}
           </div>
           <h2 class="serif" style="font-size:38px;margin-top:35px;line-height:1.1;">Tell us what you’re building.</h2>
