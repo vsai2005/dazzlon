@@ -3487,6 +3487,31 @@ const DATA = {
     "side": "Dazzlon Computer Services, Inc.\n6951 Virginia Parkway, Ste 216\nMcKinney, TX 75071\n\nPhone: 469-333-7066\nFax: 469-716-4439\nEmail: contact@dazzlon.com\nWeb: www.dazzlon.com"
   }
 };
+const ICONS = {
+  "AI & Machine Learning": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"9\" y=\"9\" width=\"14\" height=\"14\" rx=\"3\"/><path d=\"M9 13H5m4 6H5m14-6h4m-4 6h4M13 9V5m6 4V5m-6 18v4m6-4v4\"/><circle cx=\"16\" cy=\"16\" r=\"2\"/></svg>",
+  "Data & Analytics": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 26h24\"/><path d=\"M7 26v-6\"/><path d=\"M13 26v-12\"/><path d=\"M19 26v-16\"/><path d=\"M25 26v-9\"/><path d=\"M7 16l6-6 6 4 6-7\"/></svg>",
+  "Data Management & Analytics": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 26h24\"/><path d=\"M7 26v-6\"/><path d=\"M13 26v-12\"/><path d=\"M19 26v-16\"/><path d=\"M25 26v-9\"/><path d=\"M7 16l6-6 6 4 6-7\"/></svg>",
+  "Data Warehouse Design & Data Modeling": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"16\" cy=\"7\" rx=\"10\" ry=\"3.5\"/><path d=\"M6 7v8c0 1.9 4.5 3.5 10 3.5s10-1.6 10-3.5V7\"/><path d=\"M6 15v8c0 1.9 4.5 3.5 10 3.5s10-1.6 10-3.5v-8\"/></svg>",
+  "Cloud": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 22h14a5 5 0 0 0 1-9.9 7 7 0 0 0-13.2-1.6A5 5 0 0 0 9 22z\"/></svg>",
+  "Cloud Services": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 22h14a5 5 0 0 0 1-9.9 7 7 0 0 0-13.2-1.6A5 5 0 0 0 9 22z\"/></svg>",
+  "SAP": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 4L4 10l12 6 12-6-12-6z\"/><path d=\"M4 16l12 6 12-6\"/><path d=\"M4 22l12 6 12-6\"/></svg>",
+  "SAP Services": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 4L4 10l12 6 12-6-12-6z\"/><path d=\"M4 16l12 6 12-6\"/><path d=\"M4 22l12 6 12-6\"/></svg>",
+  "Software Engineering": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 9L3 16l7 7\"/><path d=\"M22 9l7 7-7 7\"/><path d=\"M18 7l-4 18\"/></svg>",
+  "Cybersecurity": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 3L5 7v7c0 8 4.8 12.8 11 15 6.2-2.2 11-7 11-15V7L16 3z\"/><path d=\"M12 17h8v6h-8z\"/><path d=\"M14 17v-2a2 2 0 1 1 4 0v2\"/></svg>",
+  "Quality Assurance": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"16\" cy=\"16\" r=\"4\"/><path d=\"M14.5 4h3l.6 2.6a9 9 0 0 1 2.2 1l2.3-1.4 2.1 2.1-1.4 2.3a9 9 0 0 1 1 2.2l2.7.6v3l-2.7.6a9 9 0 0 1-1 2.2l1.4 2.3-2.1 2.1-2.3-1.4a9 9 0 0 1-2.2 1l-.6 2.6h-3l-.6-2.6a9 9 0 0 1-2.2-1l-2.3 1.4-2.1-2.1 1.4-2.3a9 9 0 0 1-1-2.2l-2.7-.6v-3l2.7-.6a9 9 0 0 1 1-2.2l-1.4-2.3 2.1-2.1 2.3 1.4a9 9 0 0 1 2.2-1l.6-2.6z\"/></svg>",
+  "Quality & Automation": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"16\" cy=\"16\" r=\"4\"/><path d=\"M14.5 4h3l.6 2.6a9 9 0 0 1 2.2 1l2.3-1.4 2.1 2.1-1.4 2.3a9 9 0 0 1 1 2.2l2.7.6v3l-2.7.6a9 9 0 0 1-1 2.2l1.4 2.3-2.1 2.1-2.3-1.4a9 9 0 0 1-2.2 1l-.6 2.6h-3l-.6-2.6a9 9 0 0 1-2.2-1l-2.3 1.4-2.1-2.1 1.4-2.3a9 9 0 0 1-1-2.2l-2.7-.6v-3l2.7-.6a9 9 0 0 1 1-2.2l-1.4-2.3 2.1-2.1 2.3 1.4a9 9 0 0 1 2.2-1l.6-2.6z\"/></svg>",
+  "Managed IT Services": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"4\" y=\"5\" width=\"24\" height=\"6\" rx=\"2\"/><rect x=\"4\" y=\"13\" width=\"24\" height=\"6\" rx=\"2\"/><rect x=\"4\" y=\"21\" width=\"24\" height=\"6\" rx=\"2\"/><circle cx=\"8\" cy=\"8\" r=\"1\"/><circle cx=\"8\" cy=\"16\" r=\"1\"/><circle cx=\"8\" cy=\"24\" r=\"1\"/><path d=\"M18 8h6M18 16h6M18 24h6\"/></svg>",
+  "Manufacturing": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 27h24V14l-7 4V11l-7 4V8L4 14v13z\"/><circle cx=\"9\" cy=\"22\" r=\"1.5\"/><circle cx=\"16\" cy=\"22\" r=\"1.5\"/><circle cx=\"23\" cy=\"22\" r=\"1.5\"/></svg>",
+  "Healthcare & Life Sciences": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 4v24M4 16h24\"/><path d=\"M12 9h8a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3h-8a3 3 0 0 1-3-3v-8a3 3 0 0 1 3-3z\"/></svg>",
+  "Public Sector": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 26h24M4 11l12-7 12 7M6 11v15M11 11v15M16 11v15M21 11v15M26 11v15\"/></svg>",
+  "Public Sector & Government": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 26h24M4 11l12-7 12 7M6 11v15M11 11v15M16 11v15M21 11v15M26 11v15\"/></svg>",
+  "Energy": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 4L7 17h8l-2 11 12-14h-8l1-10z\"/></svg>",
+  "Energy & Utilities": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 4L7 17h8l-2 11 12-14h-8l1-10z\"/></svg>",
+  "Retail": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 9h20l-2 15H8L6 9z\"/><path d=\"M11 9V6a5 5 0 0 1 10 0v3\"/></svg>",
+  "Retail & Consumer Commerce": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 9h20l-2 15H8L6 9z\"/><path d=\"M11 9V6a5 5 0 0 1 10 0v3\"/></svg>",
+  "Technology": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"7\" y=\"7\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M12 12h8v8h-8z\"/><path d=\"M7 11H3m4 5H3m4 5H3m18-10h4m-4 5h4m-4 5h4M11 7V3m5 4V3m5 4V3m-10 22v4m5-4v4m5-4v4\"/></svg>",
+  "Technology & Semiconductors": "<svg class=\"service-icon\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"7\" y=\"7\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M12 12h8v8h-8z\"/><path d=\"M7 11H3m4 5H3m4 5H3m18-10h4m-4 5h4m-4 5h4M11 7V3m5 4V3m5 4V3m-10 22v4m5-4v4m5-4v4\"/></svg>"
+};
 
 function pageShell(content) {
   const sNav = document.querySelector('#site-nav');
@@ -3888,13 +3913,16 @@ function cardsPage(d) {
     <section class="section">
       <div class="container">
         <div class="page-cards">
-          ${d.cards.map(c => `
+          ${d.cards.map(c => {
+            const iconSvg = ICONS[c[0]] || '';
+            return `
             <a class="page-card" href="${c[2] || 'contact.html'}">
+              ${iconSvg ? `<div class="icon">${iconSvg}</div>` : ''}
               <h3>${c[0]}</h3>
               <p>${c[1]}</p>
               <span class="text-link">Read More <span>→</span></span>
-            </a>
-          `).join('')}
+            </a>`;
+          }).join('')}
         </div>
       </div>
     </section>
@@ -3994,6 +4022,10 @@ function load() {
 
   if (typeof initMotionScroll === 'function') {
     initMotionScroll();
+  }
+
+  if (typeof initIconDraw === 'function') {
+    initIconDraw();
   }
 }
 

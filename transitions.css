@@ -23,12 +23,27 @@
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-dasharray: var(--path-len, 120);
-  stroke-dashoffset: var(--path-len, 120);
   transition: stroke-dashoffset 1s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: stroke-dashoffset;
 }
 
+/* Only activate line-drawing offset when JS has verified element length */
+.service-icon.draw-active path,
+.service-icon.draw-active line,
+.service-icon.draw-active polyline,
+.service-icon.draw-active polygon,
+.service-icon.draw-active circle,
+.service-icon.draw-active rect {
+  stroke-dasharray: var(--path-len, 120);
+  stroke-dashoffset: var(--path-len, 120);
+}
+
+.service-icon.draw-active.in-view path,
+.service-icon.draw-active.in-view line,
+.service-icon.draw-active.in-view polyline,
+.service-icon.draw-active.in-view polygon,
+.service-icon.draw-active.in-view circle,
+.service-icon.draw-active.in-view rect,
 .service-icon.in-view path,
 .service-icon.in-view line,
 .service-icon.in-view polyline,

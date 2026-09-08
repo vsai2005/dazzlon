@@ -5,13 +5,14 @@
  */
 (function() {
   function initIconDraw() {
-    var cards = document.querySelectorAll('.cards .service-card');
+    var cards = document.querySelectorAll('.cards .service-card, .page-cards .page-card');
     if (!cards.length) return;
 
-    // Initialize all SVG paths with exact path length for line drawing
+    // Initialize SVG paths with exact path length for line drawing
     cards.forEach(function(card) {
       var svg = card.querySelector('.service-icon');
       if (!svg) return;
+      svg.classList.add('draw-active');
       var paths = svg.querySelectorAll('path, line, polyline, polygon, circle, rect');
       paths.forEach(function(p) {
         try {
@@ -20,7 +21,6 @@
           p.style.strokeDashoffset = len;
           p.style.setProperty('--path-len', len);
         } catch (e) {
-          // Fallback if SVG element is not yet rendered
           p.style.strokeDasharray = '120';
           p.style.strokeDashoffset = '120';
         }
@@ -29,7 +29,6 @@
 
     // Use IntersectionObserver to animate icons when cards scroll into view
     if ('IntersectionObserver' in window) {
-      var animated = false;
       var observer = new IntersectionObserver(function(entries) {
         var toAnimate = [];
         entries.forEach(function(entry) {
@@ -40,17 +39,16 @@
         });
 
         if (toAnimate.length) {
-          // Stagger ~120ms apart if multiple cards appear at once
           toAnimate.forEach(function(card, idx) {
             setTimeout(function() {
               var svg = card.querySelector('.service-icon');
               if (svg) svg.classList.add('in-view');
-            }, idx * 120);
+            }, idx * 100);
           });
         }
       }, {
-        threshold: 0.15,
-        rootMargin: '0px 0px -40px 0px'
+        threshold: 0.1,
+        rootMargin: '0px 0px -20px 0px'
       });
 
       cards.forEach(function(card) {
@@ -61,7 +59,7 @@
         setTimeout(function() {
           var svg = card.querySelector('.service-icon');
           if (svg) svg.classList.add('in-view');
-        }, idx * 120);
+        }, idx * 80);
       });
     }
   }
@@ -71,4 +69,6 @@
   } else {
     initIconDraw();
   }
+
+  window.initIconDraw = initIconDraw;
 })();
