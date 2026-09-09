@@ -25,9 +25,9 @@ header.scrolled{height:68px;background:rgba(255,255,255,.98);box-shadow:0 10px 3
 .tagline{display:block;font-size:8px;letter-spacing:.25em;margin-top:4px;font-weight:600;color:#394d5c;text-transform:uppercase}
 header.scrolled .brand-logo{height:36px}
 header.scrolled .tagline{margin-top:3px}
-.navlinks{display:flex;gap:28px;align-items:center;font-size:13px}
-.navlinks a{opacity:.86;transition:opacity .2s}
-.navlinks a:hover{opacity:1}
+.navlinks{display:flex;gap:32px;align-items:center;font-size:15px;font-weight:550}
+.navlinks a{opacity:.88;transition:opacity .2s,color .2s;letter-spacing:-.01em}
+.navlinks a:hover{opacity:1;color:var(--blue)}
 .nav-actions{display:flex;align-items:center;gap:18px}
 .search{width:18px;height:18px;border:1.5px solid #081c2b;border-radius:50%;position:relative}
 .search:after{content:'';position:absolute;width:6px;height:1.5px;background:#081c2b;right:-4px;bottom:0;transform:rotate(45deg)}
@@ -39,23 +39,23 @@ header.scrolled .tagline{margin-top:3px}
 .hero-earth-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:right center;pointer-events:none}
 .hero:after{content:'';position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(90deg,rgba(246,249,251,.82) 0%,rgba(246,249,251,.55) 28%,rgba(246,249,251,0) 54%)}
 .hero-content{position:relative;z-index:3;min-height:580px;display:flex;align-items:center}
-.hero-copy{width:48%;max-width:580px;padding:50px 0 45px}
-.hero h1{font-family:var(--serif);font-size:clamp(55px,6vw,86px);line-height:.92;letter-spacing:-.045em;margin:15px 0 25px;max-width:580px}
-.hero-copy p{max-width:460px;color:#354553;font-size:15px}
-.hero-stats{display:flex;gap:36px;margin-top:32px;padding-top:22px;border-top:1px solid rgba(8,25,39,.1);flex-wrap:wrap;align-items:flex-start}
-.stat strong{display:block;font-family:var(--serif);font-size:26px;font-weight:400;line-height:1.1;color:#031321}
-.stat small{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#536471;font-weight:500;margin-top:4px;white-space:nowrap}
+.hero-copy{width:56%;max-width:680px;padding:46px 0 40px}
+.hero h1{font-family:var(--serif);font-size:clamp(52px,5.8vw,82px);line-height:.92;letter-spacing:-.045em;margin:14px 0 22px;max-width:580px}
+.hero-copy p{max-width:480px;color:#354553;font-size:15px}
+.hero-stats{display:flex;gap:26px;margin-top:28px;padding-top:20px;border-top:1px solid rgba(8,25,39,.1);flex-wrap:nowrap;align-items:flex-start}
+.stat strong{display:block;font-family:var(--serif);font-size:25px;font-weight:400;line-height:1.1;color:#031321;white-space:nowrap}
+.stat small{display:block;font-size:9.5px;text-transform:uppercase;letter-spacing:.11em;color:#536471;font-weight:600;margin-top:4px;white-space:nowrap}
 .hero-note{position:absolute;right:4%;bottom:70px;color:white;z-index:3;font-size:13px;letter-spacing:.12em;text-transform:uppercase;line-height:1.45}
 .hero-note:after{content:'';display:block;width:95px;height:1px;background:#fff;margin-top:18px;opacity:.7}
 
 /* Sections Common */
-.section{padding:50px 0}
-.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:24px}
+.section{padding:46px 0}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:22px}
 .section-head h2{font-family:var(--serif);font-size:44px;line-height:1.02;letter-spacing:-.025em;margin:9px 0 0}
 .section-head p{max-width:620px;color:#506170;margin:10px 0 0}
 
 /* About Section */
-.about{background:#fff;padding-top:46px;padding-bottom:26px}
+.about{background:#fff;padding-top:38px;padding-bottom:20px}
 .about-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:60px;align-items:start}
 .about h2{font-size:50px;line-height:.98;margin:10px 0 20px}
 .about-intro{font-size:18px;max-width:700px;color:#334451}
@@ -94,8 +94,8 @@ header.scrolled .tagline{margin-top:3px}
 .service-card .text-link{margin-top:auto;font-size:11px}
 
 /* Your Partner in Digital Success */
-.partner-section{background:#fff;padding:26px 0 30px}
-.partner-head{text-align:center;max-width:760px;margin:0 auto 28px}
+.partner-section{background:#fff;padding:20px 0 24px}
+.partner-head{text-align:center;max-width:760px;margin:0 auto 24px}
 .partner-head .eyebrow{justify-content:center;margin-bottom:10px}
 .partner-head h2{font-family:var(--serif);font-size:44px;line-height:1.06;letter-spacing:-.02em;margin:0 0 14px;color:var(--navy)}
 .partner-head p{font-size:15.5px;line-height:1.65;color:#52636f;margin:0}
@@ -109,7 +109,7 @@ header.scrolled .tagline{margin-top:3px}
 .partner-card p{font-size:13.5px;color:#5d6b75;margin:0;line-height:1.58}
 
 /* Industries */
-.industries{background:#fbfcfd;padding:30px 0 50px}
+.industries{background:#fbfcfd;padding:26px 0 38px}
 .industry-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
 .industry{border:1px solid #dbe2e7;border-radius:9px;padding:26px 14px 20px;min-height:175px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:#fff;text-decoration:none;color:inherit;position:relative;transition:.25s;box-sizing:border-box}
 .industry:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(10,32,48,.08);border-color:#b8cddc}
@@ -130,15 +130,15 @@ header.scrolled .tagline{margin-top:3px}
 .impact-item span{font-size:11px;color:#bac7d0}
 
 /* CTA */
-.cta{position:relative;min-height:330px;background:#bcd3e3;overflow:hidden}
+.cta{position:relative;min-height:280px;background:#bcd3e3;overflow:hidden}
 .cta-bg{position:absolute;inset:0;background-image:url('assets/mountain-cta.png');background-size:cover;background-position:center}
 .cta:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(240,247,251,.92),rgba(240,247,251,.28) 62%,rgba(240,247,251,0))}
-.cta-content{position:relative;z-index:2;padding:80px 0}
+.cta-content{position:relative;z-index:2;padding:60px 0}
 .cta h2{font-family:var(--serif);font-size:47px;line-height:1;margin:0 0 12px}
 .cta p{margin:0 0 22px;color:#425561}
 
 /* Footer */
-footer{background:#031321;color:white;padding:62px 0 22px}
+footer{background:#031321;color:white;padding:54px 0 22px}
 .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:45px}
 .footer-brand{font-size:24px;font-weight:800;letter-spacing:.08em}
 .footer p{color:#aebdc7;font-size:12px;max-width:330px}
@@ -324,11 +324,12 @@ footer{background:#031321;color:white;padding:62px 0 22px}
    ========================================================================== */
 @media(max-width:1050px){
   .container{width:min(var(--max),calc(100% - 48px))}
-  .hero-copy{width:54%;max-width:520px}
+  .hero-copy{width:62%;max-width:640px}
   .hero-image{background-position:80% center}
   .hero-earth-video{object-position:80% center}
   .hero:after{background:linear-gradient(90deg,rgba(246,249,251,.88) 0%,rgba(246,249,251,.62) 34%,rgba(246,249,251,0) 64%)}
-  .navlinks{gap:16px}
+  .navlinks{gap:20px;font-size:14px}
+  .hero-stats{flex-wrap:wrap;gap:18px 22px}
   .cards{grid-template-columns:repeat(3,1fr)}
   .partner-cards{grid-template-columns:repeat(2,1fr);gap:18px}
   .industry-grid{grid-template-columns:repeat(3,1fr)}
