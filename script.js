@@ -1,6 +1,6 @@
 const nav = `
 <header><div class="container nav">
-<a href="index.html" class="brand" aria-label="Dazzlon Home"><img src="assets/dazzlon-logo.png" alt="Dazzlon" class="brand-logo" width="159" height="38"><span class="tagline">COMPLEXITY. ENGINEERED.</span></a>
+<a href="index.html" class="brand" aria-label="Dazzlon Home"><img src="assets/dazzlon-logo.png" alt="Dazzlon" class="brand-logo" width="200" height="48"><span class="tagline">COMPLEXITY. ENGINEERED.</span></a>
 <nav class="navlinks"><a href="about.html">About</a><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></nav>
 <div class="nav-actions"><span class="search"></span><a class="btn" href="contact.html">Let's Talk <span>→</span></a><button class="menu" aria-label="Menu">☰</button></div>
 </div></header>`;
