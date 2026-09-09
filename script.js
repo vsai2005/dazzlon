@@ -1,6 +1,6 @@
 const nav = `
 <header><div class="container nav">
-<a href="index.html" class="brand" aria-label="Dazzlon Home"><img src="assets/dazzlon-logo.png" alt="Dazzlon" class="brand-logo" width="130" height="31"><span class="tagline">COMPLEXITY. ENGINEERED.</span></a>
+<a href="index.html" class="brand" aria-label="Dazzlon Home"><img src="assets/dazzlon-logo.png" alt="Dazzlon" class="brand-logo" width="159" height="38"><span class="tagline">COMPLEXITY. ENGINEERED.</span></a>
 <nav class="navlinks"><a href="about.html">About</a><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></nav>
 <div class="nav-actions"><span class="search"></span><a class="btn" href="contact.html">Let's Talk <span>→</span></a><button class="menu" aria-label="Menu">☰</button></div>
 </div></header>`;
@@ -8,7 +8,7 @@ const footer = `
 <footer><div class="container"><div class="footer-grid">
 <div><div class="footer-brand">DAZZLON</div><span class="tagline">COMPLEXITY. ENGINEERED.</span><p>A global technology consulting and engineering company helping organizations build a smarter, more connected tomorrow.</p><div class="social"><a href="#">in</a><a href="#">X</a><a href="#">▶</a><a href="#">◎</a></div></div>
 <div><h4>Quick Links</h4><div class="footer-links"><a href="about.html">About</a><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></div></div>
-<div><h4>Our Services</h4><div class="footer-links"><a href="service-data.html">Data & Analytics</a><a href="service-cloud.html">Cloud</a><a href="service-sap.html">SAP</a><a href="service-software.html">Software Engineering</a><a href="service-cybersecurity.html">Cybersecurity</a><a href="service-qa.html">Quality & Automation</a></div></div>
+<div><h4>Our Services</h4><div class="footer-links"><a href="service-ai.html">AI & Machine Learning</a><a href="service-cloud.html">Cloud</a><a href="service-data.html">Data & Analytics</a><a href="service-cybersecurity.html">Cybersecurity</a><a href="service-managed.html">Managed IT</a><a href="technology-erp.html">ERP</a></div></div>
 <div><h4>Contact</h4><div class="footer-links"><span><strong>Global Office:</strong><br>6951 Virginia Parkway, Ste 216<br>McKinney, TX 75071, USA</span><span style="margin-top:8px;display:block;"><strong>Branch Office:</strong><br>75 Valley Stream Parkway, Ste 120<br>Malvern, PA 19355, USA</span><a href="mailto:contact@dazzlon.com">contact@dazzlon.com</a><a href="tel:+14693337066">+1 (469) 333-7066</a></div></div>
 </div><div class="footer-bottom"><span>© 2026 Dazzlon. All rights reserved.</span><span>Privacy Policy &nbsp; | &nbsp; Terms of Service &nbsp; | &nbsp; Cookie Settings</span></div></div></footer>`;
 const tech = [

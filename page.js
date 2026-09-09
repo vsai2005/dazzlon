@@ -553,9 +553,9 @@ const SERVICES = {
     ],
     "related": [
       {
-        "title": "Quality Assurance",
-        "desc": "Comprehensive functional, performance, and ERP regression testing across dedicated labs.",
-        "url": "service-qa.html"
+        "title": "ERP Systems & Solutions",
+        "desc": "Integrated enterprise systems that streamline operations, unify supply chains, and enable smarter business decisions.",
+        "url": "technology-erp.html"
       },
       {
         "title": "Cloud Services",
@@ -937,9 +937,9 @@ const SERVICES = {
         "url": "service-cybersecurity.html"
       },
       {
-        "title": "Quality Assurance",
-        "desc": "Comprehensive functional, performance, and ERP regression testing across dedicated labs.",
-        "url": "service-qa.html"
+        "title": "ERP Systems & Solutions",
+        "desc": "Integrated enterprise systems that streamline operations, unify supply chains, and enable smarter business decisions.",
+        "url": "technology-erp.html"
       }
     ]
   },
@@ -1541,9 +1541,9 @@ const SERVICES = {
     ],
     "related": [
       {
-        "title": "Quality Assurance",
-        "desc": "Comprehensive functional, performance, and ERP regression testing across dedicated labs.",
-        "url": "service-qa.html"
+        "title": "Cybersecurity",
+        "desc": "Multi-layered defensive architecture protecting custom software, APIs, and cloud infrastructure.",
+        "url": "service-cybersecurity.html"
       },
       {
         "title": "Data Warehouse Design",
@@ -2860,9 +2860,9 @@ const INDUSTRIES = {
         "url": "service-sap.html"
       },
       {
-        "title": "Quality Assurance",
-        "desc": "Comprehensive functional, regression, and load testing in dedicated QA labs.",
-        "url": "service-qa.html"
+        "title": "ERP Systems & Solutions",
+        "desc": "Integrated enterprise systems that streamline operations, unify supply chains, and enable smarter business decisions.",
+        "url": "technology-erp.html"
       },
       {
         "title": "Cloud Services",
@@ -3026,9 +3026,9 @@ const INDUSTRIES = {
         "url": "service-data.html"
       },
       {
-        "title": "Quality Assurance",
-        "desc": "Comprehensive functional, regression, and load testing in dedicated QA labs.",
-        "url": "service-qa.html"
+        "title": "Cloud Services",
+        "desc": "HIPAA-compliant, resilient multi-cloud healthcare platforms built on AWS and Microsoft Azure.",
+        "url": "service-cloud.html"
       }
     ]
   },
@@ -3500,9 +3500,9 @@ const INDUSTRIES = {
         "url": "service-data.html"
       },
       {
-        "title": "Quality Assurance",
-        "desc": "Comprehensive functional, regression, and load testing in dedicated QA labs.",
-        "url": "service-qa.html"
+        "title": "Cybersecurity",
+        "desc": "Critical infrastructure defense protecting supervisory control and operational data networks.",
+        "url": "service-cybersecurity.html"
       },
       {
         "title": "Cloud Services",
@@ -3663,9 +3663,9 @@ const INDUSTRIES = {
         "url": "service-software.html"
       },
       {
-        "title": "Quality Assurance",
-        "desc": "Comprehensive functional, regression, and load testing in dedicated QA labs.",
-        "url": "service-qa.html"
+        "title": "Cybersecurity",
+        "desc": "High-assurance security architecture protecting proprietary IP, design telemetry, and software platforms.",
+        "url": "service-cybersecurity.html"
       },
       {
         "title": "Data Warehouse Design",
@@ -3727,29 +3727,9 @@ const DATA = {
         "service-ai.html"
       ],
       [
-        "Quality Assurance",
-        "Functional, automated regression, performance/load, and security testing across dedicated test labs and enterprise ERP environments.",
-        "service-qa.html"
-      ],
-      [
-        "Data Warehouse Design & Data Modeling",
-        "Assess value creation opportunities with active enterprise intelligence, dimensional modeling, and high-performance warehouse architectures.",
-        "service-datawarehouse.html"
-      ],
-      [
-        "SAP Services",
-        "Certified SAP consulting, S/4HANA migrations, Business Technology Platform integration, and SLA-backed 2nd/3rd level ITIL operational support.",
-        "service-sap.html"
-      ],
-      [
         "Cloud Services",
         "Modernize legacy infrastructure with secure, scalable hybrid and multi-cloud architectures across Amazon Web Services (AWS) and Microsoft Azure.",
         "service-cloud.html"
-      ],
-      [
-        "Managed IT Services",
-        "Contracted SLA-backed server administration, 24/7 proactive monitoring, scheduled maintenance, and IT team supplementation that prevents downtime.",
-        "service-managed.html"
       ],
       [
         "Data Management & Analytics",
@@ -3762,9 +3742,29 @@ const DATA = {
         "service-cybersecurity.html"
       ],
       [
+        "Managed IT Services",
+        "Contracted SLA-backed server administration, 24/7 proactive monitoring, scheduled maintenance, and IT team supplementation that prevents downtime.",
+        "service-managed.html"
+      ],
+      [
+        "ERP Systems & Solutions",
+        "Integrated enterprise systems that streamline operations, unify supply chains and finance, and enable smarter business decisions.",
+        "technology-erp.html"
+      ],
+      [
+        "SAP Services",
+        "Certified SAP consulting, S/4HANA migrations, Business Technology Platform integration, and SLA-backed 2nd/3rd level ITIL operational support.",
+        "service-sap.html"
+      ],
+      [
         "Software Engineering",
         "Proprietary custom application development, systems integration, and database logic engineered under a pure Work for Hire contract model.",
         "service-software.html"
+      ],
+      [
+        "Data Warehouse Design & Data Modeling",
+        "Assess value creation opportunities with active enterprise intelligence, dimensional modeling, and high-performance warehouse architectures.",
+        "service-datawarehouse.html"
       ]
     ]
   },
@@ -3808,7 +3808,7 @@ const DATA = {
   "careers": {
     "title": "Build What's Next with Dazzlon",
     "eyebrow": "CAREERS AT DAZZLON",
-    "intro": "Join our Center of Excellence in McKinney, Texas. While there are currently no active job openings (0 open roles right now), we continuously welcome proactive applications from exceptional enterprise technologists.",
+    "intro": "Join our Center of Excellence in McKinney, Texas. While there are currently no active job openings (<span class=\"num-zero\">0</span> open roles right now), we continuously welcome proactive applications from exceptional enterprise technologists.",
     "jobs": []
   },
   "contact": {
@@ -3824,6 +3824,10 @@ const ICONS = {
   "Data Management & Analytics": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"6.5\" y=\"20.5\" width=\"5.5\" height=\"11\" rx=\"1.5\"/><rect x=\"15.25\" y=\"12.5\" width=\"5.5\" height=\"19\" rx=\"1.5\"/><rect x=\"24\" y=\"5\" width=\"5.5\" height=\"26.5\" rx=\"1.5\"/></svg>",
   "Cloud": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 25.5h17a5.5 5.5 0 0 0 1.5-10.8A7.8 7.8 0 0 0 13.5 11a6 6 0 0 0-4 14.5\"/><line x1=\"18\" y1=\"25.5\" x2=\"18\" y2=\"17.5\"/><polyline points=\"14.8 20.5 18 17.2 21.2 20.5\"/></svg>",
   "Cloud Services": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 25.5h17a5.5 5.5 0 0 0 1.5-10.8A7.8 7.8 0 0 0 13.5 11a6 6 0 0 0-4 14.5\"/><line x1=\"18\" y1=\"25.5\" x2=\"18\" y2=\"17.5\"/><polyline points=\"14.8 20.5 18 17.2 21.2 20.5\"/></svg>",
+  "Managed IT": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"5.5\" y=\"6\" width=\"25\" height=\"7\" rx=\"2\" fill=\"#d9ebf7\" fill-opacity=\"0.5\"/><rect x=\"5.5\" y=\"15\" width=\"25\" height=\"7\" rx=\"2\" fill=\"#d9ebf7\" fill-opacity=\"0.5\"/><rect x=\"5.5\" y=\"24\" width=\"25\" height=\"7\" rx=\"2\" fill=\"#d9ebf7\" fill-opacity=\"0.5\"/><circle cx=\"9.5\" cy=\"9.5\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"9.5\" cy=\"18.5\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"9.5\" cy=\"27.5\" r=\"1.2\" fill=\"currentColor\"/><line x1=\"16\" y1=\"9.5\" x2=\"26\" y2=\"9.5\"/><line x1=\"16\" y1=\"18.5\" x2=\"26\" y2=\"18.5\"/><line x1=\"16\" y1=\"27.5\" x2=\"26\" y2=\"27.5\"/></svg>",
+  "Managed IT Services": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"5.5\" y=\"6\" width=\"25\" height=\"7\" rx=\"2\" fill=\"#d9ebf7\" fill-opacity=\"0.5\"/><rect x=\"5.5\" y=\"15\" width=\"25\" height=\"7\" rx=\"2\" fill=\"#d9ebf7\" fill-opacity=\"0.5\"/><rect x=\"5.5\" y=\"24\" width=\"25\" height=\"7\" rx=\"2\" fill=\"#d9ebf7\" fill-opacity=\"0.5\"/><circle cx=\"9.5\" cy=\"9.5\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"9.5\" cy=\"18.5\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"9.5\" cy=\"27.5\" r=\"1.2\" fill=\"currentColor\"/><line x1=\"16\" y1=\"9.5\" x2=\"26\" y2=\"9.5\"/><line x1=\"16\" y1=\"18.5\" x2=\"26\" y2=\"18.5\"/><line x1=\"16\" y1=\"27.5\" x2=\"26\" y2=\"27.5\"/></svg>",
+  "ERP": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"6\" y=\"6\" width=\"10\" height=\"9\" rx=\"2\" fill=\"#d9ebf7\" fill-opacity=\"0.6\"/><rect x=\"20\" y=\"6\" width=\"10\" height=\"9\" rx=\"2\"/><rect x=\"6\" y=\"21\" width=\"10\" height=\"9\" rx=\"2\"/><rect x=\"20\" y=\"21\" width=\"10\" height=\"9\" rx=\"2\" fill=\"#d9ebf7\" fill-opacity=\"0.6\"/><line x1=\"16\" y1=\"10.5\" x2=\"20\" y2=\"10.5\"/><line x1=\"16\" y1=\"25.5\" x2=\"20\" y2=\"25.5\"/><line x1=\"11\" y1=\"15\" x2=\"11\" y2=\"21\"/><line x1=\"25\" y1=\"15\" x2=\"25\" y2=\"21\"/></svg>",
+  "ERP Systems & Solutions": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"6\" y=\"6\" width=\"10\" height=\"9\" rx=\"2\" fill=\"#d9ebf7\" fill-opacity=\"0.6\"/><rect x=\"20\" y=\"6\" width=\"10\" height=\"9\" rx=\"2\"/><rect x=\"6\" y=\"21\" width=\"10\" height=\"9\" rx=\"2\"/><rect x=\"20\" y=\"21\" width=\"10\" height=\"9\" rx=\"2\" fill=\"#d9ebf7\" fill-opacity=\"0.6\"/><line x1=\"16\" y1=\"10.5\" x2=\"20\" y2=\"10.5\"/><line x1=\"16\" y1=\"25.5\" x2=\"20\" y2=\"25.5\"/><line x1=\"11\" y1=\"15\" x2=\"11\" y2=\"21\"/><line x1=\"25\" y1=\"15\" x2=\"25\" y2=\"21\"/></svg>",
   "SAP": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"18,6 29.5,12 18,18 6.5,12\" fill=\"#d9ebf7\" fill-opacity=\"0.7\"/><path d=\"M6.5 17.5L18 23.5l11.5-6\"/><path d=\"M6.5 23L18 29l11.5-6\"/></svg>",
   "SAP Services": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"18,6 29.5,12 18,18 6.5,12\" fill=\"#d9ebf7\" fill-opacity=\"0.7\"/><path d=\"M6.5 17.5L18 23.5l11.5-6\"/><path d=\"M6.5 23L18 29l11.5-6\"/></svg>",
   "Software Engineering": "<svg class=\"service-icon\" viewBox=\"0 0 36 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"12,11.5 5,18 12,24.5\"/><line x1=\"20.5\" y1=\"8.5\" x2=\"15.5\" y2=\"27.5\"/><polyline points=\"24,11.5 31,18 24,24.5\"/></svg>",
@@ -4156,7 +4160,7 @@ function careersPage(d) {
   `).join('') : `
     <div style="padding:56px 32px;text-align:center;background:#f8fafc;border:1px dashed var(--line);border-radius:12px;margin-bottom:32px;">
       <div style="font-size:36px;margin-bottom:14px;">💼</div>
-      <h3 class="serif" style="font-size:24px;color:var(--navy);margin:0 0 10px;">No Open Positions Right Now (0 Active Openings)</h3>
+      <h3 class="serif" style="font-size:24px;color:var(--navy);margin:0 0 10px;">No Open Positions Right Now (<span class="num-zero">0</span> Active Openings)</h3>
       <p style="font-size:15px;color:#5a6b77;max-width:540px;margin:0 auto 24px;line-height:1.65;">
         There are currently no active job openings at Dazzlon. We are always interested in connecting with exceptional engineering talent for future contract programming, SAP consulting, and cloud architecture opportunities.
       </p>
@@ -4178,7 +4182,7 @@ function careersPage(d) {
       <div class="container">
         <div class="section-head">
           <div>
-            <div class="eyebrow">Open Positions (0)</div>
+            <div class="eyebrow">Open Positions (<span class="num-zero">0</span>)</div>
             <h2>Current Career Opportunities</h2>
           </div>
           <p>Join a culture of engineering excellence, intellectual property innovation, and long-term career growth.</p>
