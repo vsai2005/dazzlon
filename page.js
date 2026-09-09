@@ -2491,6 +2491,224 @@ const TECH = {
         "url": "service-software.html"
       }
     ]
+  },
+  "managed-it": {
+    "shortTitle": "Managed IT Services",
+    "title": "Proactive Managed IT Services & Systems Optimization",
+    "kicker": "OPERATIONAL RELIABILITY & INFRASTRUCTURE RESILIENCE",
+    "intro": "Reliable, proactive IT management that keeps your business secure, connected, and running at peak performance. Dazzlon delivers 24/7 technical oversight, systems administration, and end-to-end infrastructure governance.",
+    "metrics": [
+      {
+        "val": "99.99%",
+        "label": "Systems Uptime & Availability"
+      },
+      {
+        "val": "< 15m",
+        "label": "Incident Triage & Response Time"
+      },
+      {
+        "val": "24/7/365",
+        "label": "Proactive Monitoring & Support"
+      }
+    ],
+    "strategicIntro": {
+      "eyebrow": "INFRASTRUCTURE EXCELLENCE",
+      "heading": "Ensuring Business Continuity and Peak Infrastructure Health",
+      "text": [
+        "Modern enterprises require resilient, frictionless digital operations without the prohibitive overhead of managing large internal support teams. Infrastructure friction directly undermines employee productivity and customer satisfaction.",
+        "Dazzlon provides comprehensive Managed IT Services, taking full accountability for uptime, endpoint management, patch governance, and security monitoring. Our senior engineers ensure your technical infrastructure scales effortlessly with your organizational demands."
+      ],
+      "highlightsTitle": "Managed IT Core Pillars",
+      "highlights": [
+        "24/7 real-time infrastructure and network performance monitoring",
+        "Automated patch management, security updates, and vulnerability scans",
+        "Help desk, endpoint lifecycle administration, and IT asset tracking",
+        "Disaster recovery planning, routine backups, and failover validation"
+      ]
+    },
+    "capabilities": [
+      {
+        "title": "Network & Cloud Operations",
+        "desc": "Continuous monitoring and proactive troubleshooting of enterprise networks, hybrid environments, and servers."
+      },
+      {
+        "title": "Endpoint & Device Management",
+        "desc": "Unified endpoint management ensuring all employee workstations and mobile devices remain compliant and secure."
+      },
+      {
+        "title": "Disaster Recovery & Business Continuity",
+        "desc": "Automated data replication and tested recovery protocols that guarantee operational continuity under any conditions."
+      }
+    ],
+    "methodology": [
+      {
+        "step": "01",
+        "title": "Infrastructure Audit",
+        "desc": "Holistic discovery of hardware, network topology, software licenses, and security configurations."
+      },
+      {
+        "step": "02",
+        "title": "Telemetry & Tooling Deployment",
+        "desc": "Rolling out automated monitoring agents, endpoint protection, and unified ITIL ticketing."
+      },
+      {
+        "step": "03",
+        "title": "Proactive Management & SLA Delivery",
+        "desc": "Delivering 24/7 continuous health tracking, proactive patch cycles, and weekly executive health reports."
+      }
+    ],
+    "techStack": [
+      {
+        "category": "Monitoring & Telemetry",
+        "tools": ["Datadog", "Dynatrace", "Splunk", "Prometheus", "Grafana"]
+      },
+      {
+        "category": "ITSM & Service Desk",
+        "tools": ["ServiceNow", "Jira Service Management", "ITIL v4", "ConnectWise"]
+      },
+      {
+        "category": "Endpoint & Cloud Management",
+        "tools": ["Microsoft Intune", "Jamf", "Azure Arc", "AWS Systems Manager"]
+      }
+    ],
+    "valueCards": [
+      {
+        "metric": "40%",
+        "label": "IT Overhead Reduction",
+        "desc": "Significantly lower recurring support costs compared to managing decentralized internal teams."
+      },
+      {
+        "metric": "Zero",
+        "label": "Unplanned Outages",
+        "desc": "Predictive alerting and automatic failover systems prevent downtime before business impact occurs."
+      }
+    ],
+    "related": [
+      {
+        "title": "Cloud Services",
+        "desc": "Modernize infrastructure across hybrid and multi-cloud architectures.",
+        "url": "service-cloud.html"
+      },
+      {
+        "title": "Cybersecurity",
+        "desc": "Safeguard enterprise networks, applications, and cloud environments.",
+        "url": "service-cybersecurity.html"
+      },
+      {
+        "title": "ERP Systems",
+        "desc": "Integrated enterprise systems that streamline core business operations.",
+        "url": "technology-erp.html"
+      }
+    ]
+  },
+  "erp": {
+    "shortTitle": "ERP Systems & Solutions",
+    "title": "Enterprise Resource Planning (ERP) & Core Modernization",
+    "kicker": "INTEGRATED ENTERPRISE WORKFLOWS & DATA CLARITY",
+    "intro": "Integrated enterprise systems that streamline operations, improve visibility, and enable smarter business decisions. Dazzlon modernizes mission-critical ERP landscapes to connect supply chains, finance, and operations.",
+    "metrics": [
+      {
+        "val": "100%",
+        "label": "Process Visibility Across Units"
+      },
+      {
+        "val": "35%",
+        "label": "Operational Efficiency Gain"
+      },
+      {
+        "val": "Zero",
+        "label": "Data Silos in Core Systems"
+      }
+    ],
+    "strategicIntro": {
+      "eyebrow": "ENTERPRISE CORE",
+      "heading": "Unifying Business Processes for Real-Time Agility and Intelligence",
+      "text": [
+        "Fragmented business systems create organizational blind spots, redundant data entry, and delayed decision-making. High-growth enterprises need a cohesive digital core that integrates procurement, supply chain, financial reporting, and human capital.",
+        "Dazzlon designs and implements modern ERP ecosystems tailored to unique industry workflows. We bridge legacy applications with cloud-native ERP platforms, ensuring complete data consistency, regulatory auditability, and real-time operational visibility."
+      ],
+      "highlightsTitle": "ERP Architecture Capabilities",
+      "highlights": [
+        "End-to-end ERP implementation, customization, and cloud migration",
+        "Seamless integration with third-party supply chain and CRM systems",
+        "Automated financial reconciliation and real-time operational dashboards",
+        "Role-based access governance and SOX compliance audit readiness"
+      ]
+    },
+    "capabilities": [
+      {
+        "title": "Core System Modernization",
+        "desc": "Migrating on-premises ERP environments to agile cloud architectures without business interruption."
+      },
+      {
+        "title": "Supply Chain & Inventory Integration",
+        "desc": "Synchronizing procurement, warehousing, and fulfillment channels with real-time stock telemetry."
+      },
+      {
+        "title": "Financial Consolidation & Reporting",
+        "desc": "Automating multi-entity reporting, tax compliance, and automated ledger consolidation."
+      }
+    ],
+    "methodology": [
+      {
+        "step": "01",
+        "title": "Business Process Discovery",
+        "desc": "Mapping existing transaction flows, custom reports, dependencies, and integration bottlenecks."
+      },
+      {
+        "step": "02",
+        "title": "Data Harmonization & Migration",
+        "desc": "Cleansing legacy databases, mapping schemas, and executing verified parallel migration test runs."
+      },
+      {
+        "step": "03",
+        "title": "Rollout & Continuous Support",
+        "desc": "Zero-downtime production cutover, employee enablement, and SLA-backed continuous optimization."
+      }
+    ],
+    "techStack": [
+      {
+        "category": "ERP Platforms",
+        "tools": ["SAP S/4HANA", "Oracle Cloud ERP", "Microsoft Dynamics 365", "NetSuite"]
+      },
+      {
+        "category": "Integration & Middleware",
+        "tools": ["SAP BTP", "MuleSoft", "Azure Logic Apps", "Boomi"]
+      },
+      {
+        "category": "Analytics & BI",
+        "tools": ["Power BI", "Tableau", "SAP Analytics Cloud", "Snowflake"]
+      }
+    ],
+    "valueCards": [
+      {
+        "metric": "50%",
+        "label": "Faster Financial Close",
+        "desc": "Automated workflows and reconciliations compress month-end reporting from weeks to days."
+      },
+      {
+        "metric": "100%",
+        "label": "Audit Traceability",
+        "desc": "Immutable transaction logs and role-based permissions ensure regulatory compliance."
+      }
+    ],
+    "related": [
+      {
+        "title": "SAP Solutions",
+        "desc": "S/4HANA migrations, SAP BTP, and dedicated enterprise support.",
+        "url": "service-sap.html"
+      },
+      {
+        "title": "Data & Analytics",
+        "desc": "Turn complex enterprise data into actionable insights and governance.",
+        "url": "service-data.html"
+      },
+      {
+        "title": "Managed IT",
+        "desc": "Proactive infrastructure and systems management.",
+        "url": "technology-managed-it.html"
+      }
+    ]
   }
 };
 

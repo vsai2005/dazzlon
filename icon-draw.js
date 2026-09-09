@@ -4,7 +4,7 @@
  */
 (function() {
   function initIconDraw() {
-    var cards = document.querySelectorAll('.cards .service-card, .page-cards .page-card, .industry-grid .industry');
+    var cards = document.querySelectorAll('.cards .service-card, .page-cards .page-card, .industry-grid .industry, .partner-cards .partner-card');
     cards.forEach(function(card) {
       var svg = card.querySelector('.service-icon');
       if (svg) {

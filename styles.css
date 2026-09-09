@@ -74,7 +74,7 @@ header.scrolled{height:62px;background:rgba(255,255,255,.98);box-shadow:0 10px 3
 .tech-bottom{position:absolute;z-index:3;left:50%;bottom:28px;transform:translateX(-50%);width:min(var(--max),calc(100% - 96px));display:flex;align-items:center;gap:22px}
 .tech-index{font-size:11px;letter-spacing:.1em}
 .tech-tabs{display:flex;flex:1;gap:0}
-.tech-tab{flex:1;background:none;color:#d8e2e9;border:0;border-top:1px solid rgba(255,255,255,.28);padding:10px 4px;text-align:left;font-size:12px;cursor:pointer}
+.tech-tab{flex:1;background:none;color:#d8e2e9;border:0;border-top:1px solid rgba(255,255,255,.28);padding:10px 6px;text-align:left;font-size:11.5px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .2s ease,border-color .2s ease}
 .tech-tab.active{border-top-color:#fff;color:#fff}
 .arrow{position:absolute;z-index:4;top:50%;transform:translateY(-50%);width:44px;height:44px;border:1px solid rgba(255,255,255,.7);border-radius:50%;background:rgba(0,0,0,.08);color:#fff;cursor:pointer}
 .arrow.left{left:28px}
@@ -88,6 +88,21 @@ header.scrolled{height:62px;background:rgba(255,255,255,.98);box-shadow:0 10px 3
 .service-card h3{font-size:14px;margin:0 0 7px}
 .service-card p{font-size:12px;color:#687783;margin:0}
 .service-card .text-link{margin-top:auto;font-size:11px}
+
+/* Your Partner in Digital Success */
+.partner-section{background:#fff}
+.partner-head{text-align:center;max-width:760px;margin:0 auto 48px}
+.partner-head .eyebrow{justify-content:center;margin-bottom:10px}
+.partner-head h2{font-family:var(--serif);font-size:44px;line-height:1.06;letter-spacing:-.02em;margin:0 0 14px;color:var(--navy)}
+.partner-head p{font-size:15.5px;line-height:1.65;color:#52636f;margin:0}
+
+.partner-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.partner-card{border:1px solid #dbe2e7;border-radius:10px;padding:34px 24px 30px;min-height:220px;display:flex;flex-direction:column;align-items:flex-start;text-align:left;background:#fff;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.partner-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(10,32,48,.08);border-color:#b5c7d6}
+.partner-card .icon{width:48px;height:48px;display:flex;align-items:center;justify-content:center;color:#1b5c88;margin-bottom:18px;transition:transform .25s ease,color .25s ease}
+.partner-card:hover .icon{transform:scale(1.08);color:#0f3f61}
+.partner-card h3{font-family:var(--serif);font-size:21px;line-height:1.25;margin:0 0 10px;color:var(--ink);letter-spacing:-.01em}
+.partner-card p{font-size:13.5px;color:#5d6b75;margin:0;line-height:1.58}
 
 /* Industries */
 .industries{background:#fbfcfd}
@@ -241,8 +256,8 @@ footer{background:#031321;color:white;padding:62px 0 22px}
 /* ==========================================================================
    Motion Scrolling & Scroll Reveals
    ========================================================================== */
-.section-head, .impact-title{opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1)}
-.section.revealed .section-head, .impact.revealed .impact-title{opacity:1;transform:translateY(0)}
+.section-head, .partner-head, .impact-title{opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1)}
+.section.revealed .section-head, .partner-section.revealed .partner-head, .impact.revealed .impact-title{opacity:1;transform:translateY(0)}
 .about-intro, .about-cols .about-card{opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1)}
 .about.revealed .about-intro, .about.revealed .about-cols .about-card{opacity:1;transform:translateY(0)}
 .about.revealed .about-cols .about-card:nth-child(1){transition-delay:.06s}
@@ -251,6 +266,14 @@ footer{background:#031321;color:white;padding:62px 0 22px}
 
 /* Desktop-only horizontal slide-in effects (prevents mobile canvas widening) */
 @media (min-width: 769px) {
+  .partner-cards .partner-card{opacity:0;transform:translateX(45px);transition:opacity .65s cubic-bezier(.16,1,.3,1),transform .65s cubic-bezier(.16,1,.3,1),box-shadow .25s ease}
+  .partner-cards.revealed .partner-card{opacity:1;transform:translateX(0)}
+  .partner-cards.revealed .partner-card:nth-child(1){transition-delay:.04s}
+  .partner-cards.revealed .partner-card:nth-child(2){transition-delay:.12s}
+  .partner-cards.revealed .partner-card:nth-child(3){transition-delay:.20s}
+  .partner-cards.revealed .partner-card:nth-child(4){transition-delay:.28s}
+  .partner-cards.revealed .partner-card:hover{transform:translateY(-5px)}
+
   .cards .service-card{opacity:0;transform:translateX(45px);transition:opacity .65s cubic-bezier(.16,1,.3,1),transform .65s cubic-bezier(.16,1,.3,1),box-shadow .25s ease}
   .cards.revealed .service-card{opacity:1;transform:translateX(0)}
   .cards.revealed .service-card:nth-child(1){transition-delay:.04s}
@@ -303,6 +326,7 @@ footer{background:#031321;color:white;padding:62px 0 22px}
   .hero:after{background:linear-gradient(90deg,rgba(246,249,251,.88) 0%,rgba(246,249,251,.62) 34%,rgba(246,249,251,0) 64%)}
   .navlinks{gap:16px}
   .cards{grid-template-columns:repeat(3,1fr)}
+  .partner-cards{grid-template-columns:repeat(2,1fr);gap:18px}
   .industry-grid{grid-template-columns:repeat(3,1fr)}
   .impact-grid{grid-template-columns:1.2fr repeat(2,1fr);gap:15px}
   .impact-item:nth-child(4),.impact-item:nth-child(5){margin-top:12px}
@@ -332,6 +356,7 @@ footer{background:#031321;color:white;padding:62px 0 22px}
 
   /* Safe vertical scroll reveals - no horizontal overflow */
   .cards .service-card,
+  .partner-cards .partner-card,
   .industry-grid .industry,
   .impact-grid .impact-item,
   .page-cards .page-card,
@@ -344,6 +369,7 @@ footer{background:#031321;color:white;padding:62px 0 22px}
     transition:opacity .55s ease,transform .55s ease;
   }
   .cards.revealed .service-card,
+  .partner-cards.revealed .partner-card,
   .industry-grid.revealed .industry,
   .impact.revealed .impact-grid .impact-item,
   .page-cards.revealed .page-card,
@@ -402,6 +428,16 @@ footer{background:#031321;color:white;padding:62px 0 22px}
   .service-card .icon{margin-bottom:12px!important}
   .service-card h3{font-size:16.5px!important;margin:0 0 8px!important}
   .service-card p{font-size:13.5px!important;line-height:1.55!important;margin:0 0 14px!important}
+
+  /* Partner Section */
+  .partner-head{text-align:left!important;margin-bottom:24px!important}
+  .partner-head .eyebrow{justify-content:flex-start!important}
+  .partner-head h2{font-size:clamp(26px,6.8vw,34px)!important;line-height:1.1!important;margin:0 0 10px!important}
+  .partner-head p{font-size:14px!important;line-height:1.55!important}
+  .partner-cards{grid-template-columns:1fr!important;gap:14px!important}
+  .partner-card{padding:26px 20px!important;min-height:auto!important;width:100%!important;box-sizing:border-box!important}
+  .partner-card h3{font-size:18px!important;margin:0 0 8px!important}
+  .partner-card p{font-size:13.5px!important;line-height:1.55!important}
 
   /* Industries Grid */
   .industry-grid{grid-template-columns:repeat(2,1fr)!important;gap:12px!important}
