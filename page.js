@@ -3853,9 +3853,16 @@ function pageShell(content) {
   const sNav = document.querySelector('#site-nav');
   const sFooter = document.querySelector('#site-footer');
   const pContent = document.querySelector('#page-content');
-  if (sNav && typeof nav !== 'undefined') sNav.innerHTML = nav;
-  if (sFooter && typeof footer !== 'undefined') sFooter.innerHTML = footer;
+  if (sNav && typeof nav !== 'undefined' && (!sNav.children.length || sNav.innerHTML.trim() === '')) {
+    sNav.innerHTML = nav;
+  }
+  if (sFooter && typeof footer !== 'undefined' && (!sFooter.children.length || sFooter.innerHTML.trim() === '')) {
+    sFooter.innerHTML = footer;
+  }
   if (pContent) pContent.innerHTML = content;
+  if (typeof highlightActiveNav === 'function') {
+    highlightActiveNav();
+  }
 }
 
 function serviceDetailPage(s, pageType = 'service') {
@@ -4347,6 +4354,14 @@ function load() {
     const industryData = INDUSTRIES[k] || INDUSTRIES.manufacturing;
     pageShell(serviceDetailPage(industryData, 'industry'));
     document.title = `${industryData.shortTitle || industryData.title} — Dazzlon`;
+  }
+
+  if (typeof initMobileMenu === 'function') {
+    initMobileMenu();
+  }
+
+  if (typeof highlightActiveNav === 'function') {
+    highlightActiveNav();
   }
 
   if (typeof initMotionScroll === 'function') {

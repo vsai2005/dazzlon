@@ -36,28 +36,33 @@
   height: 100vh;
   background-color: var(--navy, #031321);
   z-index: 999999;
-  pointer-events: none;
+  pointer-events: none !important;
+  visibility: hidden;
   transform: translateY(100%);
   will-change: transform;
 }
 
 /* Exit: wipes up from bottom to fully cover viewport */
 #page-transition-panel.wipe-exit {
+  visibility: visible;
   transform: translateY(0);
-  pointer-events: auto;
+  pointer-events: auto !important;
   transition: transform 350ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* Enter: starts covering, wipes away to top */
 #page-transition-panel.wipe-enter {
+  visibility: visible;
   transform: translateY(-100%);
-  pointer-events: none;
+  pointer-events: none !important;
   transition: transform 350ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* Immediate cover on destination load if transitioning */
 #page-transition-panel.wipe-covered {
+  visibility: visible;
   transform: translateY(0);
+  pointer-events: auto !important;
   transition: none;
 }
 
