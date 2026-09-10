@@ -172,8 +172,22 @@ footer{background:#031321;color:white;padding:54px 0 22px}
 .page-card .text-link{margin-top:auto}
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}
 .form{display:grid;gap:14px}
-.form input,.form textarea{width:100%;border:1px solid #d5dee4;border-radius:7px;padding:13px 14px;font:inherit}
-.form textarea{min-height:150px;resize:vertical}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form input,.form textarea{width:100%;border:1px solid #d5dee4;border-radius:7px;padding:13px 14px;font:inherit;background:#fff;transition:border-color .2s,box-shadow .2s}
+.form input:focus,.form textarea:focus{border-color:var(--blue);outline:none;box-shadow:0 0 0 3px rgba(28,95,142,.12)}
+.form textarea{min-height:140px;resize:vertical}
+.form-status-box{padding:16px 18px;border-radius:8px;font-size:14px;line-height:1.55;display:flex;gap:12px;align-items:flex-start;animation:fadeIn .25s ease}
+.form-status-box.success{background:#edf7ed;border:1px solid #c8e6c9;color:#1e4620}
+.form-status-box.success .status-icon{background:#2e7d32;color:#fff;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:bold;flex-shrink:0;margin-top:2px}
+.form-status-box.success strong{display:block;font-size:15px;margin-bottom:3px;color:#1b5e20}
+.form-status-box.success p{margin:0;font-size:13.5px;color:#2e5731}
+.form-status-box.error{background:#fdf2f2;border:1px solid #f8b4b4;color:#9b1c1c}
+.form-status-box.error strong{display:block;font-size:15px;margin-bottom:3px;color:#9b1c1c}
+.form-status-box.error p{margin:0;font-size:13.5px;color:#771d1d}
+.form-status-box.error a{color:#1c5f8e;font-weight:600;text-decoration:underline}
+.form-direct-note{margin:4px 0 0;font-size:12.5px;color:#637583;line-height:1.5}
+.form-direct-note a{color:var(--blue);text-decoration:none;font-weight:600}
+.form-direct-note a:hover{text-decoration:underline}
 .notice{padding:15px 18px;border-left:3px solid #1d5f8b;background:#f3f7fa;color:#52636e;font-size:13px}
 
 /* ==========================================================================
@@ -483,6 +497,7 @@ footer{background:#031321;color:white;padding:54px 0 22px}
   .capabilities-grid,.methodology-grid,.value-grid,.related-grid,.tech-cluster-grid,.page-cards{grid-template-columns:1fr!important;gap:14px!important}
   .cap-card,.method-step,.value-card,.related-card,.page-card{padding:22px 18px!important;min-height:auto!important;width:100%!important;box-sizing:border-box!important}
   .contact-grid .form input,.contact-grid .form textarea{font-size:16px!important;width:100%!important;box-sizing:border-box!important}
+  .form-row{grid-template-columns:1fr!important;gap:14px!important}
   .job-listing-card{padding:20px 16px!important}
   .job-header{flex-direction:column!important;align-items:flex-start!important;gap:8px!important}
   .job-apply-footer{flex-direction:column!important;align-items:stretch!important;gap:12px!important}

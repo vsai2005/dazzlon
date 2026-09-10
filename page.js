@@ -4306,18 +4306,99 @@ function contactPage(d) {
             Share your context, technical challenge, or enterprise transformation goal. Our senior leadership and delivery directors will evaluate your requirements and schedule a technical consultation.
           </p>
         </div>
-        <form class="form" onsubmit="event.preventDefault();alert('Thank you. Your message has been received by the Dazzlon team.');">
-          <input placeholder="First Name" required>
-          <input placeholder="Last Name" required>
-          <input type="email" placeholder="Business Email" required>
-          <input placeholder="Company / Organization">
-          <textarea placeholder="Describe your project, timeline, or consultation request" required></textarea>
+        <form class="form" onsubmit="handleContactSubmit(event)">
+          <div id="contact-form-status"></div>
+          <div class="form-row">
+            <input name="firstName" placeholder="First Name *" required aria-label="First Name">
+            <input name="lastName" placeholder="Last Name *" required aria-label="Last Name">
+          </div>
+          <input type="email" name="email" placeholder="Business Email *" required aria-label="Business Email">
+          <input name="company" placeholder="Company / Organization" aria-label="Company or Organization">
+          <textarea name="message" placeholder="Describe your project, timeline, or consultation request *" required aria-label="Consultation Request"></textarea>
           <button class="btn" type="submit">Submit Inquiry <span>→</span></button>
+          <p class="form-direct-note">Prefer direct email? Contact our leadership team at <a href="mailto:contact@dazzlon.com">contact@dazzlon.com</a> or call <a href="tel:+14693337066">+1 (469) 333-7066</a>.</p>
         </form>
       </div>
     </section>
   `;
 }
+
+function handleContactSubmit(e) {
+  e.preventDefault();
+  const form = e.target;
+  const btn = form.querySelector('button[type="submit"]');
+  const statusBox = document.getElementById('contact-form-status');
+
+  const firstName = (form.querySelector('[name="firstName"]').value || '').trim();
+  const lastName = (form.querySelector('[name="lastName"]').value || '').trim();
+  const email = (form.querySelector('[name="email"]').value || '').trim();
+  const company = (form.querySelector('[name="company"]').value || '').trim();
+  const message = (form.querySelector('[name="message"]').value || '').trim();
+
+  if (!firstName || !lastName || !email || !message) {
+    if (statusBox) {
+      statusBox.innerHTML = '<div class="form-status-box error" role="alert"><p>Please complete all required fields (*).</p></div>';
+    }
+    return;
+  }
+
+  const originalBtnText = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = 'Submitting Inquiry...';
+  if (statusBox) statusBox.innerHTML = '';
+
+  const payload = {
+    'First Name': firstName,
+    'Last Name': lastName,
+    'Business Email': email,
+    'Company': company || 'Not Specified',
+    'Inquiry Message': message,
+    '_subject': `New Inquiry: ${firstName} ${lastName} (${company || 'Enterprise Request'})`,
+    '_replyto': email
+  };
+
+  fetch('https://formsubmit.co/ajax/contact@dazzlon.com', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    },
+    body: JSON.stringify(payload)
+  })
+  .then(res => res.json())
+  .then(data => {
+    btn.disabled = false;
+    btn.innerHTML = originalBtnText;
+    form.reset();
+    if (statusBox) {
+      statusBox.innerHTML = `
+        <div class="form-status-box success" role="alert">
+          <div class="status-icon">✓</div>
+          <div class="status-copy">
+            <strong>Inquiry Received Successfully</strong>
+            <p>Thank you, ${firstName}. Your details have been submitted to Dazzlon's senior delivery leadership at <strong>contact@dazzlon.com</strong>. We will review your technical requirements and respond within 24 hours.</p>
+          </div>
+        </div>
+      `;
+      statusBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  })
+  .catch(err => {
+    btn.disabled = false;
+    btn.innerHTML = originalBtnText;
+    if (statusBox) {
+      const mailtoUrl = `mailto:contact@dazzlon.com?subject=${encodeURIComponent('Inquiry from ' + firstName + ' ' + lastName)}&body=${encodeURIComponent('Name: ' + firstName + ' ' + lastName + '\nEmail: ' + email + '\nCompany: ' + company + '\n\nMessage:\n' + message)}`;
+      statusBox.innerHTML = `
+        <div class="form-status-box error" role="alert">
+          <strong>Network Notice</strong>
+          <p>Online transmission encountered a temporary network glitch. Please send your inquiry directly to <a href="${mailtoUrl}">contact@dazzlon.com</a> or call <a href="tel:+14693337066">+1 (469) 333-7066</a>.</p>
+        </div>
+      `;
+      statusBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  });
+}
+window.handleContactSubmit = handleContactSubmit;
 
 function load() {
   if (typeof renderNavFooter === 'function') renderNavFooter();
