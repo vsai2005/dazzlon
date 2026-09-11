@@ -3714,7 +3714,7 @@ const DATA = {
         "desc": "Building resilient data architectures, active warehouse intelligence, and multi-layered defensive security into every deployment."
       }
     ],
-    "side": "<strong>Global Office</strong>\nDazzlon\n6951 Virginia Parkway, Ste 216\nMcKinney, TX 75071\nUnited States\n\n<strong>Branch Office</strong>\nDazzlon\n75 Valley Stream Parkway,\n2nd Floor, Office No - 120,\nMalvern, PA - 19355\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nEstablished: 2004"
+    "side": "<strong>Global Office</strong>\nDazzlon\n6951 Virginia Parkway, Ste 216\nMcKinney, TX 75071\nUnited States\n\n<strong>Branch Office</strong>\nDazzlon\n75 Valley Stream Parkway,\n2nd Floor, Office No - 120,\nMalvern, PA - 19355\nUnited States\n\nContact: contact@dazzlon.com\nEstablished: 2004"
   },
   "services": {
     "title": "Technology That Moves Business Forward",
@@ -3815,7 +3815,7 @@ const DATA = {
     "title": "Let's Build What's Next.",
     "eyebrow": "START A CONVERSATION",
     "intro": "Reach out to discuss your technical challenges, strategic initiatives, or custom software requirements. Our senior engineering directors are ready to assist.",
-    "side": "<strong>Global Office</strong>\nDazzlon\n6951 Virginia Parkway, Ste 216\nMcKinney, TX 75071\nUnited States\n\n<strong>Branch Office</strong>\nDazzlon\n75 Valley Stream Parkway,\n2nd Floor, Office No - 120,\nMalvern, PA - 19355\nUnited States\n\nInquiries & Careers: jobs@dazzlon.com\nEstablished: 2004"
+    "side": "<strong>Global Office</strong>\nDazzlon\n6951 Virginia Parkway, Ste 216\nMcKinney, TX 75071\nUnited States\n\n<strong>Branch Office</strong>\nDazzlon\n75 Valley Stream Parkway,\n2nd Floor, Office No - 120,\nMalvern, PA - 19355\nUnited States\n\nContact: contact@dazzlon.com\nEstablished: 2004"
   }
 };
 
