@@ -1,69 +1,34 @@
 # Dazzlon — Complexity. Engineered.
 
-An enterprise technology consulting and custom engineering website for **Dazzlon** ([dazzlon.com](https://www.dazzlon.com/)), established in 2004 in McKinney, Texas.
+The production website for Dazzlon, an enterprise technology consulting and custom engineering firm.
 
-Built as a responsive static web experience featuring multi-section service pages, Center of Excellence (COE) methodologies, interactive technology showcases, and factual enterprise architecture.
+## Project structure
 
----
-
-## Key Highlights
-
-- **Enterprise Service Pages**: Dedicated, multi-section pages for all 9 practice areas:
-  - AI, Machine Learning & Enterprise Intelligence (`service-ai.html` / `technology-ai.html`)
-  - Quality Assurance & Enterprise Software Testing (`service-qa.html`)
-  - Data Warehouse Design & Data Modeling (`service-datawarehouse.html`)
-  - SAP Services & Consulting (`service-sap.html`)
-  - Cloud Services & Infrastructure Modernization (`service-cloud.html`)
-  - Managed IT Services & Operational Support (`service-managed.html`)
-  - Data Management, Governance & Advanced Analytics (`service-data.html`)
-  - Cybersecurity Consulting & 8-Layer Threat Defense (`service-cybersecurity.html`)
-  - Software Engineering & "Work for Hire" Contract Programming (`service-software.html`)
-- **Dedicated Industry Solutions**: Comprehensive multi-section pages across regulated sectors:
-  - Manufacturing & Industrial Engineering (`industry-manufacturing.html`)
-  - Healthcare & Life Sciences Technology (`industry-healthcare.html`)
-  - Public Sector & Government Modernization (`industry-public-sector.html`)
-  - Energy & Utilities Engineering (`industry-energy.html`)
-  - Retail, Omnichannel & Consumer Commerce (`industry-retail.html`)
-  - Technology & Semiconductor Engineering (`industry-technology.html`)
-- **Technology Focus Showcase**: Interactive carousel and detail pages for AI/ML, Cloud, Data & Analytics, and Cybersecurity.
-- **Motion & Interactions**:
-  - Smooth SVG line-drawing service icon animations.
-  - Page-wipe transition overlays across all routes.
-  - Scroll-revealed sections and floating quick-navigation widget.
-- **Company & Practice Routes**:
-  - Factual About Us page with company history, IP ownership model, and COE pillars (`about.html`).
-  - Real engineering career opportunities with qualification specs (`careers.html`).
-  - McKinney, TX headquarters contact portal (`contact.html`).
-  - Industry verticals (`industries.html`) and Thought Leadership insights (`insights.html`).
-
----
-
-## Tech Stack & Architecture
-
-- **Frontend**: Semantic HTML5, Vanilla CSS3 (Custom Properties / Flexbox / Grid), Vanilla JavaScript (ES6+).
-- **Typography**: Georgia (Serif Headings), Inter (Sans-Serif Body).
-- **Design System**: Navy (`#031321`), Blue (`#1c5f8e`), Slate, and Soft Neutral backgrounds.
-- **Zero Dependencies**: Fast, lightweight, accessible, zero npm/framework overhead.
-
----
-
-## Local Development & Preview
-
-Run with any local static HTTP server:
-
-```bash
-# Python 3
-python -m http.server 4173
-
-# Node.js
-npx serve .
+```
+.
+├── assets/
+│   └── images/        # Production image assets
+├── css/               # Site and transition styles
+├── js/                # Navigation, page content, and interactions
+├── index.html         # Homepage
+├── service-*.html     # Service routes
+├── technology-*.html  # Technology routes
+├── industry-*.html    # Industry routes
+└── vercel.json        # Hosting configuration
 ```
 
-Open [http://localhost:4173](http://localhost:4173) in your browser.
+All public HTML routes stay at the repository root so their production URLs remain stable.
 
----
+## Local preview
 
-## License & Copyright
+Serve the repository with any static HTTP server and open `http://localhost:4173`.
+
+```bash
+npx serve . -l 4173
+```
+
+## Technology
+
+Semantic HTML, modern CSS, and vanilla JavaScript. No runtime framework or package installation is required.
 
 © 2026 Dazzlon Computer Services, Inc. All rights reserved.
-

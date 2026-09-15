@@ -1,6 +1,6 @@
 const nav = `
 <header><div class="container nav">
-<a href="index.html" class="brand" aria-label="Dazzlon Home"><img src="assets/dazzlon-logo.png" alt="Dazzlon" class="brand-logo" width="200" height="48"><span class="tagline">COMPLEXITY. ENGINEERED.</span></a>
+<a href="index.html" class="brand" aria-label="Dazzlon Home"><img src="assets/images/dazzlon-logo.png" alt="Dazzlon" class="brand-logo" width="200" height="48"><span class="tagline">COMPLEXITY. ENGINEERED.</span></a>
 <nav class="navlinks"><a href="about.html">About</a><a href="services.html">Services</a><a href="industries.html">Industries</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a></nav>
 <div class="nav-actions"><span class="search"></span><a class="btn" href="contact.html">Let's Talk <span>→</span></a><button class="menu" aria-label="Open Menu" aria-expanded="false">☰</button></div>
 </div></header>`;
@@ -12,12 +12,12 @@ const footer = `
 <div><h4>Contact</h4><div class="footer-links"><span><strong>Global Office:</strong><br>6951 Virginia Parkway, Ste 216<br>McKinney, TX 75071, USA</span><span style="margin-top:8px;display:block;"><strong>Branch Office:</strong><br>75 Valley Stream Parkway, Ste 120<br>Malvern, PA 19355, USA</span><a href="mailto:contact@dazzlon.com">contact@dazzlon.com</a><a href="tel:+14693337066">+1 (469) 333-7066</a></div></div>
 </div><div class="footer-bottom"><span>© 2026 Dazzlon. All rights reserved.</span><span>Privacy Policy &nbsp; | &nbsp; Terms of Service &nbsp; | &nbsp; Cookie Settings</span></div></div></footer>`;
 const tech = [
- {name:'AI & Machine Learning',kicker:'OUR TECHNOLOGY FOCUS',desc:'We turn data into intelligence. Our AI/ML solutions help organizations automate, predict, and innovate for a smarter tomorrow.',img:'assets/ai-ml.jpg',url:'technology-ai.html'},
- {name:'Cloud',kicker:'OUR TECHNOLOGY FOCUS',desc:'Modernize infrastructure, scale with confidence, and create flexible digital foundations through cloud services built around your business.',img:'assets/cloud.jpg',url:'technology-cloud.html'},
- {name:'Data & Analytics',kicker:'OUR TECHNOLOGY FOCUS',desc:'Transform complex data into trusted insight, stronger decisions, and measurable business value across the enterprise.',img:'assets/data-analytics.jpg',url:'technology-data.html'},
- {name:'Cybersecurity',kicker:'OUR TECHNOLOGY FOCUS',desc:'Protect systems, networks, applications, identities, and data with layered security designed for an interconnected world.',img:'assets/cybersecurity.jpg',url:'technology-cybersecurity.html'},
- {name:'Managed IT',kicker:'OUR TECHNOLOGY FOCUS',desc:'Reliable, proactive IT management that keeps your business secure, connected, and running at peak performance.',img:'assets/technology.jpg',url:'technology-managed-it.html'},
- {name:'ERP',kicker:'OUR TECHNOLOGY FOCUS',desc:'Integrated enterprise systems that streamline operations, improve visibility, and enable smarter business decisions.',img:'assets/insight-intelligent.jpg',url:'technology-erp.html'}
+ {name:'AI & Machine Learning',kicker:'OUR TECHNOLOGY FOCUS',desc:'We turn data into intelligence. Our AI/ML solutions help organizations automate, predict, and innovate for a smarter tomorrow.',img:'assets/images/ai-ml.jpg',url:'technology-ai.html'},
+ {name:'Cloud',kicker:'OUR TECHNOLOGY FOCUS',desc:'Modernize infrastructure, scale with confidence, and create flexible digital foundations through cloud services built around your business.',img:'assets/images/cloud.jpg',url:'technology-cloud.html'},
+ {name:'Data & Analytics',kicker:'OUR TECHNOLOGY FOCUS',desc:'Transform complex data into trusted insight, stronger decisions, and measurable business value across the enterprise.',img:'assets/images/data-analytics.jpg',url:'technology-data.html'},
+ {name:'Cybersecurity',kicker:'OUR TECHNOLOGY FOCUS',desc:'Protect systems, networks, applications, identities, and data with layered security designed for an interconnected world.',img:'assets/images/cybersecurity.jpg',url:'technology-cybersecurity.html'},
+ {name:'Managed IT',kicker:'OUR TECHNOLOGY FOCUS',desc:'Reliable, proactive IT management that keeps your business secure, connected, and running at peak performance.',img:'assets/images/technology.jpg',url:'technology-managed-it.html'},
+ {name:'ERP',kicker:'OUR TECHNOLOGY FOCUS',desc:'Integrated enterprise systems that streamline operations, improve visibility, and enable smarter business decisions.',img:'assets/images/insight-intelligent.jpg',url:'technology-erp.html'}
 ];
 const floatingOptionsHtml = `
 <aside class="floating-options-right" id="floatingOptions" aria-label="Quick Options">
